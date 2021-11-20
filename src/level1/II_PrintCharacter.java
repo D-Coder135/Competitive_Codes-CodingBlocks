@@ -18,5 +18,6 @@ public class II_PrintCharacter {
 
         char firstChar = string.charAt(0);
         System.out.println(firstChar);
+        printCharacter(string.substring(1));
     }
 }
