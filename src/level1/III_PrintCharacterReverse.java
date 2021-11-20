@@ -12,6 +12,8 @@ public class III_PrintCharacterReverse {
     }
 
     public static void printCharacterReverse(String string) {
-
+        if (string.length() == 0) {
+            return;
+        }
     }
 }
