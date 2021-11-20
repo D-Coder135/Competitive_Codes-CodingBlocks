@@ -18,5 +18,6 @@ public class III_PrintCharacterReverse {
 
         printCharacterReverse(string.substring(1));
         char firstChar = string.charAt(0);
+        System.out.println(firstChar);
     }
 }
