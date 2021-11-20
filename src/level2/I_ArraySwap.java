@@ -24,5 +24,12 @@ public class I_ArraySwap {
         System.out.println("First array : " + Arrays.toString(firstArray));
         System.out.println("Second array : " + Arrays.toString(secondArray));
 
+        swapArrays(firstArray, secondArray);
+
+        System.out.println("Arrays After Swapping: ");
+        System.out.println("First array : " + Arrays.toString(firstArray));
+        System.out.println("Second array : " + Arrays.toString(secondArray));
+
+
     }
 }
