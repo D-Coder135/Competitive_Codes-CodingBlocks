@@ -13,5 +13,10 @@ public class I_ArraySwap {
             System.out.print("Enter element for " + index + " index: ");
             firstArray[index] = scanner.nextInt();
         }
+
+        for (int index = 0; index < size; index++) {
+            System.out.print("Enter element for " + index + " index: ");
+            secondArray[index] = scanner.nextInt();
+        }
     }
 }
