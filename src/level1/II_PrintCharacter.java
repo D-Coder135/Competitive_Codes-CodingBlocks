@@ -15,5 +15,7 @@ public class II_PrintCharacter {
         if (string.length() == 0) {
             return;
         }
+
+        char firstChar = string.charAt(0);
     }
 }
