@@ -23,6 +23,10 @@ public class II_FirstIndex {
             return -1;
         }
 
+        if (array[i] == item) {
+            return i;
+        }
+
         return firstIndex(array, item, i + 1);
     }
 
