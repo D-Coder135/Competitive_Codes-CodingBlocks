@@ -7,5 +7,6 @@ public class I_ArraySwap {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the common size for the arrays: ");
         int size = scanner.nextInt();
+        int[] firstArray = new int[size];
     }
 }
