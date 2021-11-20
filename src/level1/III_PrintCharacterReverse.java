@@ -10,4 +10,8 @@ public class III_PrintCharacterReverse {
         System.out.println("The characters of the string are => ");
         printCharacterReverse(string);
     }
+
+    public static void printCharacterReverse(String string) {
+
+    }
 }
