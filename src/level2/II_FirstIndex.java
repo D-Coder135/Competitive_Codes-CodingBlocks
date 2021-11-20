@@ -12,6 +12,7 @@ public class II_FirstIndex {
             System.out.print("Enter element for " + index + " index: ");
             firstArray[index] = scanner.nextInt();
         }
+        System.out.println("Enter the item: ");
 
     }
 }
