@@ -8,7 +8,7 @@ public class II_PrintCharacter {
         System.out.print("Enter a String to print its character: ");
         String string = scanner.nextLine();
         System.out.println("The characters of the string are => ");
-        System.out.println(printCharacter(string));
+        printCharacter(string);
     }
 
     public static void printCharacter(String string) {
