@@ -34,6 +34,8 @@ public class I_ArraySwap {
     }
 
     public static void swapArrays(int[] firstArray, int[] secondArray) {
-        int[] tempArrays = firstArray;
+        int[] tempArray = firstArray;
+        firstArray = secondArray;
+        secondArray = tempArray;
     }
 }
