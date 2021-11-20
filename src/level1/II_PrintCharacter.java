@@ -12,6 +12,8 @@ public class II_PrintCharacter {
     }
 
     public static void printCharacter(String string) {
-
+        if (string.length() == 0) {
+            return;
+        }
     }
 }
