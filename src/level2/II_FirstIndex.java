@@ -15,7 +15,7 @@ public class II_FirstIndex {
         System.out.println("Enter the item: ");
         int item = scanner.nextInt();
 
-        System.out.println(firstIndex(array, item, 0));
+        System.out.println("First Index of " + item + " is: " + firstIndex(array, item, 0));
     }
 
     public static int firstIndex(int[] array, int item, int i) {
