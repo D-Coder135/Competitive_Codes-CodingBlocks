@@ -10,7 +10,7 @@ public class I_ArraySwap {
         int[] firstArray = new int[size];
         int[] secondArray = new int[size];
         for (int index = 0; index < size; index++) {
-            System.out.print("Enter an element: ");
+            System.out.print("Enter element for " + index + " index: ");
             firstArray[index] = scanner.nextInt();
         }
     }
