@@ -22,6 +22,8 @@ public class II_FirstIndex {
         if (i == array.length) {
             return -1;
         }
+
+        return firstIndex(array, item, i + 1);
     }
 
 
