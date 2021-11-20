@@ -1,5 +1,6 @@
 package level2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class I_ArraySwap {
@@ -18,5 +19,10 @@ public class I_ArraySwap {
             System.out.print("Enter element for " + index + " index: ");
             secondArray[index] = scanner.nextInt();
         }
+
+        System.out.println("Arrays Before Swapping: ");
+        System.out.println("First array : " + Arrays.toString(firstArray));
+        System.out.println("Second array : " + Arrays.toString(secondArray));
+
     }
 }
