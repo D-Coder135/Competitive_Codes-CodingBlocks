@@ -10,4 +10,8 @@ public class II_PrintCharacter {
         System.out.println("The characters of the string are => ");
         System.out.println(printCharacter(string));
     }
+
+    public static void printCharacter(String string) {
+
+    }
 }
