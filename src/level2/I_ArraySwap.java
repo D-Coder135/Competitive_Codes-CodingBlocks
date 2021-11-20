@@ -11,6 +11,7 @@ public class I_ArraySwap {
         int[] secondArray = new int[size];
         for (int index = 0; index < size; index++) {
             System.out.print("Enter an element: ");
+            firstArray[index] = scanner.nextInt();
         }
     }
 }
