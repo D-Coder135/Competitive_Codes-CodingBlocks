@@ -9,5 +9,8 @@ public class I_ArraySwap {
         int size = scanner.nextInt();
         int[] firstArray = new int[size];
         int[] secondArray = new int[size];
+        for (int index = 0; index < size; index++) {
+            
+        }
     }
 }
