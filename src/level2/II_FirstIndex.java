@@ -7,12 +7,14 @@ public class II_FirstIndex {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the size for the array: ");
         int size = scanner.nextInt();
-        int[] firstArray = new int[size];
+        int[] array = new int[size];
         for (int index = 0; index < size; index++) {
             System.out.print("Enter element for " + index + " index: ");
-            firstArray[index] = scanner.nextInt();
+            array[index] = scanner.nextInt();
         }
         System.out.println("Enter the item: ");
         int item = scanner.nextInt();
+
+        System.out.println(firstIndex(array, item, 0));
     }
 }
