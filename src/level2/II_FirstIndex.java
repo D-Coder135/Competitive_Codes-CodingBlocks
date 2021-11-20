@@ -13,6 +13,6 @@ public class II_FirstIndex {
             firstArray[index] = scanner.nextInt();
         }
         System.out.println("Enter the item: ");
-
+        int item = scanner.nextInt();
     }
 }
