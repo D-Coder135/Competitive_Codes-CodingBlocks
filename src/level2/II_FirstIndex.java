@@ -19,7 +19,9 @@ public class II_FirstIndex {
     }
 
     public static int firstIndex(int[] array, int item, int i) {
-
+        if (i == array.length) {
+            return -1;
+        }
     }
 
 
