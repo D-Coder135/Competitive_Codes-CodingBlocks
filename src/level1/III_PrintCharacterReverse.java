@@ -15,5 +15,7 @@ public class III_PrintCharacterReverse {
         if (string.length() == 0) {
             return;
         }
+
+        printCharacterReverse(string.substring(1));
     }
 }
