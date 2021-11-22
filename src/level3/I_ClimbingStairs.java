@@ -26,6 +26,8 @@
 
 package level3;
 
+import java.util.Scanner;
+
 public class I_ClimbingStairs {
     public static int numberOfWays(int current, int destination) {
         if (current == destination) {
@@ -42,6 +44,6 @@ public class I_ClimbingStairs {
     }
 
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
