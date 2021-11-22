@@ -31,6 +31,9 @@ public class I_ClimbingStairs {
         if (current == destination) {
             return 1;
         }
+        if (current > destination) {
+            return 0;
+        }
 
     }
 }
