@@ -40,4 +40,8 @@ public class I_ClimbingStairs {
         }
         return ans;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
