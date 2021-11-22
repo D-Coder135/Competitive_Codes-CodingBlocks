@@ -34,6 +34,7 @@ public class I_ClimbingStairs {
         if (current > destination) {
             return 0;
         }
+        int ans = 0;
 
     }
 }
