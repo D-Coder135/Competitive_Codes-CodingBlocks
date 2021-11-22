@@ -28,6 +28,9 @@ package level3;
 
 public class I_ClimbingStairs {
     public static int numberOfWays(int current, int destination) {
+        if (current == destination) {
+            return 1;
+        }
 
     }
 }
