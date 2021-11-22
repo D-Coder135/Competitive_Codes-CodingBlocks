@@ -45,5 +45,6 @@ public class I_ClimbingStairs {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the value for destination: ");
     }
 }
