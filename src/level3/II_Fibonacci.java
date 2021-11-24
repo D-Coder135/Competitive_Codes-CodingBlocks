@@ -9,4 +9,8 @@ public class II_Fibonacci {
         int number = scanner.nextInt();
         System.out.println(fibonacci(number));
     }
+
+    public static int fibonacci(int number) {
+        return 0;
+    }
 }
