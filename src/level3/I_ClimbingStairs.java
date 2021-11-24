@@ -29,7 +29,7 @@ package level3;
 import java.util.Scanner;
 
 public class I_ClimbingStairs {
-    public static int numberOfWays(int current, int destination) {
+    public static int numberOfWays(int destination, int dp[]) {
 //        if (current == destination) {
 //            return 1;
 //        }
@@ -41,20 +41,31 @@ public class I_ClimbingStairs {
 //            ans += numberOfWays(current + i, destination);
 //        }
 //        return ans;
-        if (destination < 0) {
-            return 0;
+
+//        Recursive Method
+//        if (destination < 0) {
+//            return 0;
+//        }
+//        if (destination == 1 || destination == 0) {
+//            return 1;
+//        } else {
+//            return numberOfWays(current, destination - 2) + numberOfWays(current, destination - 1);
+//        }
+
+        // Dynamic Programming Method
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i <= destination; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
         }
-        if (destination == 1 || destination == 0) {
-            return 1;
-        } else {
-            return numberOfWays(current, destination - 2) + numberOfWays(current, destination - 1);
-        }
+        return dp[destination];
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the value for destination: ");
         int destination = scanner.nextInt();
-        System.out.println(numberOfWays(0, destination));
+        int[] dp = new int[destination + 1];
+        System.out.println(numberOfWays(destination, dp));
     }
 }
