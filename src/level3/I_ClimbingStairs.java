@@ -30,17 +30,18 @@ import java.util.Scanner;
 
 public class I_ClimbingStairs {
     public static int numberOfWays(int current, int destination) {
-        if (current == destination) {
-            return 1;
-        }
-        if (current > destination) {
-            return 0;
-        }
-        int ans = 0;
-        for (int i = 1; i < destination; i++) {
-            ans += numberOfWays(current + i, destination);
-        }
-        return ans;
+//        if (current == destination) {
+//            return 1;
+//        }
+//        if (current > destination) {
+//            return 0;
+//        }
+//        int ans = 0;
+//        for (int i = 1; i < destination; i++) {
+//            ans += numberOfWays(current + i, destination);
+//        }
+//        return ans;
+
     }
 
     public static void main(String[] args) {
