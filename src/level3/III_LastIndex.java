@@ -10,6 +10,10 @@ public class III_LastIndex {
         if (i < 0) {
             return -1;
         }
+
+        if (array[i] == item) {
+            return i;
+        }
         return 0;
     }
 }
