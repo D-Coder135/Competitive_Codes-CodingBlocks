@@ -37,7 +37,7 @@ public class I_ClimbingStairs {
             return 0;
         }
         int ans = 0;
-        for (int i = 1; i <= destination - 1; i++) {
+        for (int i = 1; i < destination; i++) {
             ans += numberOfWays(current + i, destination);
         }
         return ans;
