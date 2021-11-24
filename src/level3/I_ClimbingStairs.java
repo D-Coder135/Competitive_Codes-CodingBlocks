@@ -41,7 +41,14 @@ public class I_ClimbingStairs {
 //            ans += numberOfWays(current + i, destination);
 //        }
 //        return ans;
-
+        if (destination < 0) {
+            return 0;
+        }
+        if (destination == 1 || destination == 0) {
+            return 1;
+        } else {
+            return numberOfWays(current, destination - 2) + numberOfWays(current, destination - 1);
+        }
     }
 
     public static void main(String[] args) {
