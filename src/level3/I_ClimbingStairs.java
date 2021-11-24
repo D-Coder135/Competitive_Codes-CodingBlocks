@@ -29,19 +29,7 @@ package level3;
 import java.util.Scanner;
 
 public class I_ClimbingStairs {
-    public static int numberOfWays(int destination, int dp[]) {
-//        if (current == destination) {
-//            return 1;
-//        }
-//        if (current > destination) {
-//            return 0;
-//        }
-//        int ans = 0;
-//        for (int i = 1; i < destination; i++) {
-//            ans += numberOfWays(current + i, destination);
-//        }
-//        return ans;
-
+    public static int numberOfWays(int destination, int[] dp) {
 //        Recursive Method
 //        if (destination < 0) {
 //            return 0;
