@@ -14,6 +14,6 @@ public class III_LastIndex {
         if (array[i] == item) {
             return i;
         }
-        return 0;
+        return lastIndex(array, i - 1, item);
     }
 }
