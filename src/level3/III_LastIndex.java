@@ -7,6 +7,9 @@ public class III_LastIndex {
     }
 
     public static int lastIndex(int[] array, int i, int item) {
+        if (i < 0) {
+            return -1;
+        }
         return 0;
     }
 }
