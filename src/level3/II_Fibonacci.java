@@ -12,7 +12,7 @@ public class II_Fibonacci {
 
     public static int fibonacci(int number) {
         if (number == 0 || number == 1) {
-
+            return number;
         }
         return 0;
     }
