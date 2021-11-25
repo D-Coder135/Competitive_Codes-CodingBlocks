@@ -14,6 +14,8 @@
 
 package level4;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class I_GenerateParenthesis {
@@ -21,5 +23,6 @@ public class I_GenerateParenthesis {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the value of n: ");
         int n = scanner.nextInt();
+        List<String> list = new ArrayList<>();
     }
 }
