@@ -27,4 +27,8 @@ public class I_GenerateParenthesis {
         generateParenthesis(n, 0, 0, "", list);
         System.out.println(list);
     }
+
+    public static void generateParenthesis(int n, int opening, int closing, String ans, List<String> list) {
+
+    }
 }
