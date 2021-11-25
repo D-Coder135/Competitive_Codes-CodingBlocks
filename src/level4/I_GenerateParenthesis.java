@@ -24,5 +24,6 @@ public class I_GenerateParenthesis {
         System.out.print("Enter the value of n: ");
         int n = scanner.nextInt();
         List<String> list = new ArrayList<>();
+        generateParenthesis(n, 0, 0, "", list);
     }
 }
