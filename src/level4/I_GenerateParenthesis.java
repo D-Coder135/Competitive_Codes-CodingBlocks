@@ -38,7 +38,7 @@ public class I_GenerateParenthesis {
             generateParenthesis(n, opening + 1, closing, ans + "(", list);
         }
 
-        if (closing < n) {
+        if (closing < opening) {
             generateParenthesis(n, opening, closing + 1, ans + ")", list);
         }
     }
