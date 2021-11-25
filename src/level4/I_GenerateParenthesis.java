@@ -14,8 +14,10 @@
 
 package level4;
 
+import java.util.Scanner;
+
 public class I_GenerateParenthesis {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
