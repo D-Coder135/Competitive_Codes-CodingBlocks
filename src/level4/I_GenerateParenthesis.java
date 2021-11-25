@@ -33,5 +33,9 @@ public class I_GenerateParenthesis {
             list.add(ans);
             return;
         }
+
+        if (opening < n) {
+            generateParenthesis(n, opening + 1, closing, ans + "(", list);
+        }
     }
 }
