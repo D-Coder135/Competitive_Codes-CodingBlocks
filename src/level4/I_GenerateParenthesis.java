@@ -29,6 +29,9 @@ public class I_GenerateParenthesis {
     }
 
     public static void generateParenthesis(int n, int opening, int closing, String ans, List<String> list) {
-
+        if (opening == n && closing == n) {
+            list.add(ans);
+            return;
+        }
     }
 }
