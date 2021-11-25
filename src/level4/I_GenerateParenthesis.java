@@ -15,4 +15,7 @@
 package level4;
 
 public class I_GenerateParenthesis {
+    public static void main(String[] args) {
+
+    }
 }
