@@ -19,5 +19,6 @@ public class II_SubSeq {
         }
 
         char firstChar = ques.charAt(0);
+        generateSubSequences(ques.substring(1), ans);
     }
 }
