@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class II_SubSeq {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the String: ");
     }
 
     public static void generateSubSequences(String ques, String ans) {
