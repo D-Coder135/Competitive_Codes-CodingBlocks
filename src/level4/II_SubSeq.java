@@ -17,5 +17,7 @@ public class II_SubSeq {
             System.out.println(ans);
             return;
         }
+
+        char firstChar = ques.charAt(0);
     }
 }
