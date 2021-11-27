@@ -7,9 +7,11 @@
 
 package level4;
 
+import java.util.Scanner;
+
 public class II_SubSeq {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 
     public static void generateSubSequences(String ques, String ans) {
