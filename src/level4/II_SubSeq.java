@@ -14,6 +14,7 @@ public class II_SubSeq {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the String: ");
         String string = scanner.nextLine();
+        generateSubSequences(string, "");
     }
 
     public static void generateSubSequences(String ques, String ans) {
