@@ -13,6 +13,8 @@ public class II_SubSeq {
     }
 
     public static void generateSubSequences(String ques, String ans) {
+        if (ques.length() == 0) {
 
+        }
     }
 }
