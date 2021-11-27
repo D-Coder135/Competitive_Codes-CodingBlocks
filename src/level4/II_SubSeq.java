@@ -1,7 +1,7 @@
 /*
  * Problem Statement => Generate the subsequence of a given string.
  * Example: String = abcd
- *          Subsequences = a, b, c, d, ab, bc, cd, abc, bcd
+ *          Subsequences = a, b, c, d, ab, bc, cd, abc, bcd, abcd
  * */
 
 
