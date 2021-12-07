@@ -25,7 +25,7 @@ public class I_Maze_Path {
         numberOfMazepaths(row, column);
     }
 
-    public static void numberOfMazepaths(int row, int column) {
+    public static int numberOfMazepaths(int row, int column) {
 
     }
 
