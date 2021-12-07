@@ -19,5 +19,6 @@ public class I_Maze_Path {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the values for row and column: ");
         int row = scanner.nextInt();
+        int column = scanner.nextInt();
     }
 }
