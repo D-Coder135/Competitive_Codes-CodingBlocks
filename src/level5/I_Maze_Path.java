@@ -29,7 +29,7 @@ public class I_Maze_Path {
         if (row == 1 || column == 1) {
             return 1;
         }
-
+        return numberOfMazepaths(row - 1, column) + numberOfMazepaths(row, column - 1);
     }
 
     public static void mazepath(int currentRow, int currentColumn, int row, int column, String answer) {
