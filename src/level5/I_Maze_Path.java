@@ -30,7 +30,7 @@ public class I_Maze_Path {
         }
 
         if (currentRow >= row || currentColumn >= column) {
-
+            return;
         }
     }
 }
