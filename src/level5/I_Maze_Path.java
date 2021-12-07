@@ -22,7 +22,7 @@ public class I_Maze_Path {
         int column = scanner.nextInt();
         mazepath(0, 0, row, column, "");
         System.out.println();
-        numberOfMazepaths(row, column);
+        System.out.println(numberOfMazepaths(row, column));
     }
 
     public static int numberOfMazepaths(int row, int column) {
