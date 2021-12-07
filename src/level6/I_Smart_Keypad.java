@@ -21,7 +21,7 @@ public class I_Smart_Keypad {
 
     public static void keypadCombination(String ques, String ans) {
         if (ques.length() == 0) {
-
+            System.out.print(ans + " ");
         }
     }
 }
