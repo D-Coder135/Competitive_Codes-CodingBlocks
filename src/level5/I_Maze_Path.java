@@ -26,6 +26,9 @@ public class I_Maze_Path {
     }
 
     public static int numberOfMazepaths(int row, int column) {
+        if (row == 1 || column == 1) {
+            return 1;
+        }
 
     }
 
