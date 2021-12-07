@@ -16,5 +16,6 @@ public class I_Smart_Keypad {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the combination of numbers: ");
         String combination = scanner.nextLine();
+        keypadCombination(combination, "");
     }
 }
