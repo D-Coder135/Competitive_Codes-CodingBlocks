@@ -21,11 +21,12 @@ public class I_Maze_Path {
         int row = scanner.nextInt();
         int column = scanner.nextInt();
         mazepath(0, 0, row, column, "");
+        System.out.println();
     }
 
     public static void mazepath(int currentRow, int currentColumn, int row, int column, String answer) {
         if (currentRow == row - 1 && currentColumn == column - 1) {
-            System.out.println(answer);
+            System.out.print(answer + " ");
             return;
         }
 
