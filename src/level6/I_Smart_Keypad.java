@@ -7,9 +7,12 @@
 
 package level6;
 
+import java.util.Scanner;
+
 public class I_Smart_Keypad {
     public String[] table = {" ", ".+@$", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
     }
 }
