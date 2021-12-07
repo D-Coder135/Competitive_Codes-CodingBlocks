@@ -22,4 +22,8 @@ public class I_Maze_Path {
         int column = scanner.nextInt();
         mazepath(0, 0, row, column, "");
     }
+
+    public static void mazepath(int currentRow, int currentColumn, int row, int column, String answer) {
+
+    }
 }
