@@ -28,7 +28,7 @@ public class I_Smart_Keypad {
         String key = table[firstChar - 48];
 
         for (int i = 0; i < key.length(); i++) {
-
+            keypadCombination(ques.substring(1), ans + key.charAt(i));
         }
     }
 }
