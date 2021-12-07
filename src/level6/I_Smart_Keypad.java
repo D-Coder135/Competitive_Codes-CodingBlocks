@@ -18,4 +18,8 @@ public class I_Smart_Keypad {
         String combination = scanner.nextLine();
         keypadCombination(combination, "");
     }
+
+    public static void keypadCombination(String ques, String ans) {
+
+    }
 }
