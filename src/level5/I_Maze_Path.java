@@ -25,6 +25,10 @@ public class I_Maze_Path {
         numberOfMazepaths(row, column);
     }
 
+    public static void numberOfMazepaths(int row, int column) {
+
+    }
+
     public static void mazepath(int currentRow, int currentColumn, int row, int column, String answer) {
         if (currentRow == row - 1 && currentColumn == column - 1) {
             System.out.print(answer + " ");
