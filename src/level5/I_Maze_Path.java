@@ -20,5 +20,6 @@ public class I_Maze_Path {
         System.out.println("Enter the values for row and column: ");
         int row = scanner.nextInt();
         int column = scanner.nextInt();
+        mazepath(0, 0, row, column, "");
     }
 }
