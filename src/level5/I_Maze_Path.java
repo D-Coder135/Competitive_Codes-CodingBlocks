@@ -28,5 +28,9 @@ public class I_Maze_Path {
             System.out.println(answer);
             return;
         }
+
+        if (currentRow >= row || currentColumn >= column) {
+
+        }
     }
 }
