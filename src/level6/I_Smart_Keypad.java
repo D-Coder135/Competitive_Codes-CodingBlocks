@@ -26,5 +26,9 @@ public class I_Smart_Keypad {
         }
         int firstChar = ques.charAt(0);
         String key = table[firstChar - 48];
+
+        for (int i = 0; i < key.length(); i++) {
+
+        }
     }
 }
