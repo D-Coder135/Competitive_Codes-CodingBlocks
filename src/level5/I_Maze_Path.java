@@ -32,5 +32,6 @@ public class I_Maze_Path {
         if (currentRow >= row || currentColumn >= column) {
             return;
         }
+        mazepath(currentRow, currentColumn + 1, row, column, answer + "H");
     }
 }
