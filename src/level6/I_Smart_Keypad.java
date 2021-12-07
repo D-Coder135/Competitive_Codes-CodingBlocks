@@ -8,7 +8,7 @@
 package level6;
 
 public class I_Smart_Keypad {
-    public String table[] = {" ", ".+@$", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    public String[] table = {" ", ".+@$", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     public static void main(String[] args) {
 
     }
