@@ -33,5 +33,6 @@ public class I_Maze_Path {
             return;
         }
         mazepath(currentRow, currentColumn + 1, row, column, answer + "H");
+        mazepath(currentRow + 1, currentColumn, row, column, answer + "V");
     }
 }
