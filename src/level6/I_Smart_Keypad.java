@@ -24,5 +24,6 @@ public class I_Smart_Keypad {
             System.out.print(ans + " ");
             return;
         }
+        int firstChar = ques.charAt(0);
     }
 }
