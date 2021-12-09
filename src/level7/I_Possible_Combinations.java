@@ -19,6 +19,7 @@ public class I_Possible_Combinations {
             char firstChar = ques.charAt(i);
             String s1 = ques.substring(0, i);
             String s2 = ques.substring(i);
+            print_Combinations(s1 + s2, ans + firstChar);
         }
     }
 }
