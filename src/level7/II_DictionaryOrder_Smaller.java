@@ -7,9 +7,7 @@
 
 package level7;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class II_DictionaryOrder_Smaller {
     public static void main(String[] args) {
@@ -17,5 +15,6 @@ public class II_DictionaryOrder_Smaller {
         String string = scanner.nextLine();
         List<String> results = new ArrayList<>();
         combinations(string, results);
+        Collections.sort(results);
     }
 }
