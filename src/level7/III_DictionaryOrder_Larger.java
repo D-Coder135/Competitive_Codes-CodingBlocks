@@ -27,4 +27,17 @@ public class III_DictionaryOrder_Larger {
             }
         }
     }
+
+    public static void combinations(String ques, String ans, List<String> results) {
+        if (ques.length() == 0) {
+            results.add(ans);
+            return;
+        }
+        for (int i = 0; i < ques.length(); i++) {
+            char firstChar = ques.charAt(i);
+            String s1 = ques.substring(0, i);
+            String s2 = ques.substring(i + 1);
+            combinations(s1 + s2, ans + firstChar, results);
+        }
+    }
 }
