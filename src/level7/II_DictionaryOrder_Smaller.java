@@ -18,7 +18,9 @@ public class II_DictionaryOrder_Smaller {
         Collections.sort(results);
 //        System.out.println(results);
         for (String result : results) {
-
+            if (result.compareTo(string) < 0) {
+                System.out.println(result);
+            }
         }
     }
 
