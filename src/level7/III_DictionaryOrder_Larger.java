@@ -22,7 +22,7 @@ public class III_DictionaryOrder_Larger {
         Collections.sort(results);
 //        System.out.println(results);
         for (String result : results) {
-            if (result.compareTo(string) < 0) {
+            if (result.compareTo(string) > 0) {
                 System.out.println(result);
             }
         }
