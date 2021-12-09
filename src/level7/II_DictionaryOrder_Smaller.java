@@ -12,5 +12,6 @@ import java.util.Scanner;
 public class II_DictionaryOrder_Smaller {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
     }
 }
