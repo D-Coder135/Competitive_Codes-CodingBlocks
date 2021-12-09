@@ -26,6 +26,7 @@ public class II_DictionaryOrder_Smaller {
         }
         for (int i = 0; i < ques.length(); i++) {
             char firstChar = ques.charAt(i);
+            String s1 = ques.substring(0, i);
         }
     }
 }
