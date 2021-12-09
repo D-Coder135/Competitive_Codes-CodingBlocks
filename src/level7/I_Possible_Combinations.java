@@ -9,4 +9,8 @@ public class I_Possible_Combinations {
         String string = scanner.nextLine();
         print_Combinations(string, "");
     }
+
+    public static void print_Combinations(String ques, String ans) {
+
+    }
 }
