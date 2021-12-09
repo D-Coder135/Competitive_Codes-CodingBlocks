@@ -18,4 +18,8 @@ public class II_DictionaryOrder_Smaller {
         Collections.sort(results);
         System.out.println(results.toString());
     }
+
+    public static void combinations(String ques, List<String> results) {
+
+    }
 }
