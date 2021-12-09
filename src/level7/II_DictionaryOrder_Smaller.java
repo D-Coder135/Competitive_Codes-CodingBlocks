@@ -28,6 +28,7 @@ public class II_DictionaryOrder_Smaller {
             char firstChar = ques.charAt(i);
             String s1 = ques.substring(0, i);
             String s2 = ques.substring(i + 1);
+            combinations(s1 + s2, ans + firstChar, results);
         }
     }
 }
