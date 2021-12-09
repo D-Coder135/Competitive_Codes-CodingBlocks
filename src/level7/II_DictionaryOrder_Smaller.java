@@ -19,7 +19,7 @@ public class II_DictionaryOrder_Smaller {
         System.out.println(results.toString());
     }
 
-    public static void combinations(String ques, List<String> results) {
+    public static void combinations(String ques, String ans, List<String> results) {
         if (ques.length() == 0) {
 
         }
