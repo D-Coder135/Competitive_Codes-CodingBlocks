@@ -17,6 +17,7 @@ public class I_Possible_Combinations {
 
         for (int i = 0; i < ques.length(); i++) {
             char firstChar = ques.charAt(i);
+            String s1 = ques.substring(0, i);
         }
     }
 }
