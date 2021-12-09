@@ -11,6 +11,8 @@ public class I_Possible_Combinations {
     }
 
     public static void print_Combinations(String ques, String ans) {
-
+        if (ques.length() == 0) {
+            return;
+        }
     }
 }
