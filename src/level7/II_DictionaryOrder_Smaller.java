@@ -17,6 +17,9 @@ public class II_DictionaryOrder_Smaller {
         combinations(string, "", results);
         Collections.sort(results);
 //        System.out.println(results);
+        for (String result : results) {
+
+        }
     }
 
     public static void combinations(String ques, String ans, List<String> results) {
