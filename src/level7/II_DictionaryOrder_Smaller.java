@@ -22,6 +22,7 @@ public class II_DictionaryOrder_Smaller {
     public static void combinations(String ques, String ans, List<String> results) {
         if (ques.length() == 0) {
             results.add(ans);
+            return;
         }
     }
 }
