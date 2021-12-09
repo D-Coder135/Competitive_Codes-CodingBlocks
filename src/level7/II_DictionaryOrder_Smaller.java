@@ -14,7 +14,7 @@ public class II_DictionaryOrder_Smaller {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         List<String> results = new ArrayList<>();
-        combinations(string, results);
+        combinations(string, "", results);
         Collections.sort(results);
         System.out.println(results.toString());
     }
