@@ -25,7 +25,7 @@ public class II_DictionaryOrder_Smaller {
             return;
         }
         for (int i = 0; i < ques.length(); i++) {
-
+            char firstChar = ques.charAt(i);
         }
     }
 }
