@@ -14,5 +14,9 @@ public class I_Possible_Combinations {
         if (ques.length() == 0) {
             return;
         }
+
+        for (int i = 0; i < ques.length(); i++) {
+            
+        }
     }
 }
