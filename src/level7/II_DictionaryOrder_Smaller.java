@@ -8,4 +8,7 @@
 package level7;
 
 public class II_DictionaryOrder_Smaller {
+    public static void main(String[] args) {
+
+    }
 }
