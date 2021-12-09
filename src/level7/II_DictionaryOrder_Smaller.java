@@ -20,6 +20,8 @@ public class II_DictionaryOrder_Smaller {
     }
 
     public static void combinations(String ques, List<String> results) {
+        if (ques.length() == 0) {
 
+        }
     }
 }
