@@ -7,5 +7,6 @@ public class I_Possible_Combinations {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the String: ");
         String string = scanner.nextLine();
+        print_Combinations(string, "");
     }
 }
