@@ -16,5 +16,6 @@ public class II_DictionaryOrder_Smaller {
         List<String> results = new ArrayList<>();
         combinations(string, results);
         Collections.sort(results);
+        System.out.println(results.toString());
     }
 }
