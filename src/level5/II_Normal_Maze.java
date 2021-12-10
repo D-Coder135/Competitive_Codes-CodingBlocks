@@ -7,7 +7,7 @@ public class II_Normal_Maze {
     }
 
     public static void maze_path2(int[][] maze, int currentRow, int currentCol) {
-        if (currentRow == maze.length - 1 || currentCol == maze[0].length) {
+        if (currentRow == maze.length - 1 && currentCol == maze[0].length - 1) {
             maze[currentRow][currentCol] = 1;
             display(maze);
             maze[currentRow][currentCol] = 0;
@@ -33,7 +33,7 @@ public class II_Normal_Maze {
     public static void display(int[][] maze) {
         for (int[] ints : maze) {
             for (int i1 = 0; i1 < maze[0].length; i1++) {
-                System.out.println(ints[i1] + " ");
+                System.out.print(ints[i1] + " ");
             }
             System.out.println();
         }
