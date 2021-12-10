@@ -23,6 +23,9 @@ public class II_MazePath_D {
     }
 
     public static int maze_D(int currentRow, int currentCol, int expectedRow, int expectedCol, String ans) {
+        if (currentRow == expectedRow && currentCol == expectedCol) {
+
+        }
         return 0;
     }
 }
