@@ -20,5 +20,7 @@ public class II_Normal_Maze {
 
         int[] row = {0, 1, 0, -1};
         int[] col = {1, 0, -1, 0};
+
+        maze[currentRow][currentCol] = 1;
     }
 }
