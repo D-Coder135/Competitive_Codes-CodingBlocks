@@ -22,5 +22,9 @@ public class II_Normal_Maze {
         int[] col = {1, 0, -1, 0};
 
         maze[currentRow][currentCol] = 1;
+
+        for (int i = 0; i < col.length; i++) {
+
+        }
     }
 }
