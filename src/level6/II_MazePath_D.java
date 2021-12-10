@@ -33,7 +33,7 @@ public class II_MazePath_D {
             count += maze_D(currentRow, currentCol + 1, expectedRow, expectedCol, ans + 'H');
             count += maze_D(currentRow + 1, currentCol, expectedRow, expectedCol, ans + 'V');
             count += maze_D(currentRow + 1, currentCol + 1, expectedRow, expectedCol, ans + 'D');
+            return count;
         }
-        return 0;
     }
 }
