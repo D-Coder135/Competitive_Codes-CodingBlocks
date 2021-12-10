@@ -26,6 +26,8 @@ public class II_MazePath_D {
         if (currentRow == expectedRow && currentCol == expectedCol) {
             System.out.println(ans);
             return 1;
+        } else if (currentRow > expectedRow || currentCol > expectedCol) {
+
         }
         return 0;
     }
