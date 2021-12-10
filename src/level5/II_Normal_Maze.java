@@ -7,6 +7,8 @@ public class II_Normal_Maze {
     }
 
     public static void maze_path2(boolean[][] maze, int currentRow, int currentCol) {
+        if (currentRow == maze.length - 1 || currentCol == maze[0].length) {
 
+        }
     }
 }
