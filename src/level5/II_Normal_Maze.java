@@ -37,5 +37,6 @@ public class II_Normal_Maze {
             }
             System.out.println();
         }
+        System.out.println();
     }
 }
