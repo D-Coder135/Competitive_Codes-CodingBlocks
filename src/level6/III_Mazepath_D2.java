@@ -24,6 +24,17 @@ public class III_Mazepath_D2 {
     }
 
     public static int maze_D2(int currentRow, int currentCol, int expectedRow, int expectedCol, String ans) {
-
+        if (currentRow == expectedRow && currentCol == expectedCol) {
+            System.out.println(ans);
+            return 1;
+        } else if (currentRow > expectedRow || currentCol > expectedCol) {
+            return 0;
+        } else {
+            int count = 0;
+            count += maze_D2(currentRow, currentCol + 1, expectedRow, expectedCol, ans + 'H');
+            count += maze_D2(currentRow + 1, currentCol, expectedRow, expectedCol, ans + 'V');
+            count += maze_D2(currentRow + 1, currentCol + 1, expectedRow, expectedCol, ans + 'D');
+            return count;
+        }
     }
 }
