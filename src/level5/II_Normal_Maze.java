@@ -31,6 +31,8 @@ public class II_Normal_Maze {
     }
 
     public static void display(int[][] maze) {
+        for (int i = 0; i < maze.length; i++) {
 
+        }
     }
 }
