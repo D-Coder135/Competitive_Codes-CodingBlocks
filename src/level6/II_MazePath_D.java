@@ -30,6 +30,7 @@ public class II_MazePath_D {
             return 0;
         } else {
             int count = 0;
+            count += maze_D(currentRow, currentCol + 1, expectedRow, expectedCol, ans + 'H');
         }
         return 0;
     }
