@@ -13,4 +13,7 @@
 package level6;
 
 public class II_MazePath_D {
+    public static void main(String[] args) {
+
+    }
 }
