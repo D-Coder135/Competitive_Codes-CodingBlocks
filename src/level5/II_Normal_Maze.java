@@ -26,5 +26,7 @@ public class II_Normal_Maze {
         for (int i = 0; i < col.length; i++) {
             maze_path2(maze, currentRow + row[i], currentCol + col[i]);
         }
+
+        maze[currentRow][currentCol] = 0;
     }
 }
