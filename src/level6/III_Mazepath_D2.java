@@ -13,8 +13,13 @@
 
 package level6;
 
+import java.util.Scanner;
+
 public class III_Mazepath_D2 {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        int row = scanner.nextInt();
+        int col = scanner.nextInt();
+        System.out.println(maze_D2(0, 0, row - 1, col - 1, ""));
     }
 }
