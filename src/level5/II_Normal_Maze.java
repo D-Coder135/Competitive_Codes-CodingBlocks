@@ -11,6 +11,7 @@ public class II_Normal_Maze {
             maze[currentRow][currentCol] = 1;
             display(maze);
             maze[currentRow][currentCol] = 0;
+            return;
         }
     }
 }
