@@ -29,4 +29,8 @@ public class II_Normal_Maze {
 
         maze[currentRow][currentCol] = 0;
     }
+
+    public static void display(int[][] maze) {
+
+    }
 }
