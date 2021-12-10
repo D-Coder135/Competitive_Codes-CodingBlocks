@@ -28,6 +28,8 @@ public class II_MazePath_D {
             return 1;
         } else if (currentRow > expectedRow || currentCol > expectedCol) {
             return 0;
+        } else {
+            int count = 0;
         }
         return 0;
     }
