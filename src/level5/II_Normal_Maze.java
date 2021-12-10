@@ -31,9 +31,9 @@ public class II_Normal_Maze {
     }
 
     public static void display(int[][] maze) {
-        for (int i = 0; i < maze.length; i++) {
+        for (int[] ints : maze) {
             for (int i1 = 0; i1 < maze[0].length; i1++) {
-                System.out.println(maze[i][i1] + " ");
+                System.out.println(ints[i1] + " ");
             }
             System.out.println();
         }
