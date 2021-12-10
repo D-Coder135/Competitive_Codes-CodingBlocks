@@ -14,7 +14,7 @@ package level6;
 
 import java.util.Scanner;
 
-public class II_MazePath_D {
+public class II_Mazepath_D {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int row = scanner.nextInt();
