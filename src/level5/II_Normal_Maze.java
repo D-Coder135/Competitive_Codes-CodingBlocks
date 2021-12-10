@@ -13,5 +13,9 @@ public class II_Normal_Maze {
             maze[currentRow][currentCol] = 0;
             return;
         }
+
+        if (currentRow < 0 || currentRow >= maze.length || currentCol < 0 || currentCol >= maze[0].length || maze[currentRow][currentCol] == 1) {
+
+        }
     }
 }
