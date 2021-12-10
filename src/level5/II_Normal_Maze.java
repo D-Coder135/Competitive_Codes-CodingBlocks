@@ -10,6 +10,7 @@ public class II_Normal_Maze {
         if (currentRow == maze.length - 1 || currentCol == maze[0].length) {
             maze[currentRow][currentCol] = 1;
             display(maze);
+            maze[currentRow][currentCol] = 0;
         }
     }
 }
