@@ -22,4 +22,8 @@ public class III_Mazepath_D2 {
         int col = scanner.nextInt();
         System.out.println(maze_D2(0, 0, row - 1, col - 1, ""));
     }
+
+    public static int maze_D2(int currentRow, int currentCol, int expectedRow, int expectedCol, String ans) {
+
+    }
 }
