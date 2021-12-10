@@ -27,7 +27,7 @@ public class II_MazePath_D {
             System.out.println(ans);
             return 1;
         } else if (currentRow > expectedRow || currentCol > expectedCol) {
-
+            return 0;
         }
         return 0;
     }
