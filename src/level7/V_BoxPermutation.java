@@ -23,4 +23,8 @@ public class V_BoxPermutation {
         int r = scanner.nextInt();
         box_Perm(0, r, new boolean[n], "");
     }
+
+    private static void box_Perm(int currentBox, int totalBoxes, boolean[] boxes, String ans) {
+
+    }
 }
