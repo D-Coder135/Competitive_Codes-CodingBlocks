@@ -33,6 +33,7 @@ public class V_BoxPermutation {
             if (!boxes[i]) {
                 boxes[i] = true;
                 box_Perm(currentBox + 1, totalBoxes, boxes, ans + i);
+                boxes[i] = false;
             }
         }
     }
