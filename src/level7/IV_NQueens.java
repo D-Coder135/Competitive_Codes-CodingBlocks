@@ -28,6 +28,9 @@ public class IV_NQueens {
         if (n == board.length) {
             return 1;
         }
+        for (int i = 0; i < board.length; i++) {
+
+        }
         return 0;
     }
 }
