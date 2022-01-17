@@ -30,7 +30,9 @@ public class V_BoxPermutation {
             return;
         }
         for (int i = 0; i < boxes.length; i++) {
+            if (!boxes[i]) {
 
+            }
         }
     }
 }
