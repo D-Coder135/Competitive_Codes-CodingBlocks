@@ -44,6 +44,9 @@ public class IV_NQueens {
                 return false;
             }
         }
+        for (int row = i - 1, col = j - 1; row >= 0 && col >= 0; row--, col--) {
+
+        }
         return false;
     }
 }
