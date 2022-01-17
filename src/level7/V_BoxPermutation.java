@@ -31,7 +31,7 @@ public class V_BoxPermutation {
         }
         for (int i = 0; i < boxes.length; i++) {
             if (!boxes[i]) {
-
+                boxes[i] = true;
             }
         }
     }
