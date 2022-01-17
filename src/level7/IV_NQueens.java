@@ -29,7 +29,9 @@ public class IV_NQueens {
             return 1;
         }
         for (int i = 0; i < board.length; i++) {
+            if (isSafe(board, n, i)) {
 
+            }
         }
         return 0;
     }
