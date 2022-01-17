@@ -19,6 +19,7 @@ import java.util.Scanner;
 public class V_BoxPermutation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int totalBoxes = scanner.nextInt();
+        int n = scanner.nextInt();
+        int r = scanner.nextInt();
     }
 }
