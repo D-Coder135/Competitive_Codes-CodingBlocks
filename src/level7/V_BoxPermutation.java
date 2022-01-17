@@ -29,5 +29,8 @@ public class V_BoxPermutation {
             System.out.println(ans);
             return;
         }
+        for (int i = 0; i < boxes.length; i++) {
+
+        }
     }
 }
