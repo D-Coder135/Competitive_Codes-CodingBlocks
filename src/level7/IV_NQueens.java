@@ -22,4 +22,8 @@ public class IV_NQueens {
         int[][] board = new int[n][n];
         System.out.println(countNQueens(board, 0));
     }
+
+    private static int countNQueens(int[][] board, int n) {
+        return 0;
+    }
 }
