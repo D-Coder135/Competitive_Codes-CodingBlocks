@@ -14,4 +14,7 @@
 package level7;
 
 public class IV_NQueens {
+    public static void main(String[] args) {
+
+    }
 }
