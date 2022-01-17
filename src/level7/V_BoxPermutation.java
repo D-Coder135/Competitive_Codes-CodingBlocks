@@ -5,6 +5,13 @@
  *   File: V_BoxPermutation
  */
 
+/*
+ *  CODING BLOCKS CLASS QUESTION
+ *
+ *  In how many ways can we select r boxes from total n number of boxes. (Permutation)
+ *  Print all possible combination of boxes.
+ * */
+
 package level7;
 
 public class V_BoxPermutation {
