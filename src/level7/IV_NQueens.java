@@ -54,6 +54,6 @@ public class IV_NQueens {
                 return false;
             }
         }
-        return false;
+        return true;
     }
 }
