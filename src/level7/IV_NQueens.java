@@ -20,5 +20,6 @@ public class IV_NQueens {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[][] board = new int[n][n];
+        System.out.println(countNQueens(board, 0));
     }
 }
