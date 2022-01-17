@@ -13,8 +13,10 @@
 
 package level7;
 
+import java.util.Scanner;
+
 public class IV_NQueens {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
