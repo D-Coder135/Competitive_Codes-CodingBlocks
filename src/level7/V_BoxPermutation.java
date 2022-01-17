@@ -21,5 +21,6 @@ public class V_BoxPermutation {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int r = scanner.nextInt();
+        box_Perm(0, r, new boolean[n], "");
     }
 }
