@@ -30,7 +30,8 @@ public class IV_NQueens {
         }
         for (int i = 0; i < board.length; i++) {
             if (isSafe(board, n, i)) {
-
+                board[n][i] = 1;
+                ans += countNQueens(board, n + 1);
             }
         }
         return 0;
