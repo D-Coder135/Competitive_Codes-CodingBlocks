@@ -25,6 +25,9 @@ public class IV_NQueens {
 
     private static int countNQueens(int[][] board, int n) {
         int ans = 0;
+        if (n == board.length) {
+
+        }
         return 0;
     }
 }
