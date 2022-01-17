@@ -35,6 +35,6 @@ public class IV_NQueens {
                 board[n][i] = 0;
             }
         }
-        return 0;
+        return ans;
     }
 }
