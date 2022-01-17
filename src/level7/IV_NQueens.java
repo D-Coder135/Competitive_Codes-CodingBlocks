@@ -37,4 +37,8 @@ public class IV_NQueens {
         }
         return ans;
     }
+
+    private static boolean isSafe(int[][] board, int i, int j) {
+        return false;
+    }
 }
