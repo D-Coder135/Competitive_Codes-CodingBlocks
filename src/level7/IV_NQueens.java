@@ -39,6 +39,9 @@ public class IV_NQueens {
     }
 
     private static boolean isSafe(int[][] board, int i, int j) {
+        for (int row = i - 1, col = j; row >= 0; row--) {
+
+        }
         return false;
     }
 }
