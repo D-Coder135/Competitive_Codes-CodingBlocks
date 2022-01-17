@@ -32,6 +32,7 @@ public class IV_NQueens {
             if (isSafe(board, n, i)) {
                 board[n][i] = 1;
                 ans += countNQueens(board, n + 1);
+                board[n][i] = 0;
             }
         }
         return 0;
