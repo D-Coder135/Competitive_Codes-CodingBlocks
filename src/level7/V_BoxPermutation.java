@@ -25,6 +25,8 @@ public class V_BoxPermutation {
     }
 
     private static void box_Perm(int currentBox, int totalBoxes, boolean[] boxes, String ans) {
+        if (currentBox == totalBoxes) {
 
+        }
     }
 }
