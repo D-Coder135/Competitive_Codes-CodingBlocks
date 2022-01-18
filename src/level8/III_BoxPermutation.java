@@ -16,7 +16,7 @@ package level8;
 
 import java.util.Scanner;
 
-public class V_BoxPermutation {
+public class III_BoxPermutation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
