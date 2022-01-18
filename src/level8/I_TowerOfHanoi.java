@@ -11,4 +11,8 @@ public class I_TowerOfHanoi {
     public static void main(String[] args) {
 
     }
+
+    public static void towerOfHanoi(int numberOfDisks, String source, String helper, String destination) {
+
+    }
 }
