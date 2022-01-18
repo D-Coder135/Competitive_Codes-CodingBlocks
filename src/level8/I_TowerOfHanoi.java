@@ -8,4 +8,7 @@
 package level8;
 
 public class I_TowerOfHanoi {
+    public static void main(String[] args) {
+
+    }
 }
