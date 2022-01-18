@@ -18,5 +18,6 @@ public class I_TowerOfHanoi {
         if (numberOfDisks == 0) {
             return;
         }
+        towerOfHanoi(numberOfDisks - 1, source, destination, helper);
     }
 }
