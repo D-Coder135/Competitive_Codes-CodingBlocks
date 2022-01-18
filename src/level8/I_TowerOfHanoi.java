@@ -10,6 +10,7 @@ package level8;
 public class I_TowerOfHanoi {
     public static void main(String[] args) {
         int numberOfDisks = 3;
+        towerOfHanoi(numberOfDisks, "Source", "Helper", "Destination");
     }
 
     public static void towerOfHanoi(int numberOfDisks, String source, String helper, String destination) {
