@@ -12,7 +12,7 @@
  *  Print all possible combination of boxes.
  * */
 
-package level7;
+package level8;
 
 import java.util.Scanner;
 

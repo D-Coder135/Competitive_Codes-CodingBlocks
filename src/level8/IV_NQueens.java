@@ -11,7 +11,7 @@
  * such that no two queens can kill each other in one move. A queen can move vertically, horizontally and diagonally.
  */
 
-package level7;
+package level8;
 
 import java.util.Scanner;
 
