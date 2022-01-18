@@ -16,7 +16,7 @@ public class I_TowerOfHanoi {
 //  The main crux of Tower Of Hanoi problem is that try to move n - 1 disks from source to helper using recursion.
 
         if (numberOfDisks == 0) {
-
+            return;
         }
     }
 }
