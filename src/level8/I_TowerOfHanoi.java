@@ -20,5 +20,6 @@ public class I_TowerOfHanoi {
         }
         towerOfHanoi(numberOfDisks - 1, source, destination, helper);
         System.out.println("Move " + numberOfDisks + " from " + source + " to " + destination);
+        towerOfHanoi(numberOfDisks - 1, helper, source, destination);
     }
 }
