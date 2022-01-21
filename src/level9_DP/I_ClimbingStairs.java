@@ -32,6 +32,10 @@ public class I_ClimbingStairs {
         if (current > n) {
             return 0;
         }
+        if (dp[n] != 0) {
+
+        }
+
         int oneStep = possibleNumberOfWays(n, dp, current + 1);
         int twoSteps = possibleNumberOfWays(n, dp, current + 2);
         return dp[current] = oneStep + twoSteps;
