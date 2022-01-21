@@ -22,5 +22,6 @@ public class I_ClimbingStairs {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[] dp = new int[n + 1];
+        System.out.println(possibleNumberOfWays(n, dp, 0));
     }
 }
