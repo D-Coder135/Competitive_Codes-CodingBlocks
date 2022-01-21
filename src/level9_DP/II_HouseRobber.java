@@ -45,5 +45,6 @@ public class II_HouseRobber {
     public int robRecursive(int[] nums, int i) {
 
         int rob = nums[i] + robRecursive(nums, i + 2);
+        int notRob = robRecursive(nums, i + 1);
     }
 }
