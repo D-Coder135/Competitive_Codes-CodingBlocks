@@ -24,4 +24,8 @@ public class I_ClimbingStairs {
         int[] dp = new int[n + 1];
         System.out.println(possibleNumberOfWays(n, dp, 0));
     }
+
+    private static int possibleNumberOfWays(int n, int[] dp, int current) {
+        return 0;
+    }
 }
