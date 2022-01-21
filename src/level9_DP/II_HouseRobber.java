@@ -26,4 +26,6 @@
 package level9_DP;
 
 public class II_HouseRobber {
+    int oddSum = 0, evenSum = 0;
+
 }
