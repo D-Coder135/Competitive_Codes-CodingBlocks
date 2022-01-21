@@ -55,4 +55,7 @@ public class II_HouseRobber {
 //    }
 
     // Optimized Solution: DP Used
+    public int robDP(int[] nums, int i, int[] dp) {
+
+    }
 }
