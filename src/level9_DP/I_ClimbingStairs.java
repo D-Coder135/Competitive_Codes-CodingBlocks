@@ -27,7 +27,7 @@ public class I_ClimbingStairs {
 
     private static int possibleNumberOfWays(int n, int[] dp, int current) {
         if (current == n) {
-
+            return 1;
         }
         return 0;
     }
