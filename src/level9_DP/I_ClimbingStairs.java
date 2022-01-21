@@ -16,4 +16,7 @@
 package level9_DP;
 
 public class I_ClimbingStairs {
+    public static void main(String[] args) {
+
+    }
 }
