@@ -60,7 +60,7 @@ public class II_HouseRobber {
             return 0;
         }
         if (dp[i] != 0) {
-
+            return dp[i];
         }
         int rob = nums[i] + robDP(nums, i + 2, dp);
         int dontRob = robDP(nums, i + 1, dp);
