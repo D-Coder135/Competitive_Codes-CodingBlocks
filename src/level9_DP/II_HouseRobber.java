@@ -69,7 +69,7 @@ public class II_HouseRobber {
         if (i >= nums.length) {
             return 0;
         }
-        if (dp[i] != 0) {
+        if (dp[i] != -1) {
             return dp[i];
         }
         int rob = nums[i] + robDP(nums, i + 2, dp);
