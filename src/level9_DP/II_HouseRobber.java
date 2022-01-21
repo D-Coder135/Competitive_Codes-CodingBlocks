@@ -35,5 +35,6 @@ public class II_HouseRobber {
                 oddSum += nums[i];
             }
         }
+        return Math.max(evenSum, oddSum);
     }
 }
