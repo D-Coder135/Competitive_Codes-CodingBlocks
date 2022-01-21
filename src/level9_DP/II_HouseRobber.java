@@ -26,9 +26,9 @@
 package level9_DP;
 
 public class II_HouseRobber {
-    public int rob(int[] nums) {
         // Wrong Approach
-/*        int oddSum = 0, evenSum = 0;
+/*    public int rob(int[] nums) {
+        int oddSum = 0, evenSum = 0;
         for (int i = 0; i < nums.length; i++) {
             if (i % 2 == 0) {
                 evenSum += nums[i];
@@ -37,9 +37,7 @@ public class II_HouseRobber {
             }
         }
         return Math.max(evenSum, oddSum);
-        */
-
-//        Recursive Approach: TIME LIMIT EXCEEDED
 
     }
+ */
 }
