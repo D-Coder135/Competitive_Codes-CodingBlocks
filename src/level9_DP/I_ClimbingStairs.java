@@ -21,5 +21,6 @@ public class I_ClimbingStairs {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+        int[] dp = new int[n + 1];
     }
 }
