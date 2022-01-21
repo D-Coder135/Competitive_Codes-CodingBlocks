@@ -42,15 +42,15 @@ public class II_HouseRobber {
  */
 
     // Recursive Approach: TIME LIMIT EXCEED
-    public int robRecursive(int[] nums, int i) {
-
-        if (i >= nums.length) {
-            return 0;
-        }
-
-        int rob = nums[i] + robRecursive(nums, i + 2);
-        int notRob = robRecursive(nums, i + 1);
-
-        return Math.max(rob, notRob);
-    }
+//    public int robRecursive(int[] nums, int i) {
+//
+//        if (i >= nums.length) {
+//            return 0;
+//        }
+//
+//        int rob = nums[i] + robRecursive(nums, i + 2);
+//        int notRob = robRecursive(nums, i + 1);
+//
+//        return Math.max(rob, notRob);
+//    }
 }
