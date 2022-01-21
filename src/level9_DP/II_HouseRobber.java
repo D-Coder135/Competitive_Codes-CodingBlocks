@@ -46,5 +46,7 @@ public class II_HouseRobber {
 
         int rob = nums[i] + robRecursive(nums, i + 2);
         int notRob = robRecursive(nums, i + 1);
+
+        return Math.max(rob, notRob);
     }
 }
