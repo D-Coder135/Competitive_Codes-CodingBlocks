@@ -30,7 +30,7 @@ public class I_ClimbingStairs {
             return 1;
         }
         if (current > n) {
-
+            return 0;
         }
         return 0;
     }
