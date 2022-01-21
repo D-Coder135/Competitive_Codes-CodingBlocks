@@ -58,7 +58,9 @@ public class II_HouseRobber {
 
     public int rob(int[] nums) {
         int[] dp = new int[nums.length];
-        Arrays.fill(dp, -1);
+        Arrays.fill(dp, -1); // We are filling the dp array with -1 because in the question constraint it is
+        // mentioned that 0 <= nums[i] <= 400 so we will have to fill the dp array with some
+        // unique value.
         return robDP(nums, 0, dp);
     }
 
