@@ -59,6 +59,9 @@ public class II_HouseRobber {
         if (i >= nums.length) {
             return 0;
         }
+        if (dp[i] != 0) {
+
+        }
         int rob = nums[i] + robDP(nums, i + 2, dp);
         int dontRob = robDP(nums, i + 1, dp);
         return dp[i] = Math.max(rob, dontRob);
