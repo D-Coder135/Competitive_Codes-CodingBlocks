@@ -25,8 +25,10 @@
 
 package level9_DP;
 
+import java.util.Arrays;
+
 public class II_HouseRobber {
-        // Wrong Approach
+    // Wrong Approach
 /*    public int rob(int[] nums) {
         int oddSum = 0, evenSum = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -53,6 +55,12 @@ public class II_HouseRobber {
 //
 //        return Math.max(rob, notRob);
 //    }
+
+    public int rob(int[] nums) {
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, -1);
+        return robDP(nums, 0, dp);
+    }
 
     // Optimized Solution: DP Used
     public int robDP(int[] nums, int i, int[] dp) {
