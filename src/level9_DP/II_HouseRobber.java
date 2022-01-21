@@ -44,6 +44,10 @@ public class II_HouseRobber {
     // Recursive Approach: TIME LIMIT EXCEED
     public int robRecursive(int[] nums, int i) {
 
+        if (i >= nums.length) {
+
+        }
+
         int rob = nums[i] + robRecursive(nums, i + 2);
         int notRob = robRecursive(nums, i + 1);
 
