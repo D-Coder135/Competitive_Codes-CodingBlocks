@@ -29,6 +29,9 @@ public class I_ClimbingStairs {
         if (current == n) {
             return 1;
         }
+        if (current > n) {
+
+        }
         return 0;
     }
 }
