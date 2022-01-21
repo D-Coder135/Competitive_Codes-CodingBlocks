@@ -56,6 +56,9 @@ public class II_HouseRobber {
 
     // Optimized Solution: DP Used
     public int robDP(int[] nums, int i, int[] dp) {
+        if (i >= nums.length) {
+
+        }
         int rob = nums[i] + robDP(nums, i + 2, dp);
         int dontRob = robDP(nums, i + 1, dp);
         return dp[i] = Math.max(rob, dontRob);
