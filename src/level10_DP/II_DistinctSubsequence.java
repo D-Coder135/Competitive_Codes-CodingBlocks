@@ -35,19 +35,19 @@ public class II_DistinctSubsequence {
     }
 
 //    Recursive Solution : TLE ERROR
-private int numberOfWays(String s, String t, int m, int n) {
-    if (n == t.length()) {
-        return 1;
-    }
-
-    if (m == s.length()) {
-        return 0;
-    }
-    int inc = 0, exc = 0;
-    if (s.charAt(m) == t.charAt(n)) {
-        inc += numberOfWays(s, t, m + 1, n + 1);
-    }
-    exc += numberOfWays(s, t, m + 1, n);
-    return inc + exc;
-}
+//private int numberOfWays(String s, String t, int m, int n) {
+//    if (n == t.length()) {
+//        return 1;
+//    }
+//
+//    if (m == s.length()) {
+//        return 0;
+//    }
+//    int inc = 0, exc = 0;
+//    if (s.charAt(m) == t.charAt(n)) {
+//        inc += numberOfWays(s, t, m + 1, n + 1);
+//    }
+//    exc += numberOfWays(s, t, m + 1, n);
+//    return inc + exc;
+//}
 }
