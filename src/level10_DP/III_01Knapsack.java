@@ -38,5 +38,9 @@ public class III_01Knapsack {
         for (int i = 0; i < m; i++) {
             wt[i] = scanner.nextInt();
         }
+
+        for (int i = 0; i < m; i++) {
+            cost[i] = scanner.nextInt();
+        }
     }
 }
