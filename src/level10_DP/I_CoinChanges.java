@@ -41,6 +41,8 @@ public class I_CoinChanges {
             }
         }
 //        System.out.println(numberOfWays_DP(coin, amount, 0));
+        System.out.println(numberOfWays_DP(coin, amount, 0, dp));
+
     }
 
     // This recursive solution will give TLE Error i.e. TIME LIMIT EXCEED ERROR.
