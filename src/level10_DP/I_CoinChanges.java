@@ -28,4 +28,8 @@ public class I_CoinChanges {
         int amount = 10;
         System.out.println(numberOfWays(coin, amount, 0));
     }
+
+    private static int numberOfWays(int[] coin, int amount, int i) {
+        return 0;
+    }
 }
