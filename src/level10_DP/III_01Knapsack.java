@@ -26,4 +26,7 @@
 package level10_DP;
 
 public class III_01Knapsack {
+    public static void main(String[] args) {
+
+    }
 }
