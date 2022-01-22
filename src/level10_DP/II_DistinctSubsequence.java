@@ -31,7 +31,7 @@ package level10_DP;
 
 public class II_DistinctSubsequence {
     public int numDistinct(String s, String t) {
-        return numberOfWays(s, t, 0, 0);
+//        return numberOfWays(s, t, 0, 0);
     }
 
 //    Recursive Solution : TLE ERROR
@@ -49,5 +49,5 @@ public class II_DistinctSubsequence {
 //    }
 //    exc += numberOfWays(s, t, m + 1, n);
 //    return inc + exc;
-//}
+}
 }
