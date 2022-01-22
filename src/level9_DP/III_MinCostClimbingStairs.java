@@ -31,11 +31,13 @@ import java.util.Arrays;
 
 public class III_MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] costs) {
+        int n = costs.length;
         int[] dp = new int[costs.length];
         Arrays.fill(dp, 0);
 
         for (int i = 2; i < costs.length; i++) {
             dp[i] = Math.min(costs[i - 1] + dp[i - 1], costs[i - 2] + dp[i - 2]);
         }
+
     }
 }
