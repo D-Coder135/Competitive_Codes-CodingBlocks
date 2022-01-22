@@ -31,7 +31,7 @@ public class I_CoinChanges {
 
     private static int numberOfWays(int[] coin, int amount, int i) {
         if (amount == 0) {
-            
+            return 1;
         }
         return 0;
     }
