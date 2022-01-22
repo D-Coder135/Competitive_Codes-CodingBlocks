@@ -55,7 +55,7 @@ public class III_01Knapsack {
         int incl = 0, excl = 0;
 
         if (w >= wt[i]) {
-            incl += wt[i] + maximumCost(wt, cost, i + 1, w - wt[i]);
+            incl += cost[i] + maximumCost(wt, cost, i + 1, w - wt[i]);
         }
         excl = maximumCost(wt, cost, i + 1, w);
         return Math.max(incl, excl);
