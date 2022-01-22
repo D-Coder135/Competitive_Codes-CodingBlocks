@@ -24,6 +24,6 @@ package level10_DP;
 
 public class I_CoinChanges {
     public static void main(String[] args) {
-
+        int[] coin = {2, 5, 3, 6};
     }
 }
