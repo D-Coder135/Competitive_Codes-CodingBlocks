@@ -29,7 +29,7 @@ public class I_CoinChanges {
         Scanner scanner = new Scanner(System.in);
         int amount = scanner.nextInt();
         int size = scanner.nextInt();
-        int[] coin = {2, 5, 3, 6};
+        int[] coin = new int[size];
         System.out.println(numberOfWays(coin, amount, 0));
     }
 
