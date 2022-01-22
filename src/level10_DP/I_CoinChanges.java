@@ -33,6 +33,9 @@ public class I_CoinChanges {
         if (amount == 0) {
             return 1;
         }
+
+        if (i == coin.length) {
+        }
         return 0;
     }
 }
