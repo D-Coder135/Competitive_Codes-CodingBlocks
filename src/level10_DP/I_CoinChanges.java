@@ -68,9 +68,9 @@ public class I_CoinChanges {
         int inc = 0, exc = 0;
 
         if (amount >= coin[i]) {
-            inc += numberOfWays_DP(coin, amount - coin[i], i);
+            inc += numberOfWays_DP(coin, amount - coin[i], i, dp);
         }
-        exc += numberOfWays_DP(coin, amount, i + 1);
+        exc += numberOfWays_DP(coin, amount, i + 1, dp);
         return inc + exc;
     }
 }
