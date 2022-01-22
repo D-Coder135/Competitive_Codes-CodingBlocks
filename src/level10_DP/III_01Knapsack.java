@@ -45,4 +45,8 @@ public class III_01Knapsack {
 
         System.out.println(maximumCost(wt, cost, 0, n));
     }
+
+    private static int maximumCost(int[] wt, int[] cost, int i, int w) {
+        return 0;
+    }
 }
