@@ -39,5 +39,6 @@ public class III_MinCostClimbingStairs {
             dp[i] = Math.min(costs[i - 1] + dp[i - 1], costs[i - 2] + dp[i - 2]);
         }
 
+        return Math.min(costs[n - 1] + dp[n - 1], costs[n - 2] + dp[n - 2]);
     }
 }
