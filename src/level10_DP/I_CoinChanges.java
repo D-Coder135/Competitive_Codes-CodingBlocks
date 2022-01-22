@@ -56,7 +56,7 @@ public class I_CoinChanges {
 //        return inc + exc;
 //    }
 
-    private static int numberOfWays_DP(int[] coin, int amount, int i) {
+    private static int numberOfWays_DP(int[] coin, int amount, int i, int[][] dp) {
         if (amount == 0) {
             return 1;
         }
