@@ -30,6 +30,10 @@ public class I_CoinChanges {
         int amount = scanner.nextInt();
         int size = scanner.nextInt();
         int[] coin = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            coin[i] = scanner.nextInt();
+        }
         System.out.println(numberOfWays(coin, amount, 0));
     }
 
