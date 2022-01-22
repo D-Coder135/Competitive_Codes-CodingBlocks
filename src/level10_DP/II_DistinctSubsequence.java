@@ -35,6 +35,9 @@ public class II_DistinctSubsequence {
     }
 
     private int numberOfWays(String s, String t, int m, int n) {
+        if (n == t.length()) {
+            return 1;
+        }
         return 0;
     }
 }
