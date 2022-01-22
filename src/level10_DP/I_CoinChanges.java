@@ -37,6 +37,8 @@ public class I_CoinChanges {
         if (i == coin.length) {
             return 0;
         }
+
+        int inc = 0, exc = 0;
         return 0;
     }
 }
