@@ -30,4 +30,7 @@
 package level10_DP;
 
 public class II_DistinctSubsequence {
+    public int numDistinct(String s, String t) {
+
+    }
 }
