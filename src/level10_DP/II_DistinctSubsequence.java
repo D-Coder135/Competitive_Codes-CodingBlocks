@@ -49,5 +49,24 @@ public class II_DistinctSubsequence {
 //    }
 //    exc += numberOfWays(s, t, m + 1, n);
 //    return inc + exc;
-}
+
+    private int numberOfWaysDP(String s, String t, int m, int n, int[][] dp) {
+        if (n == t.length()) {
+            return 1;
+        }
+
+        if (m == s.length()) {
+            return 0;
+        }
+
+        if (dp[m][n] != -1) {
+            return dp[m][n];
+        }
+        int inc = 0, exc = 0;
+        if (s.charAt(m) == t.charAt(n)) {
+            inc += numberOfWaysDP(s, t, m + 1, n + 1, dp);
+        }
+        exc += numberOfWaysDP(s, t, m + 1, n, dp);
+        return dp[m][n] = inc + exc;
+    }
 }
