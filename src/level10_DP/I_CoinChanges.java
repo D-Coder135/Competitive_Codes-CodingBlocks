@@ -71,6 +71,6 @@ public class I_CoinChanges {
             inc += numberOfWays_DP(coin, amount - coin[i], i, dp);
         }
         exc += numberOfWays_DP(coin, amount, i + 1, dp);
-        return inc + exc;
+        return dp[amount][i] = inc + exc;
     }
 }
