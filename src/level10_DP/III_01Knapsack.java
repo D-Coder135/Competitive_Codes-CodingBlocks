@@ -42,5 +42,7 @@ public class III_01Knapsack {
         for (int i = 0; i < m; i++) {
             cost[i] = scanner.nextInt();
         }
+
+        System.out.println(maximumCost(wt, cost, 0, n));
     }
 }
