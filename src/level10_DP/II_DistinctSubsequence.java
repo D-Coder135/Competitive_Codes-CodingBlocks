@@ -33,4 +33,8 @@ public class II_DistinctSubsequence {
     public int numDistinct(String s, String t) {
         return numberOfWays(s, t, 0, 0);
     }
+
+    private int numberOfWays(String s, String t, int m, int n) {
+        return 0;
+    }
 }
