@@ -54,6 +54,6 @@ public class III_01Knapsack {
             incl += wt[i] + maximumCost(wt, cost, i + 1, w - wt[i]);
         }
         excl = maximumCost(wt, cost, i + 1, w);
-        return 0;
+        return Math.max(incl, excl);
     }
 }
