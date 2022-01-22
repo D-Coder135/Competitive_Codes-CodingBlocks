@@ -37,7 +37,7 @@ public class I_CoinChanges {
         int[][] dp = new int[amount][size];
         for (int i = 0; i < amount; i++) {
             for (int j = 0; j < size; j++) {
-
+                dp[i][j] = -1;
             }
         }
 //        System.out.println(numberOfWays_DP(coin, amount, 0));
