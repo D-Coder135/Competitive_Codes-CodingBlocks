@@ -43,6 +43,9 @@ public class II_DistinctSubsequence {
             return 0;
         }
         int inc = 0, exc = 0;
+        if (s.charAt(m) == t.charAt(n)) {
+
+        }
         return 0;
     }
 }
