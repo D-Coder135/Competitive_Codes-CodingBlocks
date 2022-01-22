@@ -25,6 +25,7 @@
 
 package level10_DP;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class III_01Knapsack {
@@ -46,7 +47,7 @@ public class III_01Knapsack {
 //        System.out.println(maximumCost(wt, cost, 0, n));
         int[][] dp = new int[wt.length][n + 1];
         for (int[] a : dp) {
-
+            Arrays.fill(a, -1);
         }
     }
 
