@@ -48,6 +48,10 @@ public class III_01Knapsack {
 
     private static int maximumCost(int[] wt, int[] cost, int i, int w) {
 
+        if (w == 0 || i == wt.length) {
+            return 0;
+        }
+
         int incl = 0, excl = 0;
 
         if (w >= wt[i]) {
