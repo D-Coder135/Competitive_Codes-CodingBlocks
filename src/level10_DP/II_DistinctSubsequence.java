@@ -42,6 +42,7 @@ public class II_DistinctSubsequence {
         if (m == s.length()) {
             return 0;
         }
+        int inc = 0, exc = 0;
         return 0;
     }
 }
