@@ -27,8 +27,11 @@
 
 package level9_DP;
 
+import java.util.Arrays;
+
 public class III_MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] costs) {
         int[] dp = new int[costs.length];
+        Arrays.fill(dp, 0);
     }
 }
