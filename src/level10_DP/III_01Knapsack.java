@@ -32,5 +32,7 @@ public class III_01Knapsack {
         Scanner scanner = new Scanner(System.in);
         int m = scanner.nextInt();
         int n = scanner.nextInt();
+        int[] wt = new int[m];
+
     }
 }
