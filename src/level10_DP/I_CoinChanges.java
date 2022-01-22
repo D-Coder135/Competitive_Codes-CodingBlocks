@@ -35,6 +35,9 @@ public class I_CoinChanges {
             coin[i] = scanner.nextInt();
         }
         int[][] dp = new int[amount][size];
+        for (int i = 0; i < amount; i++) {
+
+        }
 //        System.out.println(numberOfWays_DP(coin, amount, 0));
     }
 
