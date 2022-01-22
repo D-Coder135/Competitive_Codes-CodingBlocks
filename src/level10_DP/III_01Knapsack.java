@@ -34,5 +34,9 @@ public class III_01Knapsack {
         int n = scanner.nextInt();
         int[] wt = new int[m];
         int[] cost = new int[wt.length];
+
+        for (int i = 0; i < m; i++) {
+            wt[i] = scanner.nextInt();
+        }
     }
 }
