@@ -43,6 +43,7 @@ public class I_CoinChanges {
         if (amount >= coin[i]) {
             inc += numberOfWays(coin, amount - coin[i], i);
         }
+        exc += numberOfWays(coin, amount, i + 1);
         return 0;
     }
 }
