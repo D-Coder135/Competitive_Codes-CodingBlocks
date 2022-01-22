@@ -52,6 +52,7 @@ public class III_01Knapsack {
         System.out.println(maximumCostDP(wt, cost, 0, n, dp));
     }
 
+
 //    Recursive Solution : TLE ERROR
 //private static int maximumCost(int[] wt, int[] cost, int i, int w) {
 //
@@ -67,4 +68,23 @@ public class III_01Knapsack {
 //    excl = maximumCost(wt, cost, i + 1, w);
 //    return Math.max(incl, excl);
 //}
+
+    private static int maximumCostDP(int[] wt, int[] cost, int i, int w, int[][] dp) {
+
+        if (w == 0 || i == wt.length) {
+            return 0;
+        }
+
+        if (dp[i][w] != -1) {
+            return dp[i][w];
+        }
+
+        int incl = 0, excl = 0;
+
+        if (w >= wt[i]) {
+            incl += cost[i] + maximumCostDP(wt, cost, i + 1, w - wt[i], dp);
+        }
+        excl = maximumCostDP(wt, cost, i + 1, w, dp);
+        return dp[i][w] = Math.max(incl, excl);
+    }
 }
