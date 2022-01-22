@@ -5,7 +5,7 @@
  *   File: II_MinCostClimbingStairs
  */
 
-/*
+/**
   CODING BLOCKS & LEETCODE QUESTION =>
   <p>
   You are given an integer array cost where cost[i] is the cost of ith step on a staircase.
