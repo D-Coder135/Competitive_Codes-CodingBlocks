@@ -34,12 +34,12 @@ public class I_CoinChanges {
         for (int i = 0; i < size; i++) {
             coin[i] = scanner.nextInt();
         }
-        int[][] dp = new int[amount][size];
-        for (int i = 0; i < amount; i++) {
-            for (int j = 0; j < size; j++) {
-                dp[i][j] = -1;
-            }
-        }
+        int[][] dp = new int[amount + 1][size];
+//        for (int i = 0; i < amount; i++) {
+//            for (int j = 0; j < size; j++) {
+//                dp[i][j] = -1;
+//            }
+    }
 //        System.out.println(numberOfWays_DP(coin, amount, 0));
         System.out.println(numberOfWays_DP(coin, amount, 0, dp));
 
