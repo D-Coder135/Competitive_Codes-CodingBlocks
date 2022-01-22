@@ -74,7 +74,7 @@ public class I_CoinChanges {
         }
 
         if (dp[amount][i] != -1) {
-            return 1;
+            return dp[amount][i];
         }
 
         int inc = 0, exc = 0;
