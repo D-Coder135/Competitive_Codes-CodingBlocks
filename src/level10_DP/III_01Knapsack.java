@@ -49,6 +49,7 @@ public class III_01Knapsack {
         for (int[] a : dp) {
             Arrays.fill(a, -1);
         }
+        System.out.println(maximumCostDP(wt, cost, 0, n, dp));
     }
 
 //    Recursive Solution : TLE ERROR
