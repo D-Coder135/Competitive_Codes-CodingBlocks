@@ -22,6 +22,7 @@
 
 package level10_DP;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class I_CoinChanges {
@@ -39,10 +40,13 @@ public class I_CoinChanges {
 //            for (int j = 0; j < size; j++) {
 //                dp[i][j] = -1;
 //            }
-    }
-//        System.out.println(numberOfWays_DP(coin, amount, 0));
+//        }
+        for (int[] a : dp) {
+            Arrays.fill(a, -1);
+        }
         System.out.println(numberOfWays_DP(coin, amount, 0, dp));
 
+//        System.out.println(numberOfWays_DP(coin, amount, 0));
     }
 
     // This recursive solution will give TLE Error i.e. TIME LIMIT EXCEED ERROR.
