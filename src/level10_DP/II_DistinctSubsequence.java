@@ -38,6 +38,10 @@ public class II_DistinctSubsequence {
         if (n == t.length()) {
             return 1;
         }
+
+        if (m == s.length()) {
+            return 0;
+        }
         return 0;
     }
 }
