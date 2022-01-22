@@ -33,6 +33,9 @@ public class II_DistinctSubsequence {
     public int numDistinct(String s, String t) {
 //        return numberOfWays(s, t, 0, 0);
         int[][] dp = new int[s.length() + 1][t.length() + 1];
+        for (int[] a : dp) {
+
+        }
     }
 
 //    Recursive Solution : TLE ERROR
