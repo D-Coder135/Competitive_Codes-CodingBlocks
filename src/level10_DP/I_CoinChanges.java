@@ -38,21 +38,23 @@ public class I_CoinChanges {
     }
 
     // This recursive solution will give TLE Error i.e. TIME LIMIT EXCEED ERROR.
-    private static int numberOfWays(int[] coin, int amount, int i) {
-        if (amount == 0) {
-            return 1;
-        }
+//    private static int numberOfWays(int[] coin, int amount, int i) {
+//        if (amount == 0) {
+//            return 1;
+//        }
+//
+//        if (i == coin.length) {
+//            return 0;
+//        }
+//
+//        int inc = 0, exc = 0;
+//
+//        if (amount >= coin[i]) {
+//            inc += numberOfWays(coin, amount - coin[i], i);
+//        }
+//        exc += numberOfWays(coin, amount, i + 1);
+//        return inc + exc;
+//    }
 
-        if (i == coin.length) {
-            return 0;
-        }
 
-        int inc = 0, exc = 0;
-
-        if (amount >= coin[i]) {
-            inc += numberOfWays(coin, amount - coin[i], i);
-        }
-        exc += numberOfWays(coin, amount, i + 1);
-        return inc + exc;
-    }
 }
