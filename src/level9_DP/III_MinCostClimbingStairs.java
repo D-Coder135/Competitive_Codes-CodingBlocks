@@ -33,5 +33,9 @@ public class III_MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] costs) {
         int[] dp = new int[costs.length];
         Arrays.fill(dp, 0);
+
+        for (int i = 2; i < costs.length; i++) {
+
+        }
     }
 }
