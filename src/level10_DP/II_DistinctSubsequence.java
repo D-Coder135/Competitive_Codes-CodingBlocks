@@ -47,6 +47,6 @@ public class II_DistinctSubsequence {
             inc += numberOfWays(s, t, m + 1, n + 1);
         }
         exc += numberOfWays(s, t, m + 1, n);
-        return 0;
+        return inc + exc;
     }
 }
