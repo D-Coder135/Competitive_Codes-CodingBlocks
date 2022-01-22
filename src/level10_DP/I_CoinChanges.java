@@ -26,5 +26,6 @@ public class I_CoinChanges {
     public static void main(String[] args) {
         int[] coin = {2, 5, 3, 6};
         int amount = 10;
+        System.out.println(numberOfWays(coin, amount, 0));
     }
 }
