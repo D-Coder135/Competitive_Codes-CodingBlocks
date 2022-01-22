@@ -34,7 +34,7 @@ public class I_CoinChanges {
         for (int i = 0; i < size; i++) {
             coin[i] = scanner.nextInt();
         }
-        System.out.println(numberOfWays(coin, amount, 0));
+        System.out.println(numberOfWays_DP(coin, amount, 0));
     }
 
     // This recursive solution will give TLE Error i.e. TIME LIMIT EXCEED ERROR.
@@ -56,7 +56,7 @@ public class I_CoinChanges {
 //        return inc + exc;
 //    }
 
-    private static int numberOfWays(int[] coin, int amount, int i) {
+    private static int numberOfWays_DP(int[] coin, int amount, int i) {
         if (amount == 0) {
             return 1;
         }
@@ -68,9 +68,9 @@ public class I_CoinChanges {
         int inc = 0, exc = 0;
 
         if (amount >= coin[i]) {
-            inc += numberOfWays(coin, amount - coin[i], i);
+            inc += numberOfWays_DP(coin, amount - coin[i], i);
         }
-        exc += numberOfWays(coin, amount, i + 1);
+        exc += numberOfWays_DP(coin, amount, i + 1);
         return inc + exc;
     }
 }
