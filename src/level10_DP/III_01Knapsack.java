@@ -53,6 +53,7 @@ public class III_01Knapsack {
         if (w >= wt[i]) {
             incl += wt[i] + maximumCost(wt, cost, i + 1, w - wt[i]);
         }
+        excl = maximumCost(wt, cost, i + 1, w);
         return 0;
     }
 }
