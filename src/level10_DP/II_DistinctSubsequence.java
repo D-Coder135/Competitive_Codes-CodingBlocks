@@ -44,7 +44,7 @@ public class II_DistinctSubsequence {
         }
         int inc = 0, exc = 0;
         if (s.charAt(m) == t.charAt(n)) {
-
+            inc += numberOfWays(s, t, m + 1, n + 1);
         }
         return 0;
     }
