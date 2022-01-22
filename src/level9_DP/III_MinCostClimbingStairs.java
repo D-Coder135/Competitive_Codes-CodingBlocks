@@ -35,7 +35,7 @@ public class III_MinCostClimbingStairs {
         Arrays.fill(dp, 0);
 
         for (int i = 2; i < costs.length; i++) {
-
+            dp[i] = Math.min(costs[i - 1] + dp[i - 1], costs[i - 2] + dp[i - 2]);
         }
     }
 }
