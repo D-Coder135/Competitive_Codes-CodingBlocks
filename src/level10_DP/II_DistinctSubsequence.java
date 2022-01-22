@@ -38,6 +38,7 @@ public class II_DistinctSubsequence {
         for (int[] a : dp) {
             Arrays.fill(a, -1);
         }
+        return numberOfWaysDP(s, t, 0, 0, dp);
     }
 
 //    Recursive Solution : TLE ERROR
