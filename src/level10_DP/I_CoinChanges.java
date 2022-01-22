@@ -39,6 +39,10 @@ public class I_CoinChanges {
         }
 
         int inc = 0, exc = 0;
+
+        if (amount >= coin[i]) {
+
+        }
         return 0;
     }
 }
