@@ -34,4 +34,8 @@ public class I_LongestCommonSubsequence_LCS {
         String str2 = sc.nextLine();
         System.out.println(lcs(str1, str2, 0, 0));
     }
+
+    private static int lcs(String str1, String str2, int i, int j) {
+        return 0;
+    }
 }
