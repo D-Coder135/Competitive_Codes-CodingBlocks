@@ -35,20 +35,20 @@ public class I_MinimumPathSum {
                 grid[i][j] = scanner.nextInt();
             }
         }
-        System.out.println(minimumPathSum(grid, 0, 0));
+//        System.out.println(minimumPathSum(grid, 0, 0));
     }
 
     // Recursive Solution : TLE ERROR
-    private static int minimumPathSum(int[][] grid, int currentCol, int currentRow) {
-        if (currentCol >= grid[0].length || currentRow >= grid.length) {
-            return Integer.MAX_VALUE;
-        }
-
-        if (currentCol == grid[0].length - 1 && currentRow == grid.length - 1) {
-            return grid[currentRow][currentCol];
-        }
-        int down = minimumPathSum(grid, currentCol, currentRow + 1);
-        int right = minimumPathSum(grid, currentCol + 1, currentRow);
-        return Math.min(down, right) + grid[currentRow][currentCol];
-    }
+//    private static int minimumPathSum(int[][] grid, int currentCol, int currentRow) {
+//        if (currentCol >= grid[0].length || currentRow >= grid.length) {
+//            return Integer.MAX_VALUE;
+//        }
+//
+//        if (currentCol == grid[0].length - 1 && currentRow == grid.length - 1) {
+//            return grid[currentRow][currentCol];
+//        }
+//        int down = minimumPathSum(grid, currentCol, currentRow + 1);
+//        int right = minimumPathSum(grid, currentCol + 1, currentRow);
+//        return Math.min(down, right) + grid[currentRow][currentCol];
+//    }
 }
