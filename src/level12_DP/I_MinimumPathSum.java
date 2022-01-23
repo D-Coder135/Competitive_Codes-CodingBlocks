@@ -35,5 +35,6 @@ public class I_MinimumPathSum {
                 grid[i][j] = scanner.nextInt();
             }
         }
+        System.out.println(minimumPathSum(grid, 0, 0));
     }
 }
