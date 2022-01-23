@@ -32,5 +32,26 @@
 
 package level11_DP;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class III_UncrossedLine {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int[] x = new int[n];
+        int[] y = new int[m];
+        for (int i = 0; i < n; i++) {
+            x[i] = sc.nextInt();
+        }
+        for (int i = 0; i < m; i++) {
+            y[i] = sc.nextInt();
+        }
+        int[][] dp = new int[n][m];
+        for (int[] a : dp) {
+            Arrays.fill(a, -1);
+        }
+        System.out.println(lcsDP(x, y, 0, 0, dp));
+    }
 }
