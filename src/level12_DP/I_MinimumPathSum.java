@@ -27,5 +27,6 @@ import java.util.Scanner;
 public class I_MinimumPathSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int row = scanner.nextInt();
     }
 }
