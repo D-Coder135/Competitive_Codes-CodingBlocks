@@ -45,6 +45,6 @@ public class I_LongestCommonSubsequence_LCS {
             int fstr2 = lcs(str1, str2, i, j + 1);
             ans = Math.max(fstr1, fstr2);
         }
-        return 0;
+        return ans;
     }
 }
