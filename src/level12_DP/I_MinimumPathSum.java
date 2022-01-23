@@ -23,4 +23,7 @@
 package level12_DP;
 
 public class I_MinimumPathSum {
+    public static void main(String[] args) {
+
+    }
 }
