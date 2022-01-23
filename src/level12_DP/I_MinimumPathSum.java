@@ -37,4 +37,8 @@ public class I_MinimumPathSum {
         }
         System.out.println(minimumPathSum(grid, 0, 0));
     }
+
+    private static int minimumPathSum(int[][] grid, int currentCol, int currentRow) {
+        return 0;
+    }
 }
