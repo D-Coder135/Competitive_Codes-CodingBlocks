@@ -29,5 +29,6 @@ public class I_MinimumPathSum {
         Scanner scanner = new Scanner(System.in);
         int row = scanner.nextInt();
         int col = scanner.nextInt();
+        int[][] grid = new int[row][col];
     }
 }
