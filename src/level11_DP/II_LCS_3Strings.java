@@ -5,6 +5,20 @@
  *   File: II_LCS_3Strings
  */
 
+/**
+ * CODING BLOCKS PROBLEM =>
+ * <p>
+ * Given 3 strings ,the task is to find the longest common sub-sequence in all three given sequences.
+ * <p>
+ * Sample Input
+ * GHQWNV
+ * SJNSDGH
+ * CPGMAH
+ * <p>
+ * Sample Output
+ * 2
+ */
+
 package level11_DP;
 
 import java.util.Arrays;
