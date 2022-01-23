@@ -28,5 +28,16 @@
 
 package level11_DP;
 
+import java.util.Arrays;
+
 public class IV_MaxDotProduct {
+
+    public int maxDotProduct(int[] x, int[] y) {
+        int[][] dp = new int[x.length + 1][y.length + 1];
+        for (int[] a : dp) {
+            Arrays.fill(a, -9999);
+        }
+        return lcsDP(x, y, x.length, y.length, dp);
+    }
+
 }
