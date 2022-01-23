@@ -54,4 +54,25 @@ public class III_UncrossedLine {
         }
         System.out.println(lcsDP(x, y, 0, 0, dp));
     }
+
+    private static int lcsDP(int[] x, int[] y, int i, int j, int[][] dp) {
+
+        if (i == x.length || j == y.length) {
+            return 0;
+        }
+
+        if (dp[i][j] != -1) {
+            return dp[i][j];
+        }
+
+        int ans = 0;
+        if (x[i] == y[j]) {
+            ans = 1 + lcsDP(x, y, i + 1, j + 1, dp);
+        } else {
+            int fx = lcsDP(x, y, i + 1, j, dp);
+            int fy = lcsDP(x, y, i, j + 1, dp);
+            ans = Math.max(fx, fy);
+        }
+        return dp[i][j] = ans;
+    }
 }
