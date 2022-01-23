@@ -36,6 +36,10 @@ public class I_LongestCommonSubsequence_LCS {
     }
 
     private static int lcs(String str1, String str2, int i, int j) {
+
+        if (str1.charAt(i) == str2.charAt(j)) {
+
+        }
         return 0;
     }
 }
