@@ -25,6 +25,7 @@
 
 package level11_DP;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class I_LongestCommonSubsequence_LCS {
@@ -35,7 +36,7 @@ public class I_LongestCommonSubsequence_LCS {
 //        System.out.println(lcs(str1, str2, 0, 0));
         int[][] dp = new int[str1.length()][str2.length()];
         for (int[] a : dp) {
-
+            Arrays.fill(a, -1);
         }
     }
 
