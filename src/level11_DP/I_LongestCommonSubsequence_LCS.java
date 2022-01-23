@@ -42,6 +42,7 @@ public class I_LongestCommonSubsequence_LCS {
             ans = 1 + lcs(str1, str2, i + 1, j + 1);
         } else {
             int fstr1 = lcs(str1, str2, i + 1, j);
+            int fstr2 = lcs(str1, str2, i, j + 1);
         }
         return 0;
     }
