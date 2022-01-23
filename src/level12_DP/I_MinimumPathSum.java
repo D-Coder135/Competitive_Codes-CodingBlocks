@@ -38,6 +38,7 @@ public class I_MinimumPathSum {
         System.out.println(minimumPathSum(grid, 0, 0));
     }
 
+    // Recursive Solution : TLE ERROR
     private static int minimumPathSum(int[][] grid, int currentCol, int currentRow) {
         if (currentCol >= grid[0].length || currentRow >= grid.length) {
             return Integer.MAX_VALUE;
