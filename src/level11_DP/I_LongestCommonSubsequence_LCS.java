@@ -32,24 +32,24 @@ public class I_LongestCommonSubsequence_LCS {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
-        System.out.println(lcs(str1, str2, 0, 0));
+//        System.out.println(lcs(str1, str2, 0, 0));
     }
 
     // Recursive Solution :TLE ERROR
-    private static int lcs(String str1, String str2, int i, int j) {
-
-        if (i == str1.length() || j == str2.length()) {
-            return 0;
-        }
-
-        int ans = 0;
-        if (str1.charAt(i) == str2.charAt(j)) {
-            ans = 1 + lcs(str1, str2, i + 1, j + 1);
-        } else {
-            int fstr1 = lcs(str1, str2, i + 1, j);
-            int fstr2 = lcs(str1, str2, i, j + 1);
-            ans = Math.max(fstr1, fstr2);
-        }
-        return ans;
-    }
+//    private static int lcs(String str1, String str2, int i, int j) {
+//
+//        if (i == str1.length() || j == str2.length()) {
+//            return 0;
+//        }
+//
+//        int ans = 0;
+//        if (str1.charAt(i) == str2.charAt(j)) {
+//            ans = 1 + lcs(str1, str2, i + 1, j + 1);
+//        } else {
+//            int fstr1 = lcs(str1, str2, i + 1, j);
+//            int fstr2 = lcs(str1, str2, i, j + 1);
+//            ans = Math.max(fstr1, fstr2);
+//        }
+//        return ans;
+//    }
 }
