@@ -25,8 +25,10 @@
 
 package level11_DP;
 
+import java.util.Scanner;
+
 public class I_LongestCommonSubsequence_LCS {
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
     }
 }
