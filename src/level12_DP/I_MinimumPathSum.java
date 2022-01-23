@@ -42,6 +42,10 @@ public class I_MinimumPathSum {
         if (currentCol >= grid[0].length || currentRow >= grid.length) {
             return Integer.MAX_VALUE;
         }
+
+        if (currentCol == grid[0].length - 1 && currentRow == grid.length - 1) {
+
+        }
         return 0;
     }
 }
