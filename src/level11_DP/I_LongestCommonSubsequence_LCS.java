@@ -26,4 +26,7 @@
 package level11_DP;
 
 public class I_LongestCommonSubsequence_LCS {
+    public static void main(String[] args) {
+
+    }
 }
