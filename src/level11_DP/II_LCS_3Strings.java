@@ -16,7 +16,6 @@ public class II_LCS_3Strings {
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
         String str3 = sc.nextLine();
-//        System.out.println(lcs(str1, str2, 0, 0));
         int[][][] dp = new int[str1.length()][str2.length()][str3.length()];
         for (int[][] a : dp) {
             for (int[] b : a) {
