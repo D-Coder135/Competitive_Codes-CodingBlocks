@@ -22,6 +22,7 @@
 
 package level12_DP;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class I_MinimumPathSum {
@@ -38,7 +39,7 @@ public class I_MinimumPathSum {
 //        System.out.println(minimumPathSum(grid, 0, 0));
         int[][] dp = new int[grid.length][grid[0].length];
         for (int[] a : dp) {
-
+            Arrays.fill(a, -1);
         }
     }
 
