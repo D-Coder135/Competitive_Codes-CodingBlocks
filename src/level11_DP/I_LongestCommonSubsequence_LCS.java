@@ -40,6 +40,8 @@ public class I_LongestCommonSubsequence_LCS {
         int ans = 0;
         if (str1.charAt(i) == str2.charAt(j)) {
             ans = 1 + lcs(str1, str2, i + 1, j + 1);
+        } else {
+            int fstr1 = lcs(str1, str2, i + 1, j);
         }
         return 0;
     }
