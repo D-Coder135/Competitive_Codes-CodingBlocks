@@ -48,6 +48,6 @@ public class I_MinimumPathSum {
         }
         int down = minimumPathSum(grid, currentCol, currentRow + 1);
         int right = minimumPathSum(grid, currentCol + 1, currentRow);
-        return 0;
+        return Math.min(down, right) + grid[currentRow][currentCol];
     }
 }
