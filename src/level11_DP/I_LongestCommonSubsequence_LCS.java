@@ -33,6 +33,7 @@ public class I_LongestCommonSubsequence_LCS {
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
 //        System.out.println(lcs(str1, str2, 0, 0));
+        int[][] dp = new int[str1.length()][str2.length()];
     }
 
     // Recursive Solution :TLE ERROR
