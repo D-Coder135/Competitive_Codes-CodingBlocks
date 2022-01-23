@@ -38,6 +38,7 @@ public class I_LongestCommonSubsequence_LCS {
         for (int[] a : dp) {
             Arrays.fill(a, -1);
         }
+        System.out.println(lcsDP(str1, str2, 0, 0, dp));
     }
 
     // Recursive Solution :TLE ERROR
