@@ -35,6 +35,7 @@ public class I_LongestCommonSubsequence_LCS {
         System.out.println(lcs(str1, str2, 0, 0));
     }
 
+    // Recursive Solution :TLE ERROR
     private static int lcs(String str1, String str2, int i, int j) {
 
         if (i == str1.length() || j == str2.length()) {
