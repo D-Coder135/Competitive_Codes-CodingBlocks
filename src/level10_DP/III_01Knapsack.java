@@ -5,7 +5,7 @@
  *   File: III_01Knapsack
  */
 
-/*
+/**
  * CODING BLOCKS PROBLEM =>
  * <p>
  * You are packing for a vacation on the sea side and you are going to carry only one bag with
