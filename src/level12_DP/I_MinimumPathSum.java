@@ -41,6 +41,7 @@ public class I_MinimumPathSum {
         for (int[] a : dp) {
             Arrays.fill(a, -1);
         }
+        System.out.println(minimumPathSum_DP(grid, 0, 0, dp));
     }
 
     // Recursive Solution : TLE ERROR
