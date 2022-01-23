@@ -40,4 +40,23 @@ public class IV_MaxDotProduct {
         return lcsDP(x, y, x.length, y.length, dp);
     }
 
+    private static int lcsDP(int[] x, int[] y, int i, int j, int[][] dp) {
+
+        if (i == 0 || j == 0) {
+            return -9999;
+        }
+
+        if (dp[i][j] != -9999) {
+            return dp[i][j];
+        }
+
+        int ans = 0;
+        int prod = x[i - 1] * y[j - 1];
+
+        ans = prod + lcsDP(x, y, i - 1, j - 1, dp);
+        int fx = lcsDP(x, y, i - 1, j, dp);
+        int fy = lcsDP(x, y, i, j - 1, dp);
+        ans = Math.max(prod, Math.max(ans, Math.max(fx, fy)));
+        return dp[i][j] = ans;
+    }
 }
