@@ -32,5 +32,6 @@ public class I_LongestCommonSubsequence_LCS {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
+        System.out.println(lcs(str1, str2, 0, 0));
     }
 }
