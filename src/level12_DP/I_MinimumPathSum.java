@@ -51,4 +51,22 @@ public class I_MinimumPathSum {
 //        int right = minimumPathSum(grid, currentCol + 1, currentRow);
 //        return Math.min(down, right) + grid[currentRow][currentCol];
 //    }
+
+    private static int minimumPathSum_DP(int[][] grid, int currentCol, int currentRow, int[][] dp) {
+        if (currentCol >= grid[0].length || currentRow >= grid.length) {
+            return Integer.MAX_VALUE;
+        }
+
+        if (currentCol == grid[0].length - 1 && currentRow == grid.length - 1) {
+            return grid[currentRow][currentCol];
+        }
+
+        if (dp[currentRow][currentCol] != -1) {
+            return dp[currentRow][currentCol];
+        }
+
+        int down = minimumPathSum_DP(grid, currentCol, currentRow + 1, dp);
+        int right = minimumPathSum_DP(grid, currentCol + 1, currentRow, dp);
+        return dp[currentRow][currentCol] = (Math.min(down, right) + grid[currentRow][currentCol]);
+    }
 }
