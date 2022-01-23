@@ -58,4 +58,25 @@ public class I_LongestCommonSubsequence_LCS {
 //        }
 //        return ans;
 //    }
+
+    private static int lcsDP(String str1, String str2, int i, int j, int[][] dp) {
+
+        if (i == str1.length() || j == str2.length()) {
+            return 0;
+        }
+
+        if (dp[i][j] != -1) {
+            return dp[i][j];
+        }
+
+        int ans = 0;
+        if (str1.charAt(i) == str2.charAt(j)) {
+            ans = 1 + lcsDP(str1, str2, i + 1, j + 1, dp);
+        } else {
+            int fstr1 = lcsDP(str1, str2, i + 1, j, dp);
+            int fstr2 = lcsDP(str1, str2, i, j + 1, dp);
+            ans = Math.max(fstr1, fstr2);
+        }
+        return dp[i][j] = ans;
+    }
 }
