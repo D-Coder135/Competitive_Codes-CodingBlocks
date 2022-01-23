@@ -40,7 +40,7 @@ public class I_MinimumPathSum {
 
     private static int minimumPathSum(int[][] grid, int currentCol, int currentRow) {
         if (currentCol >= grid[0].length || currentRow >= grid.length) {
-
+            return Integer.MAX_VALUE;
         }
         return 0;
     }
