@@ -53,9 +53,6 @@ public class III_MinFallingPathSum_II {
         if (dp[currentRow][currentCol] != Integer.MAX_VALUE) {
             return dp[currentRow][currentCol];
         }
-
-        // int rightDiagonal = minimumPathSum_DP(grid, currentCol + 1, currentRow + 1, dp);
-        // int leftDiagonal = minimumPathSum_DP(grid, currentCol - 1, currentRow + 1, dp);
         int ans = Integer.MAX_VALUE;
         for (int i = 0; i < grid.length; i++) {
             if (i != currentCol) {
