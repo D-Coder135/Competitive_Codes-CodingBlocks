@@ -46,6 +46,7 @@ public class III_ValentineMagic {
             girls[i] = scanner.nextInt();
         }
 
-
+        Arrays.sort(boys);
+        Arrays.sort(girls);
     }
 }
