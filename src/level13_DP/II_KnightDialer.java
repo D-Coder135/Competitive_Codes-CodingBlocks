@@ -47,7 +47,7 @@ public class II_KnightDialer {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
 //                ans += knightDialer(n - 1, i, j) % 1000000007;
-                ans += knightDialer_DP(n - 1, i, j) % 1000000007;
+                ans = (ans + knightDialer_DP(n - 1, i, j, dp)) % 1000000007;
             }
         }
         System.out.println(ans);
@@ -70,7 +70,7 @@ public class II_KnightDialer {
 //    return count;
 //}
 
-    public static int knightDialer_DP(int n, int currentRow, int currentCol) {
+    public static int knightDialer_DP(int n, int currentRow, int currentCol, int[][][] dp) {
         if (currentRow < 0 || currentCol < 0 || currentRow >= 4 || currentCol >= 3 || (currentRow == 3 && currentCol == 0) || (currentRow == 3 && currentCol == 2)) {
             return 0;
         }
@@ -79,10 +79,13 @@ public class II_KnightDialer {
             return 1;
         }
 
+        if (dp[n][currentRow][currentCol] != -1) {
+            return dp[n][currentRow][currentCol];
+        }
         int count = 0;
         for (int i = 0; i < col.length; i++) {
-            count += knightDialer_DP(n - 1, currentRow + row[i], currentCol + col[i]) % 1000000007;
+            count = (count + knightDialer_DP(n - 1, currentRow + row[i], currentCol + col[i], dp)) % 1000000007;
         }
-        return count;
+        return dp[n][currentRow][currentCol] = count;
     }
 }
