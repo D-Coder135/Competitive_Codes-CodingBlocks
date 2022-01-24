@@ -45,7 +45,7 @@ public class II_KnightDialer {
 
     public static int knightDialer(int n, int currentRow, int currentCol) {
         if (currentRow < 0 || currentCol < 0 || currentRow >= 4 || currentCol >= 3 || (currentRow == 3 && currentCol == 0) || (currentRow == 3 && currentCol == 2)) {
-
+            return 0;
         }
     }
 }
