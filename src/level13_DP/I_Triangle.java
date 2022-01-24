@@ -42,4 +42,15 @@ public class I_Triangle {
         return minimumTotalRec(triangle, 0, 0, dp);
     }
 
+    public int minimumTotalRec(List<List<Integer>> triangle, int cc, int cr, int[][] dp) {
+        if (cr == triangle.size() - 1) {
+            return triangle.get(cr).get(cc);
+        }
+        if (dp[cr][cc] != Integer.MAX_VALUE) return dp[cr][cc];
+        int c1 = minimumTotalRec(triangle, cc, cr + 1, dp);// next row me ith index
+        int c2 = minimumTotalRec(triangle, cc + 1, cr + 1, dp);// next row me ith+1 index
+
+        return dp[cr][cc] = Math.min(c1, c2) + triangle.get(cr).get(cc);
+
+    }
 }
