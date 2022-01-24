@@ -48,5 +48,7 @@ public class III_ValentineMagic {
 
         Arrays.sort(boys);
         Arrays.sort(girls);
+
+        System.out.println(valentineMagic(boys, girls, 0, 0));
     }
 }
