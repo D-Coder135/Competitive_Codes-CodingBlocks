@@ -33,6 +33,10 @@ public class II_KnightDialer {
     static int[] row = {-2, -2, -1, -1, 1, 1, 2, 2};
     static int[] col = {1, -1, -2, 2, -2, 2, -1, 1};
 
+    public static void main(String[] args) {
+
+    }
+
     public static int knightDialer(int n, int currentRow, int currentCol) {
 
     }
