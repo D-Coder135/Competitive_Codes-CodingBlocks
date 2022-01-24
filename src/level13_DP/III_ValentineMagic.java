@@ -51,4 +51,8 @@ public class III_ValentineMagic {
 
         System.out.println(valentineMagic(boys, girls, 0, 0));
     }
+
+    private static int valentineMagic(int[] boys, int[] girls, int i, int j) {
+        return 0;
+    }
 }
