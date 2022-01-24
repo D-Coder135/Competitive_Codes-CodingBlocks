@@ -58,6 +58,10 @@ public class III_ValentineMagic {
             return 0;
         }
 
+        if (j == girls.length) {
+
+        }
+
 
         int girlsSelected = Math.abs(boys[i] - girls[j]) + valentineMagic(boys, girls, i + 1, j + 1);
         int girlsRejected = valentineMagic(boys, girls, i, j + 1);
