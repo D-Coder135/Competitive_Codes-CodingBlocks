@@ -28,8 +28,10 @@
 
 package level13_DP;
 
+import java.util.Scanner;
+
 public class III_ValentineMagic {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
