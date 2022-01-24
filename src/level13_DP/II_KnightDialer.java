@@ -49,7 +49,7 @@ public class II_KnightDialer {
         }
 
         if (n == 0) {
-
+            return 1;
         }
 
         int count = 0;
