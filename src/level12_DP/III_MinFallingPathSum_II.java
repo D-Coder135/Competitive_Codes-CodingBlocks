@@ -39,6 +39,5 @@ public class III_MinFallingPathSum_II {
             ans = Math.min(ans, c);
         }
         return ans;
-        // return minimumPathSum_DP(matrix, 0, 0, dp);
     }
 }
