@@ -40,4 +40,28 @@ public class III_MinFallingPathSum_II {
         }
         return ans;
     }
+
+    private static int minimumPathSum_DP(int[][] grid, int currentCol, int currentRow, int[][] dp) {
+        if (currentCol < 0 || currentCol >= grid[0].length || currentRow >= grid.length) {
+            return Integer.MAX_VALUE;
+        }
+
+        if (currentRow == grid.length - 1) {
+            return grid[currentRow][currentCol];
+        }
+
+        if (dp[currentRow][currentCol] != Integer.MAX_VALUE) {
+            return dp[currentRow][currentCol];
+        }
+
+        // int rightDiagonal = minimumPathSum_DP(grid, currentCol + 1, currentRow + 1, dp);
+        // int leftDiagonal = minimumPathSum_DP(grid, currentCol - 1, currentRow + 1, dp);
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0; i < grid.length; i++) {
+            if (i != currentCol) {
+                ans = Math.min(ans, minimumPathSum_DP(grid, i, currentRow + 1, dp));
+            }
+        }
+        return dp[currentRow][currentCol] = ans + grid[currentRow][currentCol];
+    }
 }
