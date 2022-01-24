@@ -45,19 +45,19 @@ public class II_KnightDialer {
     }
 
 //    Recursive Solution: TLE ERROR
-public static int knightDialer(int n, int currentRow, int currentCol) {
-    if (currentRow < 0 || currentCol < 0 || currentRow >= 4 || currentCol >= 3 || (currentRow == 3 && currentCol == 0) || (currentRow == 3 && currentCol == 2)) {
-        return 0;
-    }
-
-    if (n == 0) {
-        return 1;
-    }
-
-    int count = 0;
-    for (int i = 0; i < col.length; i++) {
-        count += knightDialer(n - 1, currentRow + row[i], currentCol + col[i]) % 1000000007;
-    }
-    return count;
-}
+//public static int knightDialer(int n, int currentRow, int currentCol) {
+//    if (currentRow < 0 || currentCol < 0 || currentRow >= 4 || currentCol >= 3 || (currentRow == 3 && currentCol == 0) || (currentRow == 3 && currentCol == 2)) {
+//        return 0;
+//    }
+//
+//    if (n == 0) {
+//        return 1;
+//    }
+//
+//    int count = 0;
+//    for (int i = 0; i < col.length; i++) {
+//        count += knightDialer(n - 1, currentRow + row[i], currentCol + col[i]) % 1000000007;
+//    }
+//    return count;
+//}
 }
