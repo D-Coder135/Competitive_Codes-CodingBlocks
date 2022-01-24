@@ -29,4 +29,7 @@
 package level13_DP;
 
 public class III_ValentineMagic {
+    public static void main(String[] args) {
+
+    }
 }
