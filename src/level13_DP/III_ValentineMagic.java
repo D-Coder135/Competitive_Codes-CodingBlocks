@@ -55,7 +55,7 @@ public class III_ValentineMagic {
     private static int valentineMagic(int[] boys, int[] girls, int i, int j) {
 
         if (i == boys.length) {
-
+            return 0;
         }
 
 
