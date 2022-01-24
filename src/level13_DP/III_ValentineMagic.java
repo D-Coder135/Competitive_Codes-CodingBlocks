@@ -49,7 +49,11 @@ public class III_ValentineMagic {
         Arrays.sort(boys);
         Arrays.sort(girls);
 
-        System.out.println(valentineMagic(boys, girls, 0, 0));
+        int[][] dp = new int[n][m];
+        for (int[] a : dp) {
+            Arrays.fill(a, -1);
+        }
+        System.out.println(valentineMagic(boys, girls, 0, 0, dp));
     }
 
 //     Recursive Solution: TLE ERROR
