@@ -25,5 +25,20 @@
 
 package level12_DP;
 
+import java.util.Arrays;
+
 public class III_MinFallingPathSum_II {
+    public int minFallingPathSum(int[][] matrix) {
+        int[][] dp = new int[matrix.length][matrix[0].length];
+        for (int[] a : dp) {
+            Arrays.fill(a, Integer.MAX_VALUE);
+        }
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0; i < matrix.length; i++) {
+            int c = minimumPathSum_DP(matrix, i, 0, dp);
+            ans = Math.min(ans, c);
+        }
+        return ans;
+        // return minimumPathSum_DP(matrix, 0, 0, dp);
+    }
 }
