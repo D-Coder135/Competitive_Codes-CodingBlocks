@@ -51,5 +51,6 @@ public class II_KnightDialer {
         for (int i = 0; i < col.length; i++) {
             count += knightDialer(n - 1, currentRow + row[i], currentCol + col[i]);
         }
+        return count;
     }
 }
