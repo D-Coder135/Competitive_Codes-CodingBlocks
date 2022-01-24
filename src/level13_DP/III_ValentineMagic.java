@@ -68,4 +68,22 @@ public class III_ValentineMagic {
 //        int girlsRejected = valentineMagic(boys, girls, i, j + 1);
 //        return Math.min(girlsSelected, girlsRejected);
 //    }
+
+    private static int valentineMagic(int[] boys, int[] girls, int i, int j, int[][] dp) {
+
+        if (i == boys.length) {
+            return 0;
+        }
+
+        if (j == girls.length) {
+            return 10000000;
+        }
+
+        if (dp[i][j] != -1)
+            return dp[i][j];
+
+        int girlsSelected = Math.abs(boys[i] - girls[j]) + valentineMagic(boys, girls, i + 1, j + 1, dp);
+        int girlsRejected = valentineMagic(boys, girls, i, j + 1, dp);
+        return dp[i][j] = Math.min(girlsSelected, girlsRejected);
+    }
 }
