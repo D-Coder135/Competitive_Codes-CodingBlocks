@@ -29,6 +29,8 @@
 
 package level13_DP;
 
+import java.util.Arrays;
+
 public class II_KnightDialer {
     static int[] row = {-2, -2, -1, -1, 1, 1, 2, 2};
     static int[] col = {1, -1, -2, 2, -2, 2, -1, 1};
@@ -39,7 +41,7 @@ public class II_KnightDialer {
         int[][][] dp = new int[n + 1][4][3];
         for (int[][] a : dp) {
             for (int[] b : a) {
-
+                Arrays.fill(b, -1);
             }
         }
         for (int i = 0; i < 4; i++) {
