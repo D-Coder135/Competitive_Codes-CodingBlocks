@@ -38,9 +38,10 @@ public class II_KnightDialer {
         int ans = 0;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
-                ans += knightDialer(n, i, j);
+                ans += knightDialer(n - 1, i, j);
             }
         }
+        System.out.println(ans);
     }
 
     public static int knightDialer(int n, int currentRow, int currentCol) {
