@@ -37,6 +37,9 @@ public class II_KnightDialer {
         int n = 2;
         int ans = 0;
         int[][][] dp = new int[n + 1][4][3];
+        for (int[][] a : dp) {
+
+        }
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
 //                ans += knightDialer(n - 1, i, j) % 1000000007;
