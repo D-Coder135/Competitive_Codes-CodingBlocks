@@ -28,6 +28,7 @@
 
 package level13_DP;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class III_ValentineMagic {
@@ -35,5 +36,16 @@ public class III_ValentineMagic {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
+        int[] boys = new int[n];
+        int[] girls = new int[m];
+        for (int i = 0; i < n; i++) {
+            boys[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < m; i++) {
+            girls[i] = scanner.nextInt();
+        }
+
+
     }
 }
