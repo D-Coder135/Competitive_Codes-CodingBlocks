@@ -48,5 +48,8 @@ public class II_KnightDialer {
             return 0;
         }
         int count = 0;
+        for (int i = 0; i < col.length; i++) {
+
+        }
     }
 }
