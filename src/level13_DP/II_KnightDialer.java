@@ -38,7 +38,7 @@ public class II_KnightDialer {
         int ans = 0;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
-                ans += knightDialer(n - 1, i, j);
+                ans += knightDialer(n - 1, i, j) % 1000000007;
             }
         }
         System.out.println(ans);
@@ -55,7 +55,7 @@ public class II_KnightDialer {
 
         int count = 0;
         for (int i = 0; i < col.length; i++) {
-            count += knightDialer(n - 1, currentRow + row[i], currentCol + col[i]);
+            count += knightDialer(n - 1, currentRow + row[i], currentCol + col[i]) % 1000000007;
         }
         return count;
     }
