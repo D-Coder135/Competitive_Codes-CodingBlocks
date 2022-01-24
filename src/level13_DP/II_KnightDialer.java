@@ -47,5 +47,6 @@ public class II_KnightDialer {
         if (currentRow < 0 || currentCol < 0 || currentRow >= 4 || currentCol >= 3 || (currentRow == 3 && currentCol == 0) || (currentRow == 3 && currentCol == 2)) {
             return 0;
         }
+        int count = 0;
     }
 }
