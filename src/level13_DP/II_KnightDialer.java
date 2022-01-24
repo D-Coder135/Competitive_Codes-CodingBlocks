@@ -31,4 +31,5 @@ package level13_DP;
 
 public class II_KnightDialer {
     static int[] row = {-2, -2, -1, -1, 1, 1, 2, 2};
+    static int[] col = {1, -1, -2, 2, -2, 2, -1, 1};
 }
