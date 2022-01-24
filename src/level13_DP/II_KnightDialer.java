@@ -34,7 +34,7 @@ public class II_KnightDialer {
     static int[] col = {1, -1, -2, 2, -2, 2, -1, 1};
 
     public static void main(String[] args) {
-
+        int n = 2;
     }
 
     public static int knightDialer(int n, int currentRow, int currentCol) {
