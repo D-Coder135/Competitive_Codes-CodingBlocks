@@ -49,7 +49,7 @@ public class II_KnightDialer {
         }
         int count = 0;
         for (int i = 0; i < col.length; i++) {
-
+            count += knightDialer(n - 1, currentRow + row[i], currentCol + col[i]);
         }
     }
 }
