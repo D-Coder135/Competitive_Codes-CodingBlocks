@@ -29,5 +29,17 @@
 
 package level13_DP;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class I_Triangle {
+
+    public int minimumTotal(List<List<Integer>> triangle) {
+        int[][] dp = new int[205][205];
+        for (int[] a : dp) {
+            Arrays.fill(a, Integer.MAX_VALUE);
+        }
+        return minimumTotalRec(triangle, 0, 0, dp);
+    }
+
 }
