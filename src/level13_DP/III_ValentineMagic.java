@@ -59,7 +59,7 @@ public class III_ValentineMagic {
         }
 
         if (j == girls.length) {
-            return Integer.MAX_VALUE;
+            return 10000000;
         }
 
 
