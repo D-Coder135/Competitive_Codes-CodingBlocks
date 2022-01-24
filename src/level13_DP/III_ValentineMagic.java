@@ -53,6 +53,10 @@ public class III_ValentineMagic {
     }
 
     private static int valentineMagic(int[] boys, int[] girls, int i, int j) {
+
+
+        int girlsSelected = Math.abs(boys[i] - girls[j]) + valentineMagic(boys, girls, i + 1, j + 1);
+        int girlsRejected = valentineMagic(boys, girls, i, j + 1);
         return 0;
     }
 }
