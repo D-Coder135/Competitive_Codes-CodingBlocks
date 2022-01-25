@@ -67,7 +67,7 @@ public class II_FormMinimumNumberSequence {
     private static void formMinNumberSeqStack(String string) {
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i <= string.length(); i++) {
-
+            stack.push(i + 1);
         }
     }
 }
