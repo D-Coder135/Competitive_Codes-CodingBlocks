@@ -70,7 +70,7 @@ public class II_FormMinimumNumberSequence {
             stack.push(i + 1);
             if (i == string.length() || string.charAt(i) == 'I') {
                 while (!stack.isEmpty()) {
-
+                    System.out.print(stack.pop() + " ");
                 }
             }
         }
