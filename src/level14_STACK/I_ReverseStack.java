@@ -21,5 +21,6 @@ public class I_ReverseStack {
             return;
         }
         int item = stack.pop();
+        reverseStack(stack);
     }
 }
