@@ -40,6 +40,7 @@ public class II_FormMinimumNumberSequence {
         }
     }
 
+    // Solution Using loop
     private static void formMinNumberSeq(String str) {
         int[] ans = new int[str.length() + 1];
         int count = 1;
