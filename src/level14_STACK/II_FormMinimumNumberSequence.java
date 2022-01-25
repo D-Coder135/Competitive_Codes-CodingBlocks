@@ -35,7 +35,7 @@ public class II_FormMinimumNumberSequence {
         int n = sc.nextInt();
         String[] array = new String[n];
         for (int i = 0; i < n; i++) {
-
+            array[i] = sc.nextLine();
         }
     }
 }
