@@ -69,7 +69,9 @@ public class II_FormMinimumNumberSequence {
         for (int i = 0; i <= string.length(); i++) {
             stack.push(i + 1);
             if (i == string.length() || string.charAt(i) == 'I') {
+                while (!stack.isEmpty()) {
 
+                }
             }
         }
     }
