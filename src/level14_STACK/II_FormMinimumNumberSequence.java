@@ -28,4 +28,7 @@
 package level14_STACK;
 
 public class II_FormMinimumNumberSequence {
+    public static void main(String[] args) {
+
+    }
 }
