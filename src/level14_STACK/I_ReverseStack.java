@@ -13,5 +13,10 @@
 
 package level14_STACK;
 
+import java.util.Stack;
+
 public class I_ReverseStack {
+    public static void reverseStack(Stack<Integer> stack) {
+
+    }
 }
