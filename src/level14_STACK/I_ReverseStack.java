@@ -22,5 +22,6 @@ public class I_ReverseStack {
         }
         int item = stack.pop();
         reverseStack(stack);
+        insertBottom(stack, item);
     }
 }
