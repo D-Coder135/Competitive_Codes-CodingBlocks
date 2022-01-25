@@ -28,6 +28,7 @@
 package level14_STACK;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class II_FormMinimumNumberSequence {
     public static void main(String[] args) {
@@ -64,6 +65,6 @@ public class II_FormMinimumNumberSequence {
 
     // Solution Using Stack
     private static void formMinNumberSeqStack(String string) {
-
+        Stack<Integer> stack = new Stack<>();
     }
 }
