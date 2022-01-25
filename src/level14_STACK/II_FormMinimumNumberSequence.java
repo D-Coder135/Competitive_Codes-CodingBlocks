@@ -37,7 +37,7 @@ public class II_FormMinimumNumberSequence {
         sc.nextLine();
         String[] array = sc.nextLine().split(" ");
         for (String str : array) {
-            formMinNumberSeq(str);
+//            formMinNumberSeq(str);
             formMinNumberSeqStack(str);
         }
     }
