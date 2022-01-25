@@ -32,5 +32,6 @@ public class I_ReverseStack {
         }
         int x = stack.pop();
         insertBottom(stack, item);
+        stack.push(x);
     }
 }
