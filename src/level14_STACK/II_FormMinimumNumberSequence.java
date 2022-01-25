@@ -33,9 +33,31 @@ public class II_FormMinimumNumberSequence {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        String[] array = new String[n];
-        for (int i = 0; i < n; i++) {
-            array[i] = sc.nextLine();
+        sc.nextLine();
+        String[] array = sc.nextLine().split(" ");
+        for (String str : array) {
+            formMinNumberSeq(str);
         }
+    }
+
+    private static void formMinNumberSeq(String str) {
+        int[] ans = new int[str.length() + 1];
+        int count = 1;
+        for (int i = 0; i <= str.length(); i++) {
+            if (i == str.length() || str.charAt(i) == 'I') {
+                ans[i] = count;
+                count++;
+                int j = i - 1;
+                while (j >= 0 && str.charAt(j) == 'D') {
+                    ans[j] = count;
+                    count++;
+                    j--;
+                }
+            }
+        }
+        for (int answer : ans) {
+            System.out.print(answer + " ");
+        }
+        System.out.println();
     }
 }
