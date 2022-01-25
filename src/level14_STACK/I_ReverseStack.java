@@ -20,5 +20,6 @@ public class I_ReverseStack {
         if (stack.isEmpty()) {
             return;
         }
+        int item = stack.pop();
     }
 }
