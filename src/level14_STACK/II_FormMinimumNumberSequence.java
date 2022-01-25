@@ -66,5 +66,8 @@ public class II_FormMinimumNumberSequence {
     // Solution Using Stack
     private static void formMinNumberSeqStack(String string) {
         Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i <= string.length(); i++) {
+
+        }
     }
 }
