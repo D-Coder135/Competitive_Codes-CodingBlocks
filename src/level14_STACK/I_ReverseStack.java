@@ -26,6 +26,8 @@ public class I_ReverseStack {
     }
 
     private static void insertBottom(Stack<Integer> stack, int item) {
-
+        if (stack.isEmpty()) {
+            
+        }
     }
 }
