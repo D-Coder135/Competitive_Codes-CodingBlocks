@@ -31,5 +31,6 @@ public class I_ReverseStack {
             return;
         }
         int x = stack.pop();
+        insertBottom(stack, item);
     }
 }
