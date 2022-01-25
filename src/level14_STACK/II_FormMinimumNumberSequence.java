@@ -74,5 +74,6 @@ public class II_FormMinimumNumberSequence {
                 }
             }
         }
+        System.out.println();
     }
 }
