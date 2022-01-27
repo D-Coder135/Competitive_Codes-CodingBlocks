@@ -29,4 +29,7 @@
 package level14_STACK;
 
 public class III_StockSpan {
+    public static void main(String[] args) {
+
+    }
 }
