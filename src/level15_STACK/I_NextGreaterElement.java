@@ -51,6 +51,7 @@ public class I_NextGreaterElement {
             for (int i1 = 0; i1 < size; i1++) {
                 arr[i1] = scanner.nextInt();
             }
+//        int[] arr = {11, 13, 21, 3};
             nextGreaterElement(arr);
         }
     }
@@ -68,8 +69,8 @@ public class I_NextGreaterElement {
             ans[stack.pop()] = -1;
         }
 
-        for (int an : ans) {
-            System.out.println(an + " ");
+        for (int i = 0; i < ans.length; i++) {
+            System.out.println(arr[i] + "," + ans[i]);
         }
     }
 }
