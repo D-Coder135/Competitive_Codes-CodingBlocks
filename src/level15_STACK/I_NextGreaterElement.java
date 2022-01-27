@@ -50,6 +50,7 @@ public class I_NextGreaterElement {
             for (int i1 = 0; i1 < size; i1++) {
                 arr[i1] = scanner.nextInt();
             }
+            nextGreaterElement(arr);
         }
     }
 }
