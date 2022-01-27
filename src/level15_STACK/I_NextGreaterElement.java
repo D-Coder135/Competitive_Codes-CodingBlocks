@@ -45,7 +45,7 @@ public class I_NextGreaterElement {
         Scanner scanner = new Scanner(System.in);
         int test = scanner.nextInt();
         for (int i = 0; i < test; i++) {
-
+            int size = scanner.nextInt();
         }
     }
 }
