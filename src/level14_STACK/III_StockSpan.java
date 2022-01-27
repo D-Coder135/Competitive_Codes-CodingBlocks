@@ -33,4 +33,8 @@ public class III_StockSpan {
         int[] pricesOfStock = new int[]{30, 35, 40, 38, 35};
         System.out.println(stockSpan(pricesOfStock));
     }
+
+    private static int[] stockSpan(int[] pricesOfStock) {
+        return null;
+    }
 }
