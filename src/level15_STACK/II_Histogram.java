@@ -43,7 +43,9 @@ public class II_Histogram {
             } else {
                 int right = i;
                 int height = arr[stack.pop()];
+                if (stack.isEmpty()) {
 
+                }
             }
         }
     }
