@@ -45,6 +45,7 @@ public class II_Histogram {
                 int height = arr[stack.pop()];
                 if (stack.isEmpty()) {
                     int area = height * right;
+                    maxArea = Math.max(maxArea, area);
                 }
             }
         }
