@@ -36,9 +36,10 @@ public class II_Histogram {
     private static int maximumArea(int[] arr) {
         Stack<Integer> stack = new Stack<>();
         int maxArea = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; ) {
             if (stack.isEmpty() || arr[i] > arr[stack.peek()]) {
                 stack.push(i);
+                i++;
             }
         }
     }
