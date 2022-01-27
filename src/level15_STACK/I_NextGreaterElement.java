@@ -38,8 +38,10 @@
 
 package level15_STACK;
 
+import java.util.Scanner;
+
 public class I_NextGreaterElement {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
