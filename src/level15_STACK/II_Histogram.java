@@ -24,4 +24,5 @@ import java.util.Scanner;
 public class II_Histogram {
     Scanner scanner = new Scanner(System.in);
     int size = scanner.nextInt();
+    int[] arr = new int[size];
 }
