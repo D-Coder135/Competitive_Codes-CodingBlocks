@@ -19,5 +19,8 @@
 
 package level15_STACK;
 
+import java.util.Scanner;
+
 public class II_Histogram {
+    Scanner scanner = new Scanner(System.in);
 }
