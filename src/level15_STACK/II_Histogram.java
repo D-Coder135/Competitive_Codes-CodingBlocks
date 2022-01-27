@@ -55,7 +55,15 @@ public class II_Histogram {
         }
         int right = arr.length;
         while (!stack.isEmpty()) {
-
+            int height = arr[stack.pop()];
+            if (stack.isEmpty()) {
+                int area = height * right;
+                maxArea = Math.max(maxArea, area);
+            } else {
+                int left = stack.peek();
+                int area = height * (right - left - 1);
+                maxArea = Math.max(maxArea, area);
+            }
         }
     }
 }
