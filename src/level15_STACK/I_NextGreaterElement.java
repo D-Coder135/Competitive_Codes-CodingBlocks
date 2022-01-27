@@ -53,4 +53,8 @@ public class I_NextGreaterElement {
             nextGreaterElement(arr);
         }
     }
+
+    private static void nextGreaterElement(int[] arr) {
+
+    }
 }
