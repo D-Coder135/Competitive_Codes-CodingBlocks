@@ -40,6 +40,8 @@ public class III_StockSpan {
             for (int j = i - 1; j >= 0; j--) {
                 if (pricesOfStock[j] < pricesOfStock[i]) {
                     count++;
+                } else {
+                    break;
                 }
             }
         }
