@@ -47,6 +47,6 @@ public class III_StockSpan {
             }
             ansList[i] = count;
         }
-        return null;
+        return ansList;
     }
 }
