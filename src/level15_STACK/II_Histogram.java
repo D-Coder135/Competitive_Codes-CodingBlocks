@@ -46,6 +46,8 @@ public class II_Histogram {
                 if (stack.isEmpty()) {
                     int area = height * right;
                     maxArea = Math.max(maxArea, area);
+                } else {
+                    int left = stack.peek();
                 }
             }
         }
