@@ -60,7 +60,7 @@ public class III_StockSpan {
         Stack<Integer> indexStack = new Stack<>();
         for (int i = 0; i < pricesOfStock.length; i++) {
             while (!indexStack.isEmpty() && pricesOfStock[i] > pricesOfStock[indexStack.peek()]) {
-
+                indexStack.pop();
             }
         }
     }
