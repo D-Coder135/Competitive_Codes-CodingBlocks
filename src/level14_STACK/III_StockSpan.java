@@ -36,6 +36,7 @@ public class III_StockSpan {
         System.out.println(Arrays.toString(stockSpan(pricesOfStock)));
     }
 
+    // Brute Force Approach
     private static int[] stockSpan(int[] pricesOfStock) {
         int[] ansList = new int[pricesOfStock.length];
         for (int i = 0; i < pricesOfStock.length; i++) {
