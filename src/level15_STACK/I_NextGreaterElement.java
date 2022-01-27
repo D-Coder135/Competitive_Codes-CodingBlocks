@@ -39,6 +39,7 @@
 package level15_STACK;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class I_NextGreaterElement {
     public static void main(String[] args) {
@@ -55,6 +56,6 @@ public class I_NextGreaterElement {
     }
 
     private static void nextGreaterElement(int[] arr) {
-
+        Stack<Integer> stack = new Stack<>();
     }
 }
