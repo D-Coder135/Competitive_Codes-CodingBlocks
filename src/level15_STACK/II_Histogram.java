@@ -53,5 +53,6 @@ public class II_Histogram {
                 }
             }
         }
+        int right = arr.length;
     }
 }
