@@ -69,7 +69,7 @@ public class I_NextGreaterElement {
         }
 
         for (int an : ans) {
-
+            System.out.println(an + " ");
         }
     }
 }
