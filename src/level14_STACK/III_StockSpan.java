@@ -64,6 +64,8 @@ public class III_StockSpan {
             }
             if (indexStack.isEmpty()) {
                 ansList[i] = i + 1;
+            } else {
+
             }
         }
     }
