@@ -40,6 +40,8 @@ public class II_Histogram {
             if (stack.isEmpty() || arr[i] > arr[stack.peek()]) {
                 stack.push(i);
                 i++;
+            } else {
+
             }
         }
     }
