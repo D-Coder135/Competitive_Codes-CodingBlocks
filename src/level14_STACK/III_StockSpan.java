@@ -59,7 +59,9 @@ public class III_StockSpan {
         int[] ansList = new int[pricesOfStock.length];
         Stack<Integer> indexStack = new Stack<>();
         for (int i = 0; i < pricesOfStock.length; i++) {
+            while (!indexStack.isEmpty() && pricesOfStock[i] > pricesOfStock[indexStack.peek()]) {
 
+            }
         }
     }
 }
