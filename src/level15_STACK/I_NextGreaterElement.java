@@ -62,6 +62,7 @@ public class I_NextGreaterElement {
             while (!stack.isEmpty() && arr[i] > arr[stack.peek()]) {
                 ans[stack.pop()] = arr[i];
             }
+            stack.push(i);
         }
     }
 }
