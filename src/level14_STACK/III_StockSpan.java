@@ -29,6 +29,7 @@
 package level14_STACK;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class III_StockSpan {
     public static void main(String[] args) {
@@ -56,5 +57,6 @@ public class III_StockSpan {
     // Using Stack
     private static int[] stockSpanStack(int[] pricesOfStock) {
         int[] ansList = new int[pricesOfStock.length];
+        Stack<Integer> indexStack = new Stack<>();
     }
 }
