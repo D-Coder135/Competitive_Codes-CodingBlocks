@@ -65,7 +65,7 @@ public class I_NextGreaterElement {
             stack.push(i);
         }
         while (!stack.isEmpty()) {
-            
+            ans[stack.pop()] = -1;
         }
     }
 }
