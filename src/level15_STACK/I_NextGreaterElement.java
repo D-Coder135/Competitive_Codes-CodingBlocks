@@ -46,6 +46,7 @@ public class I_NextGreaterElement {
         int test = scanner.nextInt();
         for (int i = 0; i < test; i++) {
             int size = scanner.nextInt();
+            int[] arr = new int[size];
         }
     }
 }
