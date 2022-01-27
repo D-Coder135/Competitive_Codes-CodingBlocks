@@ -31,4 +31,8 @@ public class II_Histogram {
         }
         maximumArea(arr);
     }
+
+    private static void maximumArea(int[] arr) {
+
+    }
 }
