@@ -58,5 +58,8 @@ public class III_StockSpan {
     private static int[] stockSpanStack(int[] pricesOfStock) {
         int[] ansList = new int[pricesOfStock.length];
         Stack<Integer> indexStack = new Stack<>();
+        for (int i = 0; i < pricesOfStock.length; i++) {
+
+        }
     }
 }
