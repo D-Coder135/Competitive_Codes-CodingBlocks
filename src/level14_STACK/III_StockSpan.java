@@ -35,6 +35,12 @@ public class III_StockSpan {
     }
 
     private static int[] stockSpan(int[] pricesOfStock) {
+        for (int i = 0; i < pricesOfStock.length; i++) {
+            int count = 1;
+            for (int j = i - 1; j >= 0; j--) {
+
+            }
+        }
         return null;
     }
 }
