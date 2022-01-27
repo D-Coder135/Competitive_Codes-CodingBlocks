@@ -57,5 +57,6 @@ public class I_NextGreaterElement {
 
     private static void nextGreaterElement(int[] arr) {
         Stack<Integer> stack = new Stack<>();
+        int[] ans = new int[arr.length];
     }
 }
