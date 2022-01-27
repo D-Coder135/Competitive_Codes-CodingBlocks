@@ -34,7 +34,9 @@ import java.util.Stack;
 public class III_StockSpan {
     public static void main(String[] args) {
         int[] pricesOfStock = new int[]{30, 35, 40, 38, 35};
-        System.out.println(Arrays.toString(stockSpan(pricesOfStock)));
+//        System.out.println(Arrays.toString(stockSpan(pricesOfStock)));
+        System.out.println(Arrays.toString(stockSpanStack(pricesOfStock)));
+
     }
 
     // Brute Force Approach
