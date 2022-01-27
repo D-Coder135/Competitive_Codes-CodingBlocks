@@ -20,6 +20,7 @@
 package level15_STACK;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class II_Histogram {
     public static void main(String[] args) {
@@ -33,6 +34,6 @@ public class II_Histogram {
     }
 
     private static int maximumArea(int[] arr) {
-
+        Stack<Integer> stack = new Stack<>();
     }
 }
