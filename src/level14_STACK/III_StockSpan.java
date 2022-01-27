@@ -69,5 +69,6 @@ public class III_StockSpan {
             }
             indexStack.push(i);
         }
+        return ansList;
     }
 }
