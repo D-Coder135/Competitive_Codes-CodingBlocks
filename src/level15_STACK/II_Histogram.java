@@ -35,5 +35,6 @@ public class II_Histogram {
 
     private static int maximumArea(int[] arr) {
         Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
     }
 }
