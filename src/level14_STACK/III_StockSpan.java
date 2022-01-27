@@ -62,6 +62,9 @@ public class III_StockSpan {
             while (!indexStack.isEmpty() && pricesOfStock[i] > pricesOfStock[indexStack.peek()]) {
                 indexStack.pop();
             }
+            if (indexStack.isEmpty()) {
+
+            }
         }
     }
 }
