@@ -45,7 +45,7 @@ public class III_StockSpan {
                     break;
                 }
             }
-
+            ansList[i] = count;
         }
         return null;
     }
