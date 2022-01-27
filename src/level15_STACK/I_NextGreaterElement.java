@@ -39,4 +39,7 @@
 package level15_STACK;
 
 public class I_NextGreaterElement {
+    public static void main(String[] args) {
+
+    }
 }
