@@ -38,6 +38,7 @@
 
 package level15_STACK;
 
+import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -56,6 +57,7 @@ public class I_NextGreaterElement {
         }
     }
 
+    // CODING BLOCKS SOLUTION
     private static void nextGreaterElement(int[] arr) {
         Stack<Integer> stack = new Stack<>();
         int[] ans = new int[arr.length];
@@ -72,5 +74,22 @@ public class I_NextGreaterElement {
         for (int i = 0; i < ans.length; i++) {
             System.out.println(arr[i] + "," + ans[i]);
         }
+    }
+
+    // LEETCODE SOLUTION
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        Stack<Integer> stack = new Stack<>();
+        HashMap<Integer, Integer> ans = new HashMap<>();
+        for (int i = 0; i < nums2.length; i++) {
+            while (!stack.isEmpty() && nums2[i] > stack.peek()) {
+                ans.put(stack.pop(), nums2[i]);
+            }
+            stack.push(nums2[i]);
+        }
+
+        for (int i = 0; i < nums1.length; i++) {
+            nums1[i] = ans.getOrDefault(nums1[i], -1);
+        }
+        return nums1;
     }
 }
