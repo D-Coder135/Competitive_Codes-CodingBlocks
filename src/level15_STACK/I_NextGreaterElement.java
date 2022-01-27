@@ -80,11 +80,11 @@ public class I_NextGreaterElement {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<>();
         HashMap<Integer, Integer> ans = new HashMap<>();
-        for (int i = 0; i < nums2.length; i++) {
-            while (!stack.isEmpty() && nums2[i] > stack.peek()) {
-                ans.put(stack.pop(), nums2[i]);
+        for (int j : nums2) {
+            while (!stack.isEmpty() && j > stack.peek()) {
+                ans.put(stack.pop(), j);
             }
-            stack.push(nums2[i]);
+            stack.push(j);
         }
 
         for (int i = 0; i < nums1.length; i++) {
