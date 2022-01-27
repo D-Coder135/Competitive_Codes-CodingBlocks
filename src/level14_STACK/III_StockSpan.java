@@ -54,5 +54,7 @@ public class III_StockSpan {
     }
 
     // Using Stack
+    private static int[] stockSpanStack(int[] pricesOfStock) {
 
+    }
 }
