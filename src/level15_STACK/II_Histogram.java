@@ -44,7 +44,7 @@ public class II_Histogram {
                 int right = i;
                 int height = arr[stack.pop()];
                 if (stack.isEmpty()) {
-
+                    int area = height * right;
                 }
             }
         }
