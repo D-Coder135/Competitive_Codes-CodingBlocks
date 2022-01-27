@@ -65,5 +65,6 @@ public class II_Histogram {
                 maxArea = Math.max(maxArea, area);
             }
         }
+        return maxArea;
     }
 }
