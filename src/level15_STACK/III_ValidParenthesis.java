@@ -29,4 +29,8 @@ public class III_ValidParenthesis {
         String str = "(){}[](){}";
         System.out.println(validParenthesis(str));
     }
+
+    private static boolean validParenthesis(String str) {
+        return false;
+    }
 }
