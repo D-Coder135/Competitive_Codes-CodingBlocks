@@ -39,7 +39,7 @@ public class III_ValidParenthesis {
             char character = str.charAt(i);
 
             if (character == '(' || character == '{' || character == '[') {
-
+                stack.push(character);
             }
         }
 
