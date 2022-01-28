@@ -45,6 +45,9 @@ public class III_ValidParenthesis {
                     return false;
                 } else {
                     char topCharacter = stack.pop();
+                    if (character == '}' && topCharacter == '{') {
+                        continue;
+                    }
                 }
             }
         }
