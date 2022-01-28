@@ -40,6 +40,10 @@ public class III_ValidParenthesis {
 
             if (character == '(' || character == '{' || character == '[') {
                 stack.push(character);
+            } else {
+                if (stack.isEmpty()) {
+
+                }
             }
         }
 
