@@ -24,6 +24,8 @@
 
 package level15_STACK;
 
+import java.util.Stack;
+
 public class III_ValidParenthesis {
     public static void main(String[] args) {
         String str = "(){}[](){}";
@@ -31,6 +33,7 @@ public class III_ValidParenthesis {
     }
 
     private static boolean validParenthesis(String str) {
+        Stack<Character> stack = new Stack<>();
         return false;
     }
 }
