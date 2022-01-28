@@ -34,6 +34,11 @@ public class III_ValidParenthesis {
 
     private static boolean validParenthesis(String str) {
         Stack<Character> stack = new Stack<>();
+
+        for (int i = 0; i < str.length(); i++) {
+
+        }
+
         return stack.isEmpty();
     }
 }
