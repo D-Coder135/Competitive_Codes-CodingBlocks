@@ -42,7 +42,7 @@ public class III_ValidParenthesis {
                 stack.push(character);
             } else {
                 if (stack.isEmpty()) {
-
+                    return false;
                 }
             }
         }
