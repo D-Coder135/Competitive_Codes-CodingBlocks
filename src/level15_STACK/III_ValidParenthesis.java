@@ -44,7 +44,7 @@ public class III_ValidParenthesis {
                 if (stack.isEmpty()) {
                     return false;
                 } else {
-
+                    char topCharacter = stack.pop();
                 }
             }
         }
