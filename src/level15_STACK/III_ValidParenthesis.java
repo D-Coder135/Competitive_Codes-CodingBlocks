@@ -37,6 +37,10 @@ public class III_ValidParenthesis {
 
         for (int i = 0; i < str.length(); i++) {
             char character = str.charAt(i);
+
+            if (character == '(' || character == '{' || character == '[') {
+
+            }
         }
 
         return stack.isEmpty();
