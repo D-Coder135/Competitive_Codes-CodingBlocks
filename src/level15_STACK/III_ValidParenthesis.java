@@ -47,6 +47,12 @@ public class III_ValidParenthesis {
                     char topCharacter = stack.pop();
                     if (character == '}' && topCharacter == '{') {
                         continue;
+                    } else if (character == ')' && topCharacter == '(') {
+                        continue;
+                    } else if (character == ']' && topCharacter == '[') {
+                        continue;
+                    } else {
+                        return false;
                     }
                 }
             }
