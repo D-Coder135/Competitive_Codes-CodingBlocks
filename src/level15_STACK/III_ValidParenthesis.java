@@ -27,5 +27,6 @@ package level15_STACK;
 public class III_ValidParenthesis {
     public static void main(String[] args) {
         String str = "(){}[](){}";
+        System.out.println(validParenthesis(str));
     }
 }
