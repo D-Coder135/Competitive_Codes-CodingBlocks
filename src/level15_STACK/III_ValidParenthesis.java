@@ -24,11 +24,14 @@
 
 package level15_STACK;
 
+import java.util.Scanner;
 import java.util.Stack;
 
 public class III_ValidParenthesis {
     public static void main(String[] args) {
-        String str = "(){}[](){}";
+//        String str = "(){}[](){}";
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.next();
         System.out.println(validParenthesis(str));
     }
 
