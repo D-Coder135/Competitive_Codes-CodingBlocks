@@ -44,5 +44,9 @@ public class III_NextGreaterElement_II {
     private static void findGreaterElement(int[] arr) {
         Stack<Integer> stack = new Stack<>();
         int size = arr.length;
+
+        for (int i = size * 2 - 1; i >= 0; i--) {
+
+        }
     }
 }
