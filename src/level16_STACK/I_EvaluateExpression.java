@@ -40,7 +40,7 @@ public class I_EvaluateExpression {
     private static long evaluatePostfix(String str) {
         Stack<String> stack = new Stack<>();
         int x, y;
-        String result = "";
+        String result;
         int get = 0;
         String choice;
         int value = 0;
