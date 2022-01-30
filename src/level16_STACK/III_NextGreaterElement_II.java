@@ -39,4 +39,8 @@ public class III_NextGreaterElement_II {
         }
         findGreaterElement(arr);
     }
+
+    private static void findGreaterElement(int[] arr) {
+
+    }
 }
