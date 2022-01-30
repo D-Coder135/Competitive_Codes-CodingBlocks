@@ -57,16 +57,13 @@ public class II_RedundantParenthesis {
                     inBetween++;
                     top = stack.pop();
                 }
-
                 if (inBetween < 1) {
                     return true;
-                } else {
-                    stack.push(character);
                 }
-
+            } else {
+                stack.push(character);
             }
         }
         return false;
     }
-
 }
