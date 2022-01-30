@@ -58,6 +58,10 @@ public class II_RedundantParenthesis {
                     top = stack.pop();
                 }
 
+                if (inBetween < 1) {
+
+                }
+
             }
         }
         return false;
