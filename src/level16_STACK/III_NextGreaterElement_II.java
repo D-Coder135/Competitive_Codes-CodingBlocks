@@ -26,6 +26,7 @@
 package level16_STACK;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class III_NextGreaterElement_II {
     public static void main(String args[]) {
@@ -41,6 +42,6 @@ public class III_NextGreaterElement_II {
     }
 
     private static void findGreaterElement(int[] arr) {
-
+        Stack<Integer> stack = new Stack<>();
     }
 }
