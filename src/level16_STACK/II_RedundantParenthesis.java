@@ -27,6 +27,7 @@
 package level16_STACK;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class II_RedundantParenthesis {
     public static void main(String[] args) {
@@ -43,6 +44,7 @@ public class II_RedundantParenthesis {
     }
 
     private static boolean duplicateParenthesis(String str) {
+        Stack<Character> stack = new Stack<>();
         return false;
     }
 
