@@ -29,7 +29,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class III_NextGreaterElement_II {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // Your Code Here
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
