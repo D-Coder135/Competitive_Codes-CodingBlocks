@@ -42,4 +42,8 @@ public class II_RedundantParenthesis {
         }
     }
 
+    private static boolean duplicateParenthesis(String str) {
+        return false;
+    }
+
 }
