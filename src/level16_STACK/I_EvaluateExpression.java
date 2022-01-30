@@ -25,6 +25,7 @@
 package level16_STACK;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class I_EvaluateExpression {
     public static void main(String[] args) {
@@ -35,3 +36,62 @@ public class I_EvaluateExpression {
             System.out.println(evaluatePostfix(str));
         }
     }
+
+    private static long evaluatePostfix(String str) {
+        Stack<String> stack = new Stack<>();
+        int x, y;
+        String result = "";
+        int get = 0;
+        String choice;
+        int value = 0;
+        String p = "";
+        for (int i = 0; i < str.length(); i++) {
+            char character = str.charAt(i);
+            if (character != '+' && character != '-'
+                    && character != '*' && character != '/') {
+                stack.push(String.valueOf(character));
+                continue;
+            } else {
+                choice = String.valueOf(character);
+            }
+
+            switch (choice) {
+                case "+":
+                    x = Integer.parseInt(String.valueOf(stack.pop()));
+                    y = Integer.parseInt(String.valueOf(stack.pop()));
+                    value = x + y;
+                    result = p + value;
+                    stack.push(result);
+                    break;
+
+                case "-":
+                    x = Integer.parseInt(stack.pop());
+                    y = Integer.parseInt(stack.pop());
+                    value = y - x;
+                    result = p + value;
+                    stack.push(result);
+                    break;
+
+                case "*":
+                    x = Integer.parseInt(stack.pop());
+                    y = Integer.parseInt(stack.pop());
+                    value = x * y;
+                    result = p + value;
+                    stack.push(result);
+                    break;
+
+                case "/":
+                    x = Integer.parseInt(stack.pop());
+                    y = Integer.parseInt(stack.pop());
+                    value = y / x;
+                    result = p + value;
+                    stack.push(result);
+                    break;
+
+                default:
+                    continue;
+            }
+        }
+        return Integer.parseInt(stack.pop());
+    }
+}
