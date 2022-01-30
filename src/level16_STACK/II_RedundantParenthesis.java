@@ -60,6 +60,8 @@ public class II_RedundantParenthesis {
 
                 if (inBetween < 1) {
                     return true;
+                } else {
+                    stack.push(character);
                 }
 
             }
