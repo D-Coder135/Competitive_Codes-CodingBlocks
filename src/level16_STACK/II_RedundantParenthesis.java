@@ -45,6 +45,9 @@ public class II_RedundantParenthesis {
 
     private static boolean duplicateParenthesis(String str) {
         Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < str.length(); i++) {
+
+        }
         return false;
     }
 
