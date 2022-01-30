@@ -62,7 +62,7 @@ public class III_NextGreaterElement_II {
         }
 
         for (int ans : result) {
-
+            System.out.println(ans + " ");
         }
     }
 }
