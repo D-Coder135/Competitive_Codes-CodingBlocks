@@ -89,4 +89,56 @@ public class I_EvaluateExpression {
         }
         return Integer.parseInt(stack.pop());
     }
+
+    public int evalRPN(String[] str) {
+        Stack<String> stack = new Stack<>();
+        int x, y;
+        String result;
+        String choice;
+        int value = 0;
+        String p = "";
+        for (String character : str) {
+            if (!character.equals("+") && !character.equals("-")
+                    && !character.equals("*") && !character.equals("/")) {
+                stack.push(character);
+                continue;
+            } else {
+                choice = character;
+            }
+
+            switch (choice) {
+                case "+" -> {
+                    x = Integer.parseInt(String.valueOf(stack.pop()));
+                    y = Integer.parseInt(String.valueOf(stack.pop()));
+                    value = x + y;
+                    result = p + value;
+                    stack.push(result);
+                }
+                case "-" -> {
+                    x = Integer.parseInt(stack.pop());
+                    y = Integer.parseInt(stack.pop());
+                    value = y - x;
+                    result = p + value;
+                    stack.push(result);
+                }
+                case "*" -> {
+                    x = Integer.parseInt(stack.pop());
+                    y = Integer.parseInt(stack.pop());
+                    value = x * y;
+                    result = p + value;
+                    stack.push(result);
+                }
+                case "/" -> {
+                    x = Integer.parseInt(stack.pop());
+                    y = Integer.parseInt(stack.pop());
+                    value = y / x;
+                    result = p + value;
+                    stack.push(result);
+                }
+                default -> {
+                }
+            }
+        }
+        return Integer.parseInt(stack.pop());
+    }
 }
