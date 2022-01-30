@@ -54,6 +54,8 @@ public class II_RedundantParenthesis {
                 int inBetween = 0;
 
                 while (top != '(') {
+                    inBetween++;
+                    top = stack.pop();
                 }
 
             }
