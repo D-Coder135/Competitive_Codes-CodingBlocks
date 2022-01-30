@@ -54,6 +54,8 @@ public class III_NextGreaterElement_II {
             if (i < size) {
                 if (!stack.isEmpty()) {
                     result[i] = stack.peek();
+                } else {
+                    result[i] = -1;
                 }
             }
         }
