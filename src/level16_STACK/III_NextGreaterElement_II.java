@@ -49,6 +49,12 @@ public class III_NextGreaterElement_II {
             while (!stack.isEmpty() && arr[i % size] >= stack.peek()) {
                 stack.pop();
             }
+
+            if (i < size) {
+                if (!stack.isEmpty()) {
+
+                }
+            }
         }
     }
 }
