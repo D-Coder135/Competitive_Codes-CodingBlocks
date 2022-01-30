@@ -25,5 +25,18 @@
  */
 package level16_STACK;
 
+import java.util.Scanner;
+
 public class III_NextGreaterElement_II {
+    public static void main(String args[]) {
+        // Your Code Here
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] arr = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
+        findGreaterElement(arr);
+    }
 }
