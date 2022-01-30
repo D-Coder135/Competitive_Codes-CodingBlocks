@@ -26,5 +26,19 @@
 
 package level16_STACK;
 
+import java.util.Scanner;
+
 public class II_RedundantParenthesis {
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        int test = scanner.nextInt();
+        for (int i = 1; i <= test; i++) {
+            String str = scanner.next();
+            if (duplicateParenthesis(str)) {
+                System.out.println("Duplicate");
+            } else {
+                System.out.println("Not Duplicates");
+            }
+        }
+    }
 }
