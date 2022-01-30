@@ -52,6 +52,10 @@ public class II_RedundantParenthesis {
                 char top = stack.pop();
 
                 int inBetween = 0;
+
+                while (top != '(') {
+                }
+
             }
         }
         return false;
