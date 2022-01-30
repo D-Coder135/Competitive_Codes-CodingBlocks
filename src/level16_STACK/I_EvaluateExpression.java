@@ -24,5 +24,14 @@
 
 package level16_STACK;
 
+import java.util.Scanner;
+
 public class I_EvaluateExpression {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int test = scanner.nextInt();
+        for (int i = 1; i <= test; i++) {
+            String str = scanner.next();
+            System.out.println(evaluatePostfix(str));
+        }
+    }
