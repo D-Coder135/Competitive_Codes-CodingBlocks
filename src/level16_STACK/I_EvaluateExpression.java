@@ -41,7 +41,6 @@ public class I_EvaluateExpression {
         Stack<String> stack = new Stack<>();
         int x, y;
         String result;
-        int get = 0;
         String choice;
         int value = 0;
         String p = "";
@@ -56,40 +55,36 @@ public class I_EvaluateExpression {
             }
 
             switch (choice) {
-                case "+":
+                case "+" -> {
                     x = Integer.parseInt(String.valueOf(stack.pop()));
                     y = Integer.parseInt(String.valueOf(stack.pop()));
                     value = x + y;
                     result = p + value;
                     stack.push(result);
-                    break;
-
-                case "-":
+                }
+                case "-" -> {
                     x = Integer.parseInt(stack.pop());
                     y = Integer.parseInt(stack.pop());
                     value = y - x;
                     result = p + value;
                     stack.push(result);
-                    break;
-
-                case "*":
+                }
+                case "*" -> {
                     x = Integer.parseInt(stack.pop());
                     y = Integer.parseInt(stack.pop());
                     value = x * y;
                     result = p + value;
                     stack.push(result);
-                    break;
-
-                case "/":
+                }
+                case "/" -> {
                     x = Integer.parseInt(stack.pop());
                     y = Integer.parseInt(stack.pop());
                     value = y / x;
                     result = p + value;
                     stack.push(result);
-                    break;
-
-                default:
-                    continue;
+                }
+                default -> {
+                }
             }
         }
         return Integer.parseInt(stack.pop());
