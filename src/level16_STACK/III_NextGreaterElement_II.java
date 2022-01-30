@@ -58,6 +58,7 @@ public class III_NextGreaterElement_II {
                     result[i] = -1;
                 }
             }
+            stack.push(arr[i % size]);
         }
     }
 }
