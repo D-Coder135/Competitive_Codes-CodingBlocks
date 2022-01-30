@@ -49,7 +49,7 @@ public class II_RedundantParenthesis {
             char character = str.charAt(i);
 
             if (character == ')') {
-
+                char top = stack.pop();
             }
         }
         return false;
