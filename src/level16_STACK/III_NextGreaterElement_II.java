@@ -60,5 +60,9 @@ public class III_NextGreaterElement_II {
             }
             stack.push(arr[i % size]);
         }
+
+        for (int ans : result) {
+
+        }
     }
 }
