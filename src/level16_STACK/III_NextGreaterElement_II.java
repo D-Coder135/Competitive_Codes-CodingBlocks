@@ -46,7 +46,9 @@ public class III_NextGreaterElement_II {
         int size = arr.length;
 
         for (int i = size * 2 - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && arr[i % size] >= stack.peek()) {
 
+            }
         }
     }
 }
