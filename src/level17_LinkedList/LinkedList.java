@@ -130,5 +130,9 @@ public class LinkedList {
         int data = this.tail.data;
 
         Node prevNode = getNode(this.size - 2);
+        prevNode.next = null;
+        this.tail = prevNode;
+        this.size--;
+        return data;
     }
 }
