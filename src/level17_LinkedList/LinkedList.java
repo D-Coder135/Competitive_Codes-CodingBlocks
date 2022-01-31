@@ -48,4 +48,9 @@ public class LinkedList {
             this.size++;
         }
     }
+
+
+    private Node getNode(int k) {
+
+    }
 }
