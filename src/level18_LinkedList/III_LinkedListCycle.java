@@ -49,6 +49,7 @@ public class III_LinkedListCycle {
                     return true;
                 }
             }
+            return false;
         }
     }
 }
