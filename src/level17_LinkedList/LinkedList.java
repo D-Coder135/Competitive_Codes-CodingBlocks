@@ -50,7 +50,7 @@ public class LinkedList {
     }
 
 
-    private Node getNode(int k) {
+    private Node getNode(int k) throws Exception {
         if (k < 0 || k >= this.size) {
             throw new Exception("Index not within the range.");
         }
