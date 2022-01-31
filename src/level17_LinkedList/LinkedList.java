@@ -57,7 +57,7 @@ public class LinkedList {
         Node temp = this.head;
 
         for (int i = 0; i < k; i++) {
-
+            temp = temp.next;
         }
     }
 }
