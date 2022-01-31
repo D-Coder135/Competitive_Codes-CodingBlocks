@@ -118,4 +118,8 @@ public class LinkedList {
         this.size--;
         return data;
     }
+
+    public int removeLast() {
+
+    }
 }
