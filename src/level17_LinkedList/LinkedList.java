@@ -147,6 +147,8 @@ public class LinkedList {
             return removeFirst();
         } else if (index == this.size - 1) {
             return removeLast();
+        } else {
+            Node prevNode = getNode(index - 1);
         }
     }
 }
