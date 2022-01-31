@@ -26,4 +26,13 @@
 package level18_LinkedList;
 
 public class III_LinkedListCycle {
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
 }
