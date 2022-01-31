@@ -119,7 +119,7 @@ public class LinkedList {
         return data;
     }
 
-    public int removeLast() {
+    public int removeLast() throws Exception {
         if (this.size == 0) {
             throw new Exception("Linked List Is Empty!");
         }
