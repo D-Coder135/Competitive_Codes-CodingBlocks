@@ -54,7 +54,7 @@ public class LinkedList {
             throw new Exception("Index not within the range.");
         }
         if (index == 0) {
-
+            addFirst(item);
         }
     }
 
