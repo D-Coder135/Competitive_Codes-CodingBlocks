@@ -35,4 +35,8 @@ public class II_ReverseLinkedList {
             this.next = next;
         }
     }
+
+    public static class Solution {
+    }
+
 }
