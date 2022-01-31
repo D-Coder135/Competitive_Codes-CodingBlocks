@@ -43,6 +43,9 @@ public class LinkedList {
             addFirst(item);
         } else {
             Node newNode = new Node(item);
+            this.tail.next = newNode;
+            this.tail = newNode;
+            this.size++;
         }
     }
 }
