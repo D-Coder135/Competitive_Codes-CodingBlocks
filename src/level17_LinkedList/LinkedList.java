@@ -141,7 +141,7 @@ public class LinkedList {
             throw new Exception("Linked List Is Empty!");
         }
         if (index < 0 || index >= this.size) {
-
+            throw new Exception("Index not within range.");
         }
     }
 }
