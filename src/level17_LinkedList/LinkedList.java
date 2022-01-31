@@ -42,7 +42,7 @@ public class LinkedList {
         if (this.size == 0) {
             addFirst(item);
         } else {
-
+            Node newNode = new Node(item);
         }
     }
 }
