@@ -24,6 +24,7 @@ public class LinkedList {
     private int size;
     private Node tail;
 
+    // Add Methods
     public void addFirst(int item) {
         Node newNode = new Node(item);
 
