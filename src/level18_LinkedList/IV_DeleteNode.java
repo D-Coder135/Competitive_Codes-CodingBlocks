@@ -24,4 +24,14 @@
 package level18_LinkedList;
 
 public class IV_DeleteNode {
+
+    public static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
+
 }
