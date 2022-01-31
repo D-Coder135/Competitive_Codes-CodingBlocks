@@ -43,4 +43,9 @@ public class I_MiddleNode {
         }
     }
 
+    static class Solution {
+        public ListNode middleNode(ListNode head) {
+
+        }
+    }
 }
