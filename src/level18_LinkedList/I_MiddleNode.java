@@ -49,7 +49,7 @@ public class I_MiddleNode {
             ListNode fast = head;
 
             while (fast != null && fast.next != null) {
-
+                slow = slow.next;
             }
         }
     }
