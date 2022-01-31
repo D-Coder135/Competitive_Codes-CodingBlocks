@@ -143,5 +143,8 @@ public class LinkedList {
         if (index < 0 || index >= this.size) {
             throw new Exception("Index not within range.");
         }
+        if (index == 0) {
+
+        }
     }
 }
