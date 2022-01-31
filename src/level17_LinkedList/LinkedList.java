@@ -41,6 +41,8 @@ public class LinkedList {
     public void addLast(int item) {
         if (this.size == 0) {
             addFirst(item);
+        } else {
+
         }
     }
 }
