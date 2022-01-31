@@ -5,6 +5,23 @@
  *   File: I_MiddleNode
  */
 
+/**
+ * LEETCODE QUESTION 876 =>
+ * <p>
+ * Given the head of a singly linked list, return the middle node of the linked list.
+ * <p>
+ * If there are two middle nodes, return the second middle node.
+ * <p>
+ * <p>
+ * <p>
+ * Example 1:
+ * <p>
+ * <p>
+ * Input: head = [1,2,3,4,5]
+ * Output: [3,4,5]
+ * Explanation: The middle node of the list is node 3.
+ */
+
 package level18_LinkedList;
 
 public class I_MiddleNode {
