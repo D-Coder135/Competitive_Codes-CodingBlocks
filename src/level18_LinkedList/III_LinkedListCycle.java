@@ -38,7 +38,8 @@ public class III_LinkedListCycle {
 
     public static class Solution {
         public boolean hasCycle(ListNode head) {
-
+            ListNode slow = head;
+            ListNode fast = head;
         }
     }
 }
