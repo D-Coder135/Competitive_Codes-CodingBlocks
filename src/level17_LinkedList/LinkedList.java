@@ -37,4 +37,8 @@ public class LinkedList {
             this.size++;
         }
     }
+
+    public void addLast(int item) {
+
+    }
 }
