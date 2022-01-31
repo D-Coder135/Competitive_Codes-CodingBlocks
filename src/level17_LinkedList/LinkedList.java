@@ -112,7 +112,7 @@ public class LinkedList {
             this.tail = null;
             this.size--;
         } else {
-
+            Node temp = this.head;
         }
 
     }
