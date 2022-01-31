@@ -101,4 +101,7 @@ public class LinkedList {
     }
 
     // Remove methods
+    public int removeFirst() {
+
+    }
 }
