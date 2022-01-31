@@ -26,5 +26,9 @@ public class LinkedList {
 
     public void addFirst(int item) {
         Node newNode = new Node(item);
+
+        if (this.size == 0) {
+
+        }
     }
 }
