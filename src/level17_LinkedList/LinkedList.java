@@ -156,4 +156,15 @@ public class LinkedList {
             return node.data;
         }
     }
+
+    public void display() {
+
+        Node temp = this.head;
+        while (temp != null) {
+            System.out.print(temp.data + "-->");
+            temp = temp.next;
+        }
+        System.out.println(".");
+
+    }
 }
