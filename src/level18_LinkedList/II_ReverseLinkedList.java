@@ -45,6 +45,7 @@ public class II_ReverseLinkedList {
                 ListNode ahead = current.next;
                 current.next = prev;
                 prev = current;
+                current = ahead;
             }
         }
     }
