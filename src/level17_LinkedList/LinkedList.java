@@ -59,6 +59,7 @@ public class LinkedList {
             addLast(item);
         } else {
             Node newNode = new Node(item);
+            Node previousNode = getNode(index - 1);
         }
     }
 
