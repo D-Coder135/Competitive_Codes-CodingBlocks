@@ -8,7 +8,7 @@
 package level17_LinkedList;
 
 public class LinkedList {
-    private class Node {
+    private static class Node {
         int data;
         Node next;
 
