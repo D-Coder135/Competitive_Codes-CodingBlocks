@@ -140,5 +140,8 @@ public class LinkedList {
         if (this.size == 0) {
             throw new Exception("Linked List Is Empty!");
         }
+        if (index < 0 || index >= this.size) {
+
+        }
     }
 }
