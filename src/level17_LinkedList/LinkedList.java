@@ -31,6 +31,8 @@ public class LinkedList {
             this.head = newNode;
             this.tail = newNode;
             this.size++;
+        } else {
+
         }
     }
 }
