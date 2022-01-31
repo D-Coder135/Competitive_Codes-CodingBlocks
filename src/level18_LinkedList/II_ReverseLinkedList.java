@@ -38,7 +38,8 @@ public class II_ReverseLinkedList {
 
     public static class Solution {
         public ListNode reverseList(ListNode head) {
-
+            ListNode prev = null;
+            ListNode current = head;
         }
     }
 }
