@@ -32,7 +32,9 @@ public class LinkedList {
             this.tail = newNode;
             this.size++;
         } else {
-
+            newNode.next = this.head;
+            this.head = newNode;
+            this.size++;
         }
     }
 }
