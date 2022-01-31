@@ -67,7 +67,9 @@ public class LinkedList {
     }
 
     public int getFirst() {
+        if (this.size == 0) {
 
+        }
     }
 
 
