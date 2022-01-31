@@ -42,7 +42,7 @@ public class II_ReverseLinkedList {
             ListNode current = head;
 
             while (current != null) {
-
+                ListNode ahead = current.next;
             }
         }
     }
