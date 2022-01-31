@@ -47,6 +47,7 @@ public class II_ReverseLinkedList {
                 prev = current;
                 current = ahead;
             }
+            return prev;
         }
     }
 }
