@@ -137,6 +137,8 @@ public class LinkedList {
     }
 
     public int removeAtIndex(int index) {
-
+        if (this.size == 0) {
+            throw new Exception("Linked List Is Empty!");
+        }
     }
 }
