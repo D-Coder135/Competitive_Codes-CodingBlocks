@@ -51,7 +51,7 @@ public class LinkedList {
 
     public void addAtIndex(int index, int item) {
         if (index < 0 || index > this.size) {
-
+            throw new Exception("Index not within the range.");
         }
     }
 
