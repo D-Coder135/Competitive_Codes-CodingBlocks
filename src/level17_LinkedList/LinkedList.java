@@ -80,8 +80,10 @@ public class LinkedList {
         return this.tail.data;
     }
 
-    public int getAnyIndex() {
-
+    public int getAnyIndex(int index) {
+        if (this.size == 0) {
+            throw new Exception("Linked List Is Empty!");
+        }
     }
 
 
