@@ -66,7 +66,7 @@ public class LinkedList {
         }
     }
 
-    public int getFirst() {
+    public int getFirst() throws Exception {
         if (this.size == 0) {
             throw new Exception("Linked List Is Empty!");
         }
