@@ -46,7 +46,7 @@ public class III_LinkedListCycle {
                 fast = fast.next.next;
 
                 if (slow == fast) {
-
+                    return true;
                 }
             }
         }
