@@ -149,6 +149,7 @@ public class LinkedList {
             return removeLast();
         } else {
             Node prevNode = getNode(index - 1);
+            Node node = prevNode.next;
         }
     }
 }
