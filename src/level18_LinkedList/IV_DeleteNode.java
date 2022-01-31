@@ -34,4 +34,10 @@ public class IV_DeleteNode {
         }
     }
 
+    public static class Solution {
+        public void deleteNode(ListNode node) {
+
+        }
+    }
+
 }
