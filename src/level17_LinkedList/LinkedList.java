@@ -59,5 +59,6 @@ public class LinkedList {
         for (int i = 0; i < k; i++) {
             temp = temp.next;
         }
+        return temp;
     }
 }
