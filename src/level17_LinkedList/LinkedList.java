@@ -80,6 +80,10 @@ public class LinkedList {
         return this.tail.data;
     }
 
+    public int getAnyIndex() {
+
+    }
+
 
     private Node getNode(int k) throws Exception {
         if (k < 0 || k >= this.size) {
