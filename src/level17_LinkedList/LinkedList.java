@@ -150,6 +150,10 @@ public class LinkedList {
         } else {
             Node prevNode = getNode(index - 1);
             Node node = prevNode.next;
+            prevNode.next = node.next;
+            node.next = null;
+            this.size--;
+            return node.data;
         }
     }
 }
