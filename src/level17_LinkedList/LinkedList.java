@@ -23,4 +23,8 @@ public class LinkedList {
     private Node head;
     private int size;
     private Node tail;
+
+    public void addFirst(int item) {
+
+    }
 }
