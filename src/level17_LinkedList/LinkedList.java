@@ -106,5 +106,11 @@ public class LinkedList {
             throw new Exception("Linked List Is Empty!");
         }
         int data = this.head.data;
+
+        if (this.size == 1) {
+            this.head = null;
+            this.tail = null;
+            this.size--;
+        }
     }
 }
