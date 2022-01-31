@@ -40,6 +40,10 @@ public class II_ReverseLinkedList {
         public ListNode reverseList(ListNode head) {
             ListNode prev = null;
             ListNode current = head;
+
+            while (current != null) {
+
+            }
         }
     }
 }
