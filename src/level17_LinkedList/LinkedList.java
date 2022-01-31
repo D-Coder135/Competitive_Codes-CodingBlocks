@@ -145,6 +145,8 @@ public class LinkedList {
         }
         if (index == 0) {
             return removeFirst();
+        } else if (index == this.size - 1) {
+
         }
     }
 }
