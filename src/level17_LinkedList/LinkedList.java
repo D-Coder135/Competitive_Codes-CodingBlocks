@@ -54,5 +54,6 @@ public class LinkedList {
         if (k < 0 || k >= this.size) {
             throw new Exception("Index not within the range.");
         }
+        Node temp = this.head;
     }
 }
