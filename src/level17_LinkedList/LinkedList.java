@@ -135,4 +135,8 @@ public class LinkedList {
         this.size--;
         return data;
     }
+
+    public int removeAtIndex(int index) {
+
+    }
 }
