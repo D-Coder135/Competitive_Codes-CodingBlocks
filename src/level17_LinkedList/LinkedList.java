@@ -73,10 +73,11 @@ public class LinkedList {
         return this.head.data;
     }
 
-    public int getLast() {
+    public int getLast() throws Exception {
         if (this.size == 0) {
             throw new Exception("Linked List Is Empty!");
         }
+
     }
 
 
