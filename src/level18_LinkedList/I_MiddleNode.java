@@ -52,6 +52,7 @@ public class I_MiddleNode {
                 slow = slow.next;
                 fast = fast.next.next;
             }
+            return slow;
         }
     }
 }
