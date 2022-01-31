@@ -101,7 +101,7 @@ public class LinkedList {
     }
 
     // Remove methods
-    public int removeFirst() {
+    public int removeFirst() throws Exception {
         if (this.size == 0) {
             throw new Exception("Linked List Is Empty!");
         }
