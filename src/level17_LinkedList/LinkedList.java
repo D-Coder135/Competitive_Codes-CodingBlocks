@@ -113,6 +113,9 @@ public class LinkedList {
             this.size--;
         } else {
             Node temp = this.head;
+            this.head = this.head.next;
+            temp.next = null;
+            this.size--;
         }
 
     }
