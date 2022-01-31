@@ -35,4 +35,10 @@ public class III_LinkedListCycle {
             next = null;
         }
     }
+
+    public static class Solution {
+        public boolean hasCycle(ListNode head) {
+
+        }
+    }
 }
