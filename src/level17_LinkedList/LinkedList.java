@@ -55,5 +55,9 @@ public class LinkedList {
             throw new Exception("Index not within the range.");
         }
         Node temp = this.head;
+
+        for (int i = 0; i < k; i++) {
+
+        }
     }
 }
