@@ -60,6 +60,9 @@ public class LinkedList {
         } else {
             Node newNode = new Node(item);
             Node previousNode = getNode(index - 1);
+            newNode.next = previousNode.next;
+            previousNode.next = newNode;
+            this.size++;
         }
     }
 
