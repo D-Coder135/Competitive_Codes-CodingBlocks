@@ -49,6 +49,10 @@ public class LinkedList {
         }
     }
 
+    public void addAtIndex(int index, int item) {
+
+    }
+
 
     private Node getNode(int k) throws Exception {
         if (k < 0 || k >= this.size) {
