@@ -25,6 +25,6 @@ public class LinkedList {
     private Node tail;
 
     public void addFirst(int item) {
-
+        Node newNode = new Node(item);
     }
 }
