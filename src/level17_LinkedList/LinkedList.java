@@ -126,5 +126,7 @@ public class LinkedList {
         if (this.size == 1) {
             return removeFirst();
         }
+
+        int data = this.tail.data;
     }
 }
