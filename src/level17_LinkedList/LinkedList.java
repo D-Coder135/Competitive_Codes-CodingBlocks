@@ -51,6 +51,8 @@ public class LinkedList {
 
 
     private Node getNode(int k) {
+        if (k < 0 || k >= this.size) {
 
+        }
     }
 }
