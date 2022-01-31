@@ -74,7 +74,9 @@ public class LinkedList {
     }
 
     public int getLast() {
+        if (this.size == 0) {
 
+        }
     }
 
 
