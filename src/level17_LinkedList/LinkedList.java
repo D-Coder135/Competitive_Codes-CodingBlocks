@@ -124,7 +124,7 @@ public class LinkedList {
             throw new Exception("Linked List Is Empty!");
         }
         if (this.size == 1) {
-
+            return removeFirst();
         }
     }
 }
