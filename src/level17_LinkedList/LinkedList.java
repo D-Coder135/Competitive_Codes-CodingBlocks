@@ -30,12 +30,11 @@ public class LinkedList {
         if (this.size == 0) {
             this.head = newNode;
             this.tail = newNode;
-            this.size++;
         } else {
             newNode.next = this.head;
             this.head = newNode;
-            this.size++;
         }
+        this.size++;
     }
 
     public void addLast(int item) {
