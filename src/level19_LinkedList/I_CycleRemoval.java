@@ -44,5 +44,9 @@ public class I_CycleRemoval {
             }
             return null;
         }
+
+        public static void removeCycle() {
+
+        }
     }
 }
