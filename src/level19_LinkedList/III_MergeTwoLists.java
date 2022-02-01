@@ -70,6 +70,7 @@ public class III_MergeTwoLists {
                 temp.next = list2;
             }
 
+            return ans.next;
         }
     }
 }
