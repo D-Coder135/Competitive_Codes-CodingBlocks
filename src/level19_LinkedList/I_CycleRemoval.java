@@ -23,4 +23,8 @@ public class I_CycleRemoval {
             next = null;
         }
     }
+
+    static class Solution {
+
+    }
 }
