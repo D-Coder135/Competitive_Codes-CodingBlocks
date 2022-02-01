@@ -52,6 +52,8 @@ public class I_CycleRemoval {
             if (meetingPoint == null) {
                 return;
             }
+
+            ListNode start = head;
         }
     }
 }
