@@ -37,6 +37,8 @@ public class III_LinkedListCycle {
     }
 
     public static class Solution {
+
+        // Floyd Cycle detection Method
         public boolean hasCycle(ListNode head) {
             ListNode slow = head;
             ListNode fast = head;
