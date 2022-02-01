@@ -14,4 +14,13 @@
 package level19_LinkedList;
 
 public class I_CycleRemoval {
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
 }
