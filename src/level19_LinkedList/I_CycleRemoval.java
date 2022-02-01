@@ -90,6 +90,9 @@ public class I_CycleRemoval {
                 fast = fast.next;
             }
 
+            while (slow.next != fast.next) {
+
+            }
         }
     }
 }
