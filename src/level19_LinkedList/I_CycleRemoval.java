@@ -76,6 +76,9 @@ public class I_CycleRemoval {
             }
 
             ListNode temp = meetingPoint;
+            int count = 1;
+            ListNode fast = head;
+            ListNode slow = head;
         }
     }
 }
