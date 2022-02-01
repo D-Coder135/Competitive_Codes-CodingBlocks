@@ -47,7 +47,7 @@ public class I_CycleRemoval {
 
         // O(n^2) approach
         public static void removeCycle() {
-
+            ListNode meetingPoint = meetingPoint();
         }
     }
 }
