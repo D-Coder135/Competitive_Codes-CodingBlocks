@@ -60,6 +60,7 @@ public class I_CycleRemoval {
                     if (temp.next == start) {
                         temp.next = null;
                     }
+                    temp = temp.next;
                 }
             }
         }
