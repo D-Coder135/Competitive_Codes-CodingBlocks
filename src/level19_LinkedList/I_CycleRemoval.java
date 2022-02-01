@@ -33,6 +33,10 @@ public class I_CycleRemoval {
         public static ListNode meetingPoint() {
             ListNode slow = head;
             ListNode fast = head;
+
+            while (fast != null && fast.next != null) {
+
+            }
         }
     }
 }
