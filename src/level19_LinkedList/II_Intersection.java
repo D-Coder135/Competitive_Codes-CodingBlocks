@@ -50,4 +50,9 @@ public class II_Intersection {
         }
     }
 
+    public static class Solution {
+        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+
+        }
+    }
 }
