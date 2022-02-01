@@ -39,7 +39,7 @@ public class I_CycleRemoval {
                 fast = fast.next.next;
 
                 if (slow == fast) {
-
+                    return slow;
                 }
             }
         }
