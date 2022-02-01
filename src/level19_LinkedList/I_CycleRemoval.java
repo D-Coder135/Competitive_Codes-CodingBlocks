@@ -99,5 +99,20 @@ public class I_CycleRemoval {
         }
 
         // Floyd Cycle Algorithm => It says that don't move the fast pointer counter times ahead.
+        public static void floydCycleRemoval() {
+            ListNode meetingPoint = meetingPoint();
+
+            if (meetingPoint == null) {
+                return;
+            }
+            ListNode fast = meetingPoint;
+            ListNode slow = head;
+
+            while (slow.next != fast.next) {
+                fast = fast.next;
+                slow = slow.next;
+            }
+            fast.next = null;
+        }
     }
 }
