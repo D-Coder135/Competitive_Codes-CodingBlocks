@@ -80,6 +80,7 @@ public class I_CycleRemoval {
             ListNode fast = head;
             ListNode slow = head;
 
+            // Count number of nodes inside the cycle
             while (temp.next != meetingPoint) {
                 count++;
                 temp = temp.next;
