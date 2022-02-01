@@ -84,6 +84,10 @@ public class I_CycleRemoval {
                 count++;
                 temp = temp.next;
             }
+
+            for (int i = 0; i < count; i++) {
+                
+            }
         }
     }
 }
