@@ -66,6 +66,10 @@ public class III_MergeTwoLists {
             if (list1 != null) {
                 temp.next = list1;
             }
+            if (list2 != null) {
+                temp.next = list2;
+            }
+
         }
     }
 }
