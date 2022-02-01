@@ -25,6 +25,8 @@ public class I_CycleRemoval {
     }
 
     static class Solution {
+        public static ListNode meetingPoint() {
 
+        }
     }
 }
