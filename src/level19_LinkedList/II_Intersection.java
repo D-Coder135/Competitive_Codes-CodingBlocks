@@ -63,7 +63,9 @@ public class II_Intersection {
                 }
 
                 if (b == null) {
-                    b = headB;
+                    b = headA;
+                } else {
+                    b = b.next;
                 }
             }
         }
