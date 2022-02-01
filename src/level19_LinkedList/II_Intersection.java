@@ -39,4 +39,15 @@
 package level19_LinkedList;
 
 public class II_Intersection {
+
+    public static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
 }
