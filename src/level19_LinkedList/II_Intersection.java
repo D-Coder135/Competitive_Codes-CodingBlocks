@@ -61,6 +61,10 @@ public class II_Intersection {
                 } else {
                     a = a.next;
                 }
+
+                if (b == null) {
+                    b = headB;
+                }
             }
         }
     }
