@@ -56,7 +56,9 @@ public class II_Intersection {
             ListNode b = headB;
 
             while (a != b) {
-
+                if (a == null) {
+                    a = headB;
+                }
             }
         }
     }
