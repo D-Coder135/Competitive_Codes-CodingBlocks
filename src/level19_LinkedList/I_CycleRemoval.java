@@ -66,5 +66,7 @@ public class I_CycleRemoval {
                 start = start.next;
             }
         }
+
+        // O(n) approach
     }
 }
