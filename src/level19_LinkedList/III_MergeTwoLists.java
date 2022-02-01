@@ -52,6 +52,9 @@ public class III_MergeTwoLists {
 
             while (list1 != null && list2 != null) {
 
+                if (list1.val <= list2.val) {
+
+                }
             }
         }
     }
