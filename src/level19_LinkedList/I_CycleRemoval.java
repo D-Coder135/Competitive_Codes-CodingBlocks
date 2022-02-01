@@ -69,7 +69,11 @@ public class I_CycleRemoval {
 
         // O(n) approach
         public static void removeCycle2() {
+            ListNode meetingPoint = meetingPoint();
 
+            if (meetingPoint == null) {
+                return;
+            }
         }
     }
 }
