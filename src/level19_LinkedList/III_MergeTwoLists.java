@@ -56,6 +56,8 @@ public class III_MergeTwoLists {
                     temp.next = list1;
                     list1 = list1.next;
                     temp = temp.next;
+                } else {
+
                 }
             }
         }
