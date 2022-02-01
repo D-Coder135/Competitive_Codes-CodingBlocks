@@ -58,7 +58,7 @@ public class I_CycleRemoval {
                 ListNode temp = meetingPoint;
                 while (temp.next != meetingPoint) {
                     if (temp.next == start) {
-
+                        temp.next = null;
                     }
                 }
             }
