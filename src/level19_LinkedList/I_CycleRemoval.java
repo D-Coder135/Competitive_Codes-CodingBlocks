@@ -74,6 +74,8 @@ public class I_CycleRemoval {
             if (meetingPoint == null) {
                 return;
             }
+
+            ListNode temp = meetingPoint;
         }
     }
 }
