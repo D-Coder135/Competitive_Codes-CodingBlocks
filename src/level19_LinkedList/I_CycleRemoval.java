@@ -24,6 +24,9 @@ public class I_CycleRemoval {
         }
     }
 
+    private ListNode head;
+    private ListNode size;
+
     static class Solution {
 
         // Floyd Cycle detection Method
