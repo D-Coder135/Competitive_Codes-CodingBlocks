@@ -62,6 +62,7 @@ public class I_CycleRemoval {
                     }
                     temp = temp.next;
                 }
+                start = start.next;
             }
         }
     }
