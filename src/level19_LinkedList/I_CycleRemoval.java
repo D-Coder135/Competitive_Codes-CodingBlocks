@@ -32,6 +32,7 @@ public class I_CycleRemoval {
         // Floyd Cycle detection Method
         public static ListNode meetingPoint() {
             ListNode slow = head;
+            ListNode fast = head;
         }
     }
 }
