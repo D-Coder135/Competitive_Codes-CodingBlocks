@@ -68,6 +68,7 @@ public class II_Intersection {
                     b = b.next;
                 }
             }
+            return a;
         }
     }
 }
