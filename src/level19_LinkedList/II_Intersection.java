@@ -58,6 +58,8 @@ public class II_Intersection {
             while (a != b) {
                 if (a == null) {
                     a = headB;
+                } else {
+                    a = a.next;
                 }
             }
         }
