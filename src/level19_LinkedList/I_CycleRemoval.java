@@ -50,7 +50,7 @@ public class I_CycleRemoval {
             ListNode meetingPoint = meetingPoint();
 
             if (meetingPoint == null) {
-
+                return;
             }
         }
     }
