@@ -42,6 +42,7 @@ public class I_CycleRemoval {
                     return slow;
                 }
             }
+            return null;
         }
     }
 }
