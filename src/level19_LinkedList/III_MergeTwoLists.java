@@ -48,6 +48,7 @@ public class III_MergeTwoLists {
     static class Solution {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
             ListNode temp = new ListNode();
+            ListNode ans = temp;
         }
     }
 }
