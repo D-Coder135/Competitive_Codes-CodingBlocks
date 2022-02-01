@@ -85,9 +85,11 @@ public class I_CycleRemoval {
                 temp = temp.next;
             }
 
+            // Move Fast Pointer Count Steps Ahead From Slow
             for (int i = 0; i < count; i++) {
                 fast = fast.next;
             }
+
         }
     }
 }
