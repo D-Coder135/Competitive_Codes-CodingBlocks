@@ -55,7 +55,7 @@ public class I_CycleRemoval {
 
             ListNode start = head;
             while (start != null) {
-
+                ListNode temp = meetingPoint;
             }
         }
     }
