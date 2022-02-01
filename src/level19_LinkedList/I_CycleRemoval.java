@@ -79,6 +79,10 @@ public class I_CycleRemoval {
             int count = 1;
             ListNode fast = head;
             ListNode slow = head;
+
+            while (temp.next != meetingPoint) {
+
+            }
         }
     }
 }
