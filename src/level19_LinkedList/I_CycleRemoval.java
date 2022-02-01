@@ -24,14 +24,14 @@ public class I_CycleRemoval {
         }
     }
 
-    private ListNode head;
-    private ListNode size;
+    public static ListNode head;
+    public ListNode size;
 
     static class Solution {
 
         // Floyd Cycle detection Method
         public static ListNode meetingPoint() {
-
+            ListNode slow = head;
         }
     }
 }
