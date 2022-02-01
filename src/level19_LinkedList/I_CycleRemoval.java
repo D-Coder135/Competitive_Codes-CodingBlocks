@@ -94,6 +94,7 @@ public class I_CycleRemoval {
                 fast = fast.next;
                 slow = slow.next;
             }
+            fast.next = null;
         }
     }
 }
