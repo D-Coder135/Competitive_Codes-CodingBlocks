@@ -49,6 +49,10 @@ public class III_MergeTwoLists {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
             ListNode temp = new ListNode();
             ListNode ans = temp;
+
+            while (list1 != null && list2 != null) {
+
+            }
         }
     }
 }
