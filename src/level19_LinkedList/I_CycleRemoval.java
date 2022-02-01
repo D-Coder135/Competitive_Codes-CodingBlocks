@@ -97,5 +97,7 @@ public class I_CycleRemoval {
             }
             fast.next = null;
         }
+
+        // Floyd Cycle Algorithm => It says that don't move the fast pointer counter times ahead.
     }
 }
