@@ -86,7 +86,7 @@ public class I_CycleRemoval {
             }
 
             for (int i = 0; i < count; i++) {
-                
+                fast = fast.next;
             }
         }
     }
