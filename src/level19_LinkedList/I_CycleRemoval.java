@@ -59,6 +59,7 @@ public class I_CycleRemoval {
                 while (temp.next != meetingPoint) {
                     if (temp.next == start) {
                         temp.next = null;
+                        return;
                     }
                     temp = temp.next;
                 }
