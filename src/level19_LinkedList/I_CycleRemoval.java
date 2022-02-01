@@ -68,5 +68,8 @@ public class I_CycleRemoval {
         }
 
         // O(n) approach
+        public static void removeCycle2() {
+
+        }
     }
 }
