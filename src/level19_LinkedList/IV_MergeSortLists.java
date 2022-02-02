@@ -58,7 +58,9 @@ public class IV_MergeSortLists {
                     list1 = list1.next;
                     temp = temp.next;
                 } else {
-
+                    temp.next = list2;
+                    list2 = list2.next;
+                    temp = temp.next;
                 }
             }
             return null;
