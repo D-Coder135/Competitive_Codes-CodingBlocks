@@ -70,7 +70,7 @@ public class IV_MergeSortLists {
             if (list2 != null) {
                 temp.next = list2;
             }
-            return null;
+            return ans.next;
         }
 
         public ListNode midNode(ListNode head) {
