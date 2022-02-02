@@ -67,7 +67,7 @@ public class V_AddTwoNumbers {
             }
 
             if (carry != 0) {
-                ListNode nn = new ListNode();
+                ListNode nn = new ListNode(carry);
                 temp.next = nn;
             }
             return ans.next;
