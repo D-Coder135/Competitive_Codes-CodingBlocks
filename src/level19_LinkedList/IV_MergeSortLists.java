@@ -54,7 +54,9 @@ public class IV_MergeSortLists {
 
             while (list1 != null && list2 != null) {
                 if (list1.val <= list2.val) {
-
+                    temp.next = list1;
+                    list1 = list1.next;
+                    temp = temp.next;
                 }
             }
             return null;
