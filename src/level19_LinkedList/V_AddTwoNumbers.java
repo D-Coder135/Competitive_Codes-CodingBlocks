@@ -62,7 +62,8 @@ public class V_AddTwoNumbers {
 
                 ListNode nn = new ListNode(sum % 10);
                 carry = sum / 10;
-
+                temp.next = nn;
+                temp = temp.next;
             }
         }
     }
