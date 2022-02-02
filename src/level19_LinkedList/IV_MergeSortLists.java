@@ -48,6 +48,10 @@ public class IV_MergeSortLists {
             return mergeTwoLists(list1, list2);
         }
 
+        private ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+            return null;
+        }
+
         public ListNode midNode(ListNode head) {
             ListNode slow = head;
             ListNode fast = head;
