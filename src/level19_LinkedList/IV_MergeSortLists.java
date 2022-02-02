@@ -35,4 +35,10 @@ public class IV_MergeSortLists {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode sortList(ListNode head) {
+
+        }
+    }
 }
