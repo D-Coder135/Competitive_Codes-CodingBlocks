@@ -39,4 +39,10 @@ public class V_AddTwoNumbers {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+        }
+    }
 }
