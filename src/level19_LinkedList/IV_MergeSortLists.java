@@ -44,6 +44,10 @@ public class IV_MergeSortLists {
         public ListNode midNode(ListNode head) {
             ListNode slow = head;
             ListNode fast = head;
+
+            while (fast.next != null && fast.next.next != null) {
+
+            }
         }
     }
 }
