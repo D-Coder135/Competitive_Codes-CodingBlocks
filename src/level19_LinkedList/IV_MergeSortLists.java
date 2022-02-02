@@ -40,5 +40,9 @@ public class IV_MergeSortLists {
         public ListNode sortList(ListNode head) {
 
         }
+
+        public ListNode midNode(ListNode head) {
+
+        }
     }
 }
