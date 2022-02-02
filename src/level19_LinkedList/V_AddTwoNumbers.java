@@ -65,6 +65,10 @@ public class V_AddTwoNumbers {
                 temp.next = nn;
                 temp = temp.next;
             }
+
+            if (carry != 0) {
+
+            }
         }
     }
 }
