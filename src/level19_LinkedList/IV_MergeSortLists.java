@@ -38,6 +38,11 @@ public class IV_MergeSortLists {
 
     static class Solution {
         public ListNode sortList(ListNode head) {
+
+            if (head == null || head.next == null) {
+                return head;
+            }
+
             ListNode mid = midNode(head);
             ListNode mid_next = mid.next;
             mid.next = null;
