@@ -48,6 +48,10 @@ public class V_AddTwoNumbers {
 
             while (l1 != null || l2 != null) {
                 int sum = 0;
+                if (l1 != null) {
+                    sum = sum + l1.val;
+                    l1 = l1.next;
+                }
             }
         }
     }
