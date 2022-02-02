@@ -70,6 +70,7 @@ public class V_AddTwoNumbers {
                 ListNode nn = new ListNode();
                 temp.next = nn;
             }
+            return ans.next;
         }
     }
 }
