@@ -61,6 +61,8 @@ public class V_AddTwoNumbers {
                 sum += carry;
 
                 ListNode nn = new ListNode(sum % 10);
+                carry = sum / 10;
+
             }
         }
     }
