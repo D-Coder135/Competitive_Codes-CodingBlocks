@@ -49,6 +49,7 @@ public class IV_MergeSortLists {
                 slow = slow.next;
                 fast = fast.next.next;
             }
+            return slow;
         }
     }
 }
