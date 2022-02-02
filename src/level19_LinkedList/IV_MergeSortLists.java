@@ -63,6 +63,10 @@ public class IV_MergeSortLists {
                     temp = temp.next;
                 }
             }
+
+            if (list1 != null) {
+                temp.next = list1;
+            }
             return null;
         }
 
