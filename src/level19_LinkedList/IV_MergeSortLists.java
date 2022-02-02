@@ -40,6 +40,7 @@ public class IV_MergeSortLists {
         public ListNode sortList(ListNode head) {
             ListNode mid = midNode(head);
             ListNode mid_next = mid.next;
+            mid.next = null;
         }
 
         public ListNode midNode(ListNode head) {
