@@ -50,6 +50,7 @@ public class IV_MergeSortLists {
 
         private ListNode mergeTwoLists(ListNode list1, ListNode list2) {
             ListNode temp = new ListNode();
+            ListNode ans = temp;
             return null;
         }
 
