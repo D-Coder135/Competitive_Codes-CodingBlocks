@@ -44,6 +44,8 @@ public class IV_MergeSortLists {
 
             ListNode list1 = sortList(head);
             ListNode list2 = sortList(mid_next);
+
+            return mergeTwoLists(list1, list2);
         }
 
         public ListNode midNode(ListNode head) {
