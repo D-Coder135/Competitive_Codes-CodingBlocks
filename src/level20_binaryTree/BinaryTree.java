@@ -84,5 +84,7 @@ public class BinaryTree {
         if (node.data == item) {
             return true;
         }
+        boolean left = find(node.left, item);
+        boolean right = find(node.right, item);
     }
 }
