@@ -20,4 +20,10 @@ public class BinaryTree {
         public Node() {
         }
     }
+
+    private Node root;
+
+    public BinaryTree() {
+        this.root = createTree(null);
+    }
 }
