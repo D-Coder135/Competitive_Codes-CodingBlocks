@@ -77,6 +77,11 @@ public class BinaryTree {
         displayTree(node.right);
     }
 
+
+    public boolean find(int items) {
+
+    }
+
     private boolean find(Node node, int item) {
         if (node == null) {
             return false;
