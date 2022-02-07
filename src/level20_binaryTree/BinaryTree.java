@@ -7,6 +7,8 @@
 
 package level20_binaryTree;
 
+import java.util.Scanner;
+
 public class BinaryTree {
     public static class Node {
         int data;
@@ -21,9 +23,14 @@ public class BinaryTree {
         }
     }
 
+
     private Node root;
 
     public BinaryTree() {
         this.root = createTree(null);
+    }
+
+    private Node createTree(Node parentNode) {
+
     }
 }
