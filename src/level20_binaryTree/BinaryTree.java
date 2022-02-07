@@ -48,7 +48,7 @@ public class BinaryTree {
     }
 
     public void displayTree() {
-
+        displayTree(this.root);
     }
 
     private void displayTree(Node node) {
