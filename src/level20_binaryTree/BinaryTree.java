@@ -78,6 +78,8 @@ public class BinaryTree {
     }
 
     private boolean find(Node node, int item) {
-
+        if (node == null) {
+            return false;
+        }
     }
 }
