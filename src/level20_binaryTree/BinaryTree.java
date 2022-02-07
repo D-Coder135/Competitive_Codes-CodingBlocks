@@ -51,5 +51,23 @@ public class BinaryTree {
         if (node == null) {
             return;
         }
+
+        String str = "" + node.data;
+        str = "<---" + str;
+
+        if (node.left != null) {
+            str = node.left.data + str;
+        } else {
+            str = "." + str;
+        }
+
+        str = str + "--->";
+
+        if (node.right != null) {
+            str = node.right.data + str;
+        } else {
+            str = str + ".";
+        }
+        System.out.println(str);
     }
 }
