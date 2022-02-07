@@ -81,5 +81,8 @@ public class BinaryTree {
         if (node == null) {
             return false;
         }
+        if (node.data == item) {
+            return true;
+        }
     }
 }
