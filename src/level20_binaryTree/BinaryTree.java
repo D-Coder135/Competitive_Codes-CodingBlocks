@@ -31,6 +31,19 @@ public class BinaryTree {
     }
 
     private Node createTree(Node parentNode) {
+        int item = scanner.nextInt();
+        Node newNode = new Node(item);
+        boolean hasLeftChild = scanner.nextBoolean();
+
+        if (hasLeftChild) {
+            newNode.left = createTree(newNode);
+        }
+
+        boolean hasRightChild = scanner.nextBoolean();
+
+        if (hasRightChild) {
+            newNode.right = createTree(newNode);
+        }
 
     }
 }
