@@ -47,6 +47,10 @@ public class BinaryTree {
         return newNode;
     }
 
+    public void displayTree() {
+
+    }
+
     private void displayTree(Node node) {
         if (node == null) {
             return;
