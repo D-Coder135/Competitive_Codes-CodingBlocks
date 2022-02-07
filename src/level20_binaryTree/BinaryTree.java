@@ -44,6 +44,6 @@ public class BinaryTree {
         if (hasRightChild) {
             newNode.right = createTree(newNode);
         }
-
+        return newNode;
     }
 }
