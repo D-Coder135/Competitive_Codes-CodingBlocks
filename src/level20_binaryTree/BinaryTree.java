@@ -23,7 +23,7 @@ public class BinaryTree {
         }
     }
 
-
+    Scanner scanner = new Scanner(System.in);
     private Node root;
 
     public BinaryTree() {
