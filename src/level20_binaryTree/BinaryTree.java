@@ -78,8 +78,8 @@ public class BinaryTree {
     }
 
 
-    public boolean find(int items) {
-
+    public boolean find(int item) {
+        return find(this.root, item);
     }
 
     private boolean find(Node node, int item) {
