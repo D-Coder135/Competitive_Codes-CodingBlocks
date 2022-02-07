@@ -69,5 +69,6 @@ public class BinaryTree {
             str = str + ".";
         }
         System.out.println(str);
+        displayTree(node.left);
     }
 }
