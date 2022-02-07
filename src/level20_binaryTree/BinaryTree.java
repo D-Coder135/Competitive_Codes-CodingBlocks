@@ -48,6 +48,8 @@ public class BinaryTree {
     }
 
     private void displayTree(Node node) {
-
+        if (node == null) {
+            return;
+        }
     }
 }
