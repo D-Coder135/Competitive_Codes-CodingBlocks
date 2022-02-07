@@ -70,5 +70,6 @@ public class BinaryTree {
         }
         System.out.println(str);
         displayTree(node.left);
+        displayTree(node.right);
     }
 }
