@@ -148,5 +148,8 @@ public class BinaryTree {
         return height(this.root);
     }
 
+    private int height(Node root) {
+        return 0;
+    }
 
 }
