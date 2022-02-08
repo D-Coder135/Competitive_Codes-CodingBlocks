@@ -130,7 +130,7 @@ public class BinaryTree {
     }
 
     public int size() {
-
+        return size(this.root);
     }
 
 }
