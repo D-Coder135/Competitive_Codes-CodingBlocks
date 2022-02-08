@@ -152,7 +152,7 @@ public class BinaryTree {
 
         // Considering height of a single node is 0.
         if (node == null) {
-
+            return -1;
         }
 
         int leftHeight = height(node.left);
