@@ -178,4 +178,10 @@ public class BinaryTree {
         postOrder(this.root);
         System.out.println();
     }
+
+    private void postOrder(Node node) {
+
+        postOrder(node.left);
+        postOrder(node.right);
+    }
 }
