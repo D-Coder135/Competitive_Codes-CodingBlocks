@@ -94,4 +94,8 @@ public class BinaryTree {
 
         return left || right;
     }
+
+    public int min() {
+
+    }
 }
