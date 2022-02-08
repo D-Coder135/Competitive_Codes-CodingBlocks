@@ -98,4 +98,8 @@ public class BinaryTree {
     public int min() {
         return min(this.root);
     }
+
+    private int min(Node node) {
+        return 0;
+    }
 }
