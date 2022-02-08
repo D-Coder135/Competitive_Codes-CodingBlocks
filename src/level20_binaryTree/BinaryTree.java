@@ -129,4 +129,8 @@ public class BinaryTree {
         return Math.min(selfMax, Math.min(leftMax, rightMax));
     }
 
+    public int size() {
+
+    }
+
 }
