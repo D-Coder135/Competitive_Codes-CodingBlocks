@@ -167,5 +167,6 @@ public class BinaryTree {
 
     private void preOrder(Node node) {
 
+        System.out.print(node.data + " ");
     }
 }
