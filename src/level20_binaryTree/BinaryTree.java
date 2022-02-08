@@ -152,7 +152,7 @@ public class BinaryTree {
 
         int leftHeight = height(node.left);
         int rightHeight = height(node.right);
-        return 0;
+        return leftHeight + rightHeight + 1;
     }
 
 }
