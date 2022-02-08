@@ -145,6 +145,8 @@ public class BinaryTree {
     }
 
     public int height() {
-
+        return height(this.root);
     }
+
+
 }
