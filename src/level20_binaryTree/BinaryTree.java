@@ -160,4 +160,7 @@ public class BinaryTree {
         return leftHeight + rightHeight + 1;
     }
 
+    public void preOrder() {
+
+    }
 }
