@@ -150,6 +150,8 @@ public class BinaryTree {
 
     private int height(Node node) {
 
+        // Considering height of a single node is 0.
+
         int leftHeight = height(node.left);
         int rightHeight = height(node.right);
         return leftHeight + rightHeight + 1;
