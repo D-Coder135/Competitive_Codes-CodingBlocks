@@ -144,4 +144,7 @@ public class BinaryTree {
         return leftSize + rightSize + 1;
     }
 
+    public int height() {
+
+    }
 }
