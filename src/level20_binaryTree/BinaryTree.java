@@ -105,6 +105,6 @@ public class BinaryTree {
         int leftMin = min(node.left);
         int rightMin = min(node.right);
 
-
+        return Math.min(selfMin, Math.min(leftMin, rightMin));
     }
 }
