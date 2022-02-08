@@ -162,5 +162,6 @@ public class BinaryTree {
 
     public void preOrder() {
         preOrder(this.root);
+        System.out.println();
     }
 }
