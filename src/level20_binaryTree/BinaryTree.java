@@ -116,8 +116,12 @@ public class BinaryTree {
         return max(this.root);
     }
 
-    private int max(Node root) {
-        return 0;
+    private int max(Node node) {
+        int selfMax = node.data;
+        int leftMax = min(node.left);
+        int rightMax = min(node.right);
+
+        return Math.min(selfMax, Math.min(leftMax, rightMax));
     }
 
 }
