@@ -96,6 +96,6 @@ public class BinaryTree {
     }
 
     public int min() {
-
+        return min(this.root);
     }
 }
