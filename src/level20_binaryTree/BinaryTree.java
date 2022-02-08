@@ -113,6 +113,6 @@ public class BinaryTree {
     }
 
     public int max() {
-
+        return max(this.root);
     }
 }
