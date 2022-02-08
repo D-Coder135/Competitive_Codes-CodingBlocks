@@ -161,6 +161,6 @@ public class BinaryTree {
     }
 
     public void preOrder() {
-
+        preOrder(this.root);
     }
 }
