@@ -134,6 +134,11 @@ public class BinaryTree {
     }
 
     private int size(Node node) {
+
+        if (node == null) {
+            return 0;
+        }
+
         int leftSize = size(node.left);
         int rightSize = size(node.right);
         return leftSize + rightSize + 1;
