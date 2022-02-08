@@ -101,6 +101,10 @@ public class BinaryTree {
 
     private int min(Node node) {
 
+        if (node == null) {
+            return Integer.MAX_VALUE;
+        }
+
         int selfMin = node.data;
         int leftMin = min(node.left);
         int rightMin = min(node.right);
