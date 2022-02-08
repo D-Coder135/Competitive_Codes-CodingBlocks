@@ -183,5 +183,6 @@ public class BinaryTree {
 
         postOrder(node.left);
         postOrder(node.right);
+        System.out.println(node.data + " ");
     }
 }
