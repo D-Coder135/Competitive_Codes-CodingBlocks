@@ -133,4 +133,8 @@ public class BinaryTree {
         return size(this.root);
     }
 
+    private int size(Node node) {
+        return 0;
+    }
+
 }
