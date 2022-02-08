@@ -176,5 +176,6 @@ public class BinaryTree {
 
     public void postOrder() {
         postOrder(this.root);
+        System.out.println();
     }
 }
