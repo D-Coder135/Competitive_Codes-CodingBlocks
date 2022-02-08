@@ -189,4 +189,20 @@ public class BinaryTree {
         postOrder(node.right);
         System.out.println(node.data + " ");
     }
+
+    public void inOrder() {
+        inOrder(this.root);
+        System.out.println();
+    }
+
+    private void inOrder(Node node) {
+
+        if (node == null) {
+            return;
+        }
+
+        postOrder(node.left);
+        System.out.println(node.data + " ");
+        postOrder(node.right);
+    }
 }
