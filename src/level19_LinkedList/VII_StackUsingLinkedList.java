@@ -12,6 +12,7 @@
 package level19_LinkedList;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class VII_StackUsingLinkedList {
     public static void main(String[] args) {
@@ -26,5 +27,21 @@ public class VII_StackUsingLinkedList {
 
         // For pop operation in O(1), remove()[removeFirst()] method of LinkedList will be used.
         System.out.println(stack.remove());
+
+
+        // If you want to create a Queue Using Linked list then =>
+        Queue<Integer> queue = new LinkedList<>();
+        // or
+        // LinkedList<Integer> queue = new LinkedList<>();
+
+        // for adding the elements in the queue, we will be using the add last method
+        // and for removing the elements, we will be using removeFirst() method.
+
+        queue.add(20);
+        queue.add(30);
+        queue.add(40);
+        queue.add(50);
+
+        System.out.println(queue.remove()); // will remove the first element
     }
 }
