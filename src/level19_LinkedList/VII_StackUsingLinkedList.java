@@ -23,5 +23,7 @@ public class VII_StackUsingLinkedList {
         stack.addFirst(50);
         stack.addFirst(10);
         stack.addFirst(20);
+
+        // For pop operation in O(1), remove() method of LinkedList will be used.
     }
 }
