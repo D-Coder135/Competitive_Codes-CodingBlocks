@@ -50,6 +50,7 @@ public class I_LevelOrderTraversal {
         return newNode;
     }
 
+    // For Level Order traversal, always use Queue.
     public void levelOrderTraversal() {
         Queue<Node> queue = new LinkedList<>();
         queue.add(this.root);
