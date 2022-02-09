@@ -5,7 +5,12 @@
  *   File: VII_StackUsingLinkedList
  */
 
+/**
+ * Create Stack Using Linked List. Note that the pop and push operation should be performed in the O(1) time complexity.
+ */
+
 package level19_LinkedList;
 
 public class VII_StackUsingLinkedList {
+
 }
