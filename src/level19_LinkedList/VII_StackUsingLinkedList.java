@@ -11,6 +11,8 @@
 
 package level19_LinkedList;
 
-public class VII_StackUsingLinkedList {
+import java.util.LinkedList;
 
+public class VII_StackUsingLinkedList {
+    LinkedList<Integer> stack = new LinkedList<>();
 }
