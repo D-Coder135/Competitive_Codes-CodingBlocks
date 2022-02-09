@@ -10,6 +10,20 @@ package level21_binaryTree;
 import java.util.Scanner;
 
 public class II_LevelOrderLineWise {
+
+    public static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        public Node(int data) {
+            this.data = data;
+        }
+
+        public Node() {
+        }
+    }
+
     private final Node root;
     Scanner scanner = new Scanner(System.in);
 
@@ -34,16 +48,4 @@ public class II_LevelOrderLineWise {
         return newNode;
     }
 
-    public static class Node {
-        int data;
-        Node left;
-        Node right;
-
-        public Node(int data) {
-            this.data = data;
-        }
-
-        public Node() {
-        }
-    }
 }
