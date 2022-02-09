@@ -56,6 +56,8 @@ public class III_DiameterOfBinaryTree {
             int leftDiameter = diameterOfBinaryTree(root.left);
             int rightDiameter = diameterOfBinaryTree(root.right);
             int selfDiameter = height(root.left) + height(root.right) + 2;
+
+            return Math.max(selfDiameter, Math.max(leftDiameter, rightDiameter));
         }
 
         public int height(TreeNode root) {
