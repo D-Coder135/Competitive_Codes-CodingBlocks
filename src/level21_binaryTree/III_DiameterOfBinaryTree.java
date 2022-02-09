@@ -53,6 +53,10 @@ public class III_DiameterOfBinaryTree {
     class Solution {
         public int diameterOfBinaryTree(TreeNode root) {
 
+            if (root == null) {
+                return 0;
+            }
+
             int leftDiameter = diameterOfBinaryTree(root.left);
             int rightDiameter = diameterOfBinaryTree(root.right);
             int selfDiameter = height(root.left) + height(root.right) + 2;
