@@ -92,4 +92,57 @@ public class II_LevelOrderLineWise {
         }
     }
 
+    /*
+     * LEETCODE SOLUTION =>
+     *
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode() {}
+     *     TreeNode(int val) { this.val = val; }
+     *     TreeNode(int val, TreeNode left, TreeNode right) {
+     *         this.val = val;
+     *         this.left = left;
+     *         this.right = right;
+     *     }
+     * }
+
+    class Solution {
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            List<List<Integer>> result = new ArrayList<>();
+            List<Integer> list = new ArrayList<>();
+
+            Queue<TreeNode> queue = new LinkedList<>();
+            Queue<TreeNode> helper = new LinkedList<>();
+
+            if(root == null) return result;
+
+            queue.add(root);
+
+            while(!queue.isEmpty()){
+                TreeNode removedNode = queue.remove();
+                list.add(removedNode.val);
+
+                if(removedNode.left != null) {
+                    helper.add(removedNode.left);
+                }
+
+                if(removedNode.right != null) {
+                    helper.add(removedNode.right);
+                }
+
+                if(queue.isEmpty()) {
+                    result.add(list);
+                    list = new ArrayList<>();
+                    queue = helper;
+                    helper = new LinkedList<>();
+                }
+            }
+            return result;
+        }
+    }
+    *
+    * */
 }
