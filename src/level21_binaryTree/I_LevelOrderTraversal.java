@@ -10,6 +10,20 @@ package level21_binaryTree;
 import java.util.Scanner;
 
 public class I_LevelOrderTraversal {
+
+    public static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        public Node(int data) {
+            this.data = data;
+        }
+
+        public Node() {
+        }
+    }
+
     private final Node root;
     Scanner scanner = new Scanner(System.in);
 
@@ -32,18 +46,5 @@ public class I_LevelOrderTraversal {
             newNode.right = createTree(newNode);
         }
         return newNode;
-    }
-
-    public static class Node {
-        int data;
-        Node left;
-        Node right;
-
-        public Node(int data) {
-            this.data = data;
-        }
-
-        public Node() {
-        }
     }
 }
