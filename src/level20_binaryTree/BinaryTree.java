@@ -24,7 +24,7 @@ public class BinaryTree {
     }
 
     Scanner scanner = new Scanner(System.in);
-    private Node root;
+    private final Node root;
 
     public BinaryTree() {
         this.root = createTree(null);
