@@ -54,5 +54,9 @@ public class III_DiameterOfBinaryTree {
         public int diameterOfBinaryTree(TreeNode root) {
 
         }
+
+        public int height(TreeNode root) {
+
+        }
     }
 }
