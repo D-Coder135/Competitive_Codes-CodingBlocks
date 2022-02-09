@@ -14,8 +14,11 @@ package level19_LinkedList;
 import java.util.LinkedList;
 
 public class VII_StackUsingLinkedList {
-    LinkedList<Integer> stack = new LinkedList<>();
+    public static void main(String[] args) {
 
-    // For push operation in O(1), addFirst() method of LinkedList will be used.
 
+        LinkedList<Integer> stack = new LinkedList<>();
+
+        // For push operation in O(1), addFirst() method of LinkedList will be used.
+    }
 }
