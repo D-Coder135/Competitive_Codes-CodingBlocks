@@ -59,6 +59,9 @@ public class III_DiameterOfBinaryTree {
             if (root == null) {
                 return -1;
             }
+
+            int leftHeight = height(root.left);
+            int rightHeight = height(root.right);
         }
     }
 }
