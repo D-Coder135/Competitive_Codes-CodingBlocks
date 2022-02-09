@@ -53,6 +53,8 @@ public class II_LevelOrderLineWise {
     public void leveOrderLineWise() {
         Queue<Node> queue = new LinkedList<>();
         Queue<Node> helperQueue = new LinkedList<>();
+
+        queue.add(this.root);
     }
 
 }
