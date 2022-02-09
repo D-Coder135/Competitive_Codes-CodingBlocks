@@ -50,4 +50,9 @@ public class III_DiameterOfBinaryTree {
         }
     }
 
+    class Solution {
+        public int diameterOfBinaryTree(TreeNode root) {
+
+        }
+    }
 }
