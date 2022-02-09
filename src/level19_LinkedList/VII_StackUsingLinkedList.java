@@ -15,10 +15,13 @@ import java.util.LinkedList;
 
 public class VII_StackUsingLinkedList {
     public static void main(String[] args) {
-
-
         LinkedList<Integer> stack = new LinkedList<>();
 
         // For push operation in O(1), addFirst() method of LinkedList will be used.
+        stack.addFirst(40);
+        stack.addFirst(30);
+        stack.addFirst(50);
+        stack.addFirst(10);
+        stack.addFirst(20);
     }
 }
