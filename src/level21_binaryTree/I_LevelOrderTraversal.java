@@ -30,22 +30,22 @@ public class I_LevelOrderTraversal {
     Scanner scanner = new Scanner(System.in);
 
     public I_LevelOrderTraversal() {
-        this.root = createTree(null);
+        this.root = createTree();
     }
 
-    private Node createTree(Node parentNode) {
+    private Node createTree() {
         int item = scanner.nextInt();
         Node newNode = new Node(item);
         boolean hasLeftChild = scanner.nextBoolean();
 
         if (hasLeftChild) {
-            newNode.left = createTree(newNode);
+            newNode.left = createTree();
         }
 
         boolean hasRightChild = scanner.nextBoolean();
 
         if (hasRightChild) {
-            newNode.right = createTree(newNode);
+            newNode.right = createTree();
         }
         return newNode;
     }
