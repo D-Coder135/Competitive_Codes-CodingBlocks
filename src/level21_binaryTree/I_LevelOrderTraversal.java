@@ -66,5 +66,6 @@ public class I_LevelOrderTraversal {
                 queue.add(removeNode.right);
             }
         }
+        System.out.println();
     }
 }
