@@ -55,7 +55,8 @@ public class I_LevelOrderTraversal {
         queue.add(this.root);
 
         while (!queue.isEmpty()) {
-            Node value = queue.remove();
+            Node removeNode = queue.remove();
+            System.out.println(removeNode.data + " ");
         }
     }
 }
