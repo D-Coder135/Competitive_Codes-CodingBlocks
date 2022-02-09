@@ -56,7 +56,7 @@ public class II_LevelOrderLineWise {
 
         queue.add(this.root);
         while (!queue.isEmpty()) {
-
+            Node removedNode = queue.remove();
         }
     }
 
