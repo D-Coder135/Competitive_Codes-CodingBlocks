@@ -55,6 +55,9 @@ public class II_LevelOrderLineWise {
         Queue<Node> helperQueue = new LinkedList<>();
 
         queue.add(this.root);
+        while (!queue.isEmpty()) {
+
+        }
     }
 
 }
