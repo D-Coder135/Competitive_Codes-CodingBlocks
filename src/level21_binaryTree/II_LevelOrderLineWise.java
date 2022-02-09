@@ -66,6 +66,12 @@ public class II_LevelOrderLineWise {
             if (removedNode.right != null) {
                 helperQueue.add(removedNode.right);
             }
+
+            if (queue.isEmpty()) {
+                queue = helperQueue;
+                helperQueue = new LinkedList<>();
+                System.out.println();
+            }
         }
     }
 
