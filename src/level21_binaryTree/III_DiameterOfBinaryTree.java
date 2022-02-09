@@ -56,7 +56,9 @@ public class III_DiameterOfBinaryTree {
         }
 
         public int height(TreeNode root) {
-
+            if (root == null) {
+                return -1;
+            }
         }
     }
 }
