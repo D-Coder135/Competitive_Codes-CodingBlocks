@@ -7,6 +7,8 @@
 
 package level21_binaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class I_LevelOrderTraversal {
@@ -49,6 +51,6 @@ public class I_LevelOrderTraversal {
     }
 
     public void levelOrderTraversal() {
-
+        Queue<Node> queue = new LinkedList<>();
     }
 }
