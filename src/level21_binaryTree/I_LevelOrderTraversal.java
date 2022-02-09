@@ -61,6 +61,10 @@ public class I_LevelOrderTraversal {
             if (removeNode.left != null) {
                 queue.add(removeNode.left);
             }
+
+            if (removeNode.right != null) {
+                queue.add(removeNode.right);
+            }
         }
     }
 }
