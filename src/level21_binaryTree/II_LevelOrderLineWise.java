@@ -7,6 +7,8 @@
 
 package level21_binaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class II_LevelOrderLineWise {
@@ -49,7 +51,7 @@ public class II_LevelOrderLineWise {
     }
 
     public void leveOrderLineWise() {
-
+        Queue<Node> queue = new LinkedList<>();
     }
 
 }
