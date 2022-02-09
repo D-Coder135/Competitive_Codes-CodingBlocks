@@ -52,5 +52,6 @@ public class I_LevelOrderTraversal {
 
     public void levelOrderTraversal() {
         Queue<Node> queue = new LinkedList<>();
+        queue.add(this.root);
     }
 }
