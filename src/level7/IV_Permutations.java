@@ -24,5 +24,39 @@
 
 package level7;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class IV_Permutations {
+    static class Solution {
+        public List<List<Integer>> permute(int[] nums) {
+            List<List<Integer>> ans = new ArrayList<>();
+            int index = 0;
+            solve(nums, ans, index);
+            return ans;
+        }
+
+        private void solve(int[] nums, List<List<Integer>> ans, int index) {
+            if (index >= nums.length) {
+                List<Integer> list = new ArrayList<>();
+                for (int num : nums) {
+                    list.add(num);
+                }
+                ans.add(new ArrayList<>(list));
+                return;
+            }
+
+            for (int i = index; i < nums.length; i++) {
+                swap(i, index, nums);
+                solve(nums, ans, index + 1);
+                swap(i, index, nums);
+            }
+        }
+
+        private void swap(int i, int j, int[] nums) {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
+    }
 }
